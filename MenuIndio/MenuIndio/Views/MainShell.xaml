@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:pages="clr-namespace:MenuIndio;assembly=MenuIndio"
+             mc:Ignorable="d"
+             x:Class="MenuIndio.MainShell">
+
+    <Shell.FlyoutHeaderTemplate>
+
+        <DataTemplate>
+            <Grid BackgroundColor="Black" HeightRequest="200">
+                <Image 
+                    Aspect="AspectFill" 
+                    Opacity="0.6" 
+                    Source="https://cdn.pixabay.com/photo/2019/03/05/02/03/golf-course-background-4035417_960_720.png"/>
+                <Label 
+                    Text="Bienvenido" 
+                    TextColor="White" 
+                    FontAttributes="Bold" 
+                    HorizontalOptions="Center" 
+                    VerticalOptions="Center"/>
+            </Grid>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+
+    <FlyoutItem Title="Visitas" Icon="ic_invitar.png">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate pages:MainPage}"/>
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Expensas" Icon="ic_tax.png">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate pages:MainPage}"/>
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Puntos de Interes" Icon="ic_maps.png">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate pages:MainPage}"/>
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Configuracion" Icon="ic_settings.png">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate pages:MainPage}"/>
+        </Tab>
+    </FlyoutItem>
+
+    
+   
+
+</Shell>
