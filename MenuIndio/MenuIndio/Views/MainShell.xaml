@@ -4,6 +4,7 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:pages="clr-namespace:MenuIndio;assembly=MenuIndio"
+             xmlns:pages2="clr-namespace:MenuIndio.Views;assembly=MenuIndio"
              mc:Ignorable="d"
              x:Class="MenuIndio.MainShell">
 
@@ -14,18 +15,24 @@
                 <Image 
                     Aspect="AspectFill" 
                     Opacity="0.6" 
-                    Source="https://cdn.pixabay.com/photo/2019/03/05/02/03/golf-course-background-4035417_960_720.png"/>
+                    Source="https://imgar.zonapropcdn.com/avisos/1/00/42/11/40/76/1200x1200/1570800863.jpg"/>
                 <Label 
                     Text="Bienvenido" 
                     TextColor="White" 
                     FontAttributes="Bold" 
+                    FontSize="52"
+                    Opacity="0.7"
                     HorizontalOptions="Center" 
                     VerticalOptions="Center"/>
             </Grid>
         </DataTemplate>
     </Shell.FlyoutHeaderTemplate>
-
-    <FlyoutItem Title="Visitas" Icon="ic_invitar.png">
+    <FlyoutItem Title="Inicio" Icon="ic_boquita.png" >
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate pages:MainPage}"/>
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Visitas" Icon="ic_invitar.png" >
         <Tab>
             <ShellContent ContentTemplate="{DataTemplate pages:MainPage}"/>
         </Tab>
@@ -37,7 +44,7 @@
     </FlyoutItem>
     <FlyoutItem Title="Puntos de Interes" Icon="ic_maps.png">
         <Tab>
-            <ShellContent ContentTemplate="{DataTemplate pages:MainPage}"/>
+            <ShellContent ContentTemplate="{DataTemplate pages:Views.MapsPage}"/>
         </Tab>
     </FlyoutItem>
     <FlyoutItem Title="Configuracion" Icon="ic_settings.png">
@@ -46,7 +53,6 @@
         </Tab>
     </FlyoutItem>
 
-    
-   
+
 
 </Shell>

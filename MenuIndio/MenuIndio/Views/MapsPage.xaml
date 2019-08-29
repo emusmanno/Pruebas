@@ -4,10 +4,17 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="MenuIndio.Views.VisitasPage">
+             x:Class="MenuIndio.Views.MapsPage">
+  <!--Pages can be added as references or inline-->
+
     <ContentPage.Content>
-        <StackLayout>
-           
-        </StackLayout>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Vamo"/>
+                <Label Text="Vamo"/>
+                <Entry x:Name="Vamo"/>
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
+    
 </ContentPage>
