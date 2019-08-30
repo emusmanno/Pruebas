@@ -4,12 +4,10 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:pages="clr-namespace:MenuIndio;assembly=MenuIndio"
-             xmlns:pages2="clr-namespace:MenuIndio.Views;assembly=MenuIndio"
              mc:Ignorable="d"
              x:Class="MenuIndio.MainShell">
 
     <Shell.FlyoutHeaderTemplate>
-
         <DataTemplate>
             <Grid BackgroundColor="Black" HeightRequest="200">
                 <Image 
@@ -28,13 +26,13 @@
         </DataTemplate>
     </Shell.FlyoutHeaderTemplate>
     <FlyoutItem Title="Inicio" Icon="ic_boquita.png" >
-        <Tab>
+        <Tab >
             <ShellContent ContentTemplate="{DataTemplate pages:MainPage}"/>
         </Tab>
     </FlyoutItem>
     <FlyoutItem Title="Visitas" Icon="ic_invitar.png" >
         <Tab>
-            <ShellContent ContentTemplate="{DataTemplate pages:MainPage}"/>
+            <ShellContent ContentTemplate="{DataTemplate pages:Views.VisitasPage}"/>
         </Tab>
     </FlyoutItem>
     <FlyoutItem Title="Expensas" Icon="ic_tax.png">
@@ -42,17 +40,23 @@
             <ShellContent ContentTemplate="{DataTemplate pages:MainPage}"/>
         </Tab>
     </FlyoutItem>
-    <FlyoutItem Title="Puntos de Interes" Icon="ic_maps.png">
+    <FlyoutItem Title="Puntos de Interes" Icon="ic_maps.png" >
         <Tab>
             <ShellContent ContentTemplate="{DataTemplate pages:Views.MapsPage}"/>
         </Tab>
     </FlyoutItem>
-    <FlyoutItem Title="Configuracion" Icon="ic_settings.png">
+    <FlyoutItem IsEnabled="False" Title="Configuracion" Icon="ic_settings.png" >
         <Tab>
             <ShellContent ContentTemplate="{DataTemplate pages:MainPage}"/>
         </Tab>
+        
     </FlyoutItem>
+    <FlyoutItem IsEnabled="true" Title="Log Out" Icon="ic_LogOut.png" >
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate pages:MainPage}"/>
+        </Tab>
 
+    </FlyoutItem>
 
 
 </Shell>

@@ -26,6 +26,1617 @@ namespace MenuIndio.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::NControl.Droid.Resource.Animation.abc_fade_in = global::MenuIndio.Droid.Resource.Animation.abc_fade_in;
+			global::NControl.Droid.Resource.Animation.abc_fade_out = global::MenuIndio.Droid.Resource.Animation.abc_fade_out;
+			global::NControl.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::MenuIndio.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::NControl.Droid.Resource.Animation.abc_popup_enter = global::MenuIndio.Droid.Resource.Animation.abc_popup_enter;
+			global::NControl.Droid.Resource.Animation.abc_popup_exit = global::MenuIndio.Droid.Resource.Animation.abc_popup_exit;
+			global::NControl.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::MenuIndio.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::NControl.Droid.Resource.Animation.abc_slide_in_bottom = global::MenuIndio.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::NControl.Droid.Resource.Animation.abc_slide_in_top = global::MenuIndio.Droid.Resource.Animation.abc_slide_in_top;
+			global::NControl.Droid.Resource.Animation.abc_slide_out_bottom = global::MenuIndio.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::NControl.Droid.Resource.Animation.abc_slide_out_top = global::MenuIndio.Droid.Resource.Animation.abc_slide_out_top;
+			global::NControl.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::MenuIndio.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::NControl.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::MenuIndio.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::NControl.Droid.Resource.Animation.design_snackbar_in = global::MenuIndio.Droid.Resource.Animation.design_snackbar_in;
+			global::NControl.Droid.Resource.Animation.design_snackbar_out = global::MenuIndio.Droid.Resource.Animation.design_snackbar_out;
+			global::NControl.Droid.Resource.Attribute.actionBarDivider = global::MenuIndio.Droid.Resource.Attribute.actionBarDivider;
+			global::NControl.Droid.Resource.Attribute.actionBarItemBackground = global::MenuIndio.Droid.Resource.Attribute.actionBarItemBackground;
+			global::NControl.Droid.Resource.Attribute.actionBarPopupTheme = global::MenuIndio.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::NControl.Droid.Resource.Attribute.actionBarSize = global::MenuIndio.Droid.Resource.Attribute.actionBarSize;
+			global::NControl.Droid.Resource.Attribute.actionBarSplitStyle = global::MenuIndio.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::NControl.Droid.Resource.Attribute.actionBarStyle = global::MenuIndio.Droid.Resource.Attribute.actionBarStyle;
+			global::NControl.Droid.Resource.Attribute.actionBarTabBarStyle = global::MenuIndio.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::NControl.Droid.Resource.Attribute.actionBarTabStyle = global::MenuIndio.Droid.Resource.Attribute.actionBarTabStyle;
+			global::NControl.Droid.Resource.Attribute.actionBarTabTextStyle = global::MenuIndio.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::NControl.Droid.Resource.Attribute.actionBarTheme = global::MenuIndio.Droid.Resource.Attribute.actionBarTheme;
+			global::NControl.Droid.Resource.Attribute.actionBarWidgetTheme = global::MenuIndio.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::NControl.Droid.Resource.Attribute.actionButtonStyle = global::MenuIndio.Droid.Resource.Attribute.actionButtonStyle;
+			global::NControl.Droid.Resource.Attribute.actionDropDownStyle = global::MenuIndio.Droid.Resource.Attribute.actionDropDownStyle;
+			global::NControl.Droid.Resource.Attribute.actionLayout = global::MenuIndio.Droid.Resource.Attribute.actionLayout;
+			global::NControl.Droid.Resource.Attribute.actionMenuTextAppearance = global::MenuIndio.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::NControl.Droid.Resource.Attribute.actionMenuTextColor = global::MenuIndio.Droid.Resource.Attribute.actionMenuTextColor;
+			global::NControl.Droid.Resource.Attribute.actionModeBackground = global::MenuIndio.Droid.Resource.Attribute.actionModeBackground;
+			global::NControl.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::MenuIndio.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::NControl.Droid.Resource.Attribute.actionModeCloseDrawable = global::MenuIndio.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::NControl.Droid.Resource.Attribute.actionModeCopyDrawable = global::MenuIndio.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::NControl.Droid.Resource.Attribute.actionModeCutDrawable = global::MenuIndio.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::NControl.Droid.Resource.Attribute.actionModeFindDrawable = global::MenuIndio.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::NControl.Droid.Resource.Attribute.actionModePasteDrawable = global::MenuIndio.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::NControl.Droid.Resource.Attribute.actionModePopupWindowStyle = global::MenuIndio.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::NControl.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::MenuIndio.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::NControl.Droid.Resource.Attribute.actionModeShareDrawable = global::MenuIndio.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::NControl.Droid.Resource.Attribute.actionModeSplitBackground = global::MenuIndio.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::NControl.Droid.Resource.Attribute.actionModeStyle = global::MenuIndio.Droid.Resource.Attribute.actionModeStyle;
+			global::NControl.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::MenuIndio.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::NControl.Droid.Resource.Attribute.actionOverflowButtonStyle = global::MenuIndio.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::NControl.Droid.Resource.Attribute.actionOverflowMenuStyle = global::MenuIndio.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::NControl.Droid.Resource.Attribute.actionProviderClass = global::MenuIndio.Droid.Resource.Attribute.actionProviderClass;
+			global::NControl.Droid.Resource.Attribute.actionViewClass = global::MenuIndio.Droid.Resource.Attribute.actionViewClass;
+			global::NControl.Droid.Resource.Attribute.activityChooserViewStyle = global::MenuIndio.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::NControl.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::MenuIndio.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::NControl.Droid.Resource.Attribute.alertDialogCenterButtons = global::MenuIndio.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::NControl.Droid.Resource.Attribute.alertDialogStyle = global::MenuIndio.Droid.Resource.Attribute.alertDialogStyle;
+			global::NControl.Droid.Resource.Attribute.alertDialogTheme = global::MenuIndio.Droid.Resource.Attribute.alertDialogTheme;
+			global::NControl.Droid.Resource.Attribute.allowStacking = global::MenuIndio.Droid.Resource.Attribute.allowStacking;
+			global::NControl.Droid.Resource.Attribute.arrowHeadLength = global::MenuIndio.Droid.Resource.Attribute.arrowHeadLength;
+			global::NControl.Droid.Resource.Attribute.arrowShaftLength = global::MenuIndio.Droid.Resource.Attribute.arrowShaftLength;
+			global::NControl.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::MenuIndio.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::NControl.Droid.Resource.Attribute.background = global::MenuIndio.Droid.Resource.Attribute.background;
+			global::NControl.Droid.Resource.Attribute.backgroundSplit = global::MenuIndio.Droid.Resource.Attribute.backgroundSplit;
+			global::NControl.Droid.Resource.Attribute.backgroundStacked = global::MenuIndio.Droid.Resource.Attribute.backgroundStacked;
+			global::NControl.Droid.Resource.Attribute.backgroundTint = global::MenuIndio.Droid.Resource.Attribute.backgroundTint;
+			global::NControl.Droid.Resource.Attribute.backgroundTintMode = global::MenuIndio.Droid.Resource.Attribute.backgroundTintMode;
+			global::NControl.Droid.Resource.Attribute.barLength = global::MenuIndio.Droid.Resource.Attribute.barLength;
+			global::NControl.Droid.Resource.Attribute.behavior_hideable = global::MenuIndio.Droid.Resource.Attribute.behavior_hideable;
+			global::NControl.Droid.Resource.Attribute.behavior_overlapTop = global::MenuIndio.Droid.Resource.Attribute.behavior_overlapTop;
+			global::NControl.Droid.Resource.Attribute.behavior_peekHeight = global::MenuIndio.Droid.Resource.Attribute.behavior_peekHeight;
+			global::NControl.Droid.Resource.Attribute.borderWidth = global::MenuIndio.Droid.Resource.Attribute.borderWidth;
+			global::NControl.Droid.Resource.Attribute.borderlessButtonStyle = global::MenuIndio.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::NControl.Droid.Resource.Attribute.bottomSheetDialogTheme = global::MenuIndio.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::NControl.Droid.Resource.Attribute.bottomSheetStyle = global::MenuIndio.Droid.Resource.Attribute.bottomSheetStyle;
+			global::NControl.Droid.Resource.Attribute.buttonBarButtonStyle = global::MenuIndio.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::NControl.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::MenuIndio.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::NControl.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::MenuIndio.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::NControl.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::MenuIndio.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::NControl.Droid.Resource.Attribute.buttonBarStyle = global::MenuIndio.Droid.Resource.Attribute.buttonBarStyle;
+			global::NControl.Droid.Resource.Attribute.buttonPanelSideLayout = global::MenuIndio.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::NControl.Droid.Resource.Attribute.buttonStyle = global::MenuIndio.Droid.Resource.Attribute.buttonStyle;
+			global::NControl.Droid.Resource.Attribute.buttonStyleSmall = global::MenuIndio.Droid.Resource.Attribute.buttonStyleSmall;
+			global::NControl.Droid.Resource.Attribute.buttonTint = global::MenuIndio.Droid.Resource.Attribute.buttonTint;
+			global::NControl.Droid.Resource.Attribute.buttonTintMode = global::MenuIndio.Droid.Resource.Attribute.buttonTintMode;
+			global::NControl.Droid.Resource.Attribute.cardBackgroundColor = global::MenuIndio.Droid.Resource.Attribute.cardBackgroundColor;
+			global::NControl.Droid.Resource.Attribute.cardCornerRadius = global::MenuIndio.Droid.Resource.Attribute.cardCornerRadius;
+			global::NControl.Droid.Resource.Attribute.cardElevation = global::MenuIndio.Droid.Resource.Attribute.cardElevation;
+			global::NControl.Droid.Resource.Attribute.cardMaxElevation = global::MenuIndio.Droid.Resource.Attribute.cardMaxElevation;
+			global::NControl.Droid.Resource.Attribute.cardPreventCornerOverlap = global::MenuIndio.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::NControl.Droid.Resource.Attribute.cardUseCompatPadding = global::MenuIndio.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::NControl.Droid.Resource.Attribute.checkboxStyle = global::MenuIndio.Droid.Resource.Attribute.checkboxStyle;
+			global::NControl.Droid.Resource.Attribute.checkedTextViewStyle = global::MenuIndio.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::NControl.Droid.Resource.Attribute.closeIcon = global::MenuIndio.Droid.Resource.Attribute.closeIcon;
+			global::NControl.Droid.Resource.Attribute.closeItemLayout = global::MenuIndio.Droid.Resource.Attribute.closeItemLayout;
+			global::NControl.Droid.Resource.Attribute.collapseContentDescription = global::MenuIndio.Droid.Resource.Attribute.collapseContentDescription;
+			global::NControl.Droid.Resource.Attribute.collapseIcon = global::MenuIndio.Droid.Resource.Attribute.collapseIcon;
+			global::NControl.Droid.Resource.Attribute.collapsedTitleGravity = global::MenuIndio.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::NControl.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::MenuIndio.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::NControl.Droid.Resource.Attribute.color = global::MenuIndio.Droid.Resource.Attribute.color;
+			global::NControl.Droid.Resource.Attribute.colorAccent = global::MenuIndio.Droid.Resource.Attribute.colorAccent;
+			global::NControl.Droid.Resource.Attribute.colorButtonNormal = global::MenuIndio.Droid.Resource.Attribute.colorButtonNormal;
+			global::NControl.Droid.Resource.Attribute.colorControlActivated = global::MenuIndio.Droid.Resource.Attribute.colorControlActivated;
+			global::NControl.Droid.Resource.Attribute.colorControlHighlight = global::MenuIndio.Droid.Resource.Attribute.colorControlHighlight;
+			global::NControl.Droid.Resource.Attribute.colorControlNormal = global::MenuIndio.Droid.Resource.Attribute.colorControlNormal;
+			global::NControl.Droid.Resource.Attribute.colorPrimary = global::MenuIndio.Droid.Resource.Attribute.colorPrimary;
+			global::NControl.Droid.Resource.Attribute.colorPrimaryDark = global::MenuIndio.Droid.Resource.Attribute.colorPrimaryDark;
+			global::NControl.Droid.Resource.Attribute.colorSwitchThumbNormal = global::MenuIndio.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::NControl.Droid.Resource.Attribute.commitIcon = global::MenuIndio.Droid.Resource.Attribute.commitIcon;
+			global::NControl.Droid.Resource.Attribute.contentInsetEnd = global::MenuIndio.Droid.Resource.Attribute.contentInsetEnd;
+			global::NControl.Droid.Resource.Attribute.contentInsetLeft = global::MenuIndio.Droid.Resource.Attribute.contentInsetLeft;
+			global::NControl.Droid.Resource.Attribute.contentInsetRight = global::MenuIndio.Droid.Resource.Attribute.contentInsetRight;
+			global::NControl.Droid.Resource.Attribute.contentInsetStart = global::MenuIndio.Droid.Resource.Attribute.contentInsetStart;
+			global::NControl.Droid.Resource.Attribute.contentPadding = global::MenuIndio.Droid.Resource.Attribute.contentPadding;
+			global::NControl.Droid.Resource.Attribute.contentPaddingBottom = global::MenuIndio.Droid.Resource.Attribute.contentPaddingBottom;
+			global::NControl.Droid.Resource.Attribute.contentPaddingLeft = global::MenuIndio.Droid.Resource.Attribute.contentPaddingLeft;
+			global::NControl.Droid.Resource.Attribute.contentPaddingRight = global::MenuIndio.Droid.Resource.Attribute.contentPaddingRight;
+			global::NControl.Droid.Resource.Attribute.contentPaddingTop = global::MenuIndio.Droid.Resource.Attribute.contentPaddingTop;
+			global::NControl.Droid.Resource.Attribute.contentScrim = global::MenuIndio.Droid.Resource.Attribute.contentScrim;
+			global::NControl.Droid.Resource.Attribute.controlBackground = global::MenuIndio.Droid.Resource.Attribute.controlBackground;
+			global::NControl.Droid.Resource.Attribute.counterEnabled = global::MenuIndio.Droid.Resource.Attribute.counterEnabled;
+			global::NControl.Droid.Resource.Attribute.counterMaxLength = global::MenuIndio.Droid.Resource.Attribute.counterMaxLength;
+			global::NControl.Droid.Resource.Attribute.counterOverflowTextAppearance = global::MenuIndio.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::NControl.Droid.Resource.Attribute.counterTextAppearance = global::MenuIndio.Droid.Resource.Attribute.counterTextAppearance;
+			global::NControl.Droid.Resource.Attribute.customNavigationLayout = global::MenuIndio.Droid.Resource.Attribute.customNavigationLayout;
+			global::NControl.Droid.Resource.Attribute.defaultQueryHint = global::MenuIndio.Droid.Resource.Attribute.defaultQueryHint;
+			global::NControl.Droid.Resource.Attribute.dialogPreferredPadding = global::MenuIndio.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::NControl.Droid.Resource.Attribute.dialogTheme = global::MenuIndio.Droid.Resource.Attribute.dialogTheme;
+			global::NControl.Droid.Resource.Attribute.displayOptions = global::MenuIndio.Droid.Resource.Attribute.displayOptions;
+			global::NControl.Droid.Resource.Attribute.divider = global::MenuIndio.Droid.Resource.Attribute.divider;
+			global::NControl.Droid.Resource.Attribute.dividerHorizontal = global::MenuIndio.Droid.Resource.Attribute.dividerHorizontal;
+			global::NControl.Droid.Resource.Attribute.dividerPadding = global::MenuIndio.Droid.Resource.Attribute.dividerPadding;
+			global::NControl.Droid.Resource.Attribute.dividerVertical = global::MenuIndio.Droid.Resource.Attribute.dividerVertical;
+			global::NControl.Droid.Resource.Attribute.drawableSize = global::MenuIndio.Droid.Resource.Attribute.drawableSize;
+			global::NControl.Droid.Resource.Attribute.drawerArrowStyle = global::MenuIndio.Droid.Resource.Attribute.drawerArrowStyle;
+			global::NControl.Droid.Resource.Attribute.dropDownListViewStyle = global::MenuIndio.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::NControl.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::MenuIndio.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::NControl.Droid.Resource.Attribute.editTextBackground = global::MenuIndio.Droid.Resource.Attribute.editTextBackground;
+			global::NControl.Droid.Resource.Attribute.editTextColor = global::MenuIndio.Droid.Resource.Attribute.editTextColor;
+			global::NControl.Droid.Resource.Attribute.editTextStyle = global::MenuIndio.Droid.Resource.Attribute.editTextStyle;
+			global::NControl.Droid.Resource.Attribute.elevation = global::MenuIndio.Droid.Resource.Attribute.elevation;
+			global::NControl.Droid.Resource.Attribute.errorEnabled = global::MenuIndio.Droid.Resource.Attribute.errorEnabled;
+			global::NControl.Droid.Resource.Attribute.errorTextAppearance = global::MenuIndio.Droid.Resource.Attribute.errorTextAppearance;
+			global::NControl.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::MenuIndio.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::NControl.Droid.Resource.Attribute.expanded = global::MenuIndio.Droid.Resource.Attribute.expanded;
+			global::NControl.Droid.Resource.Attribute.expandedTitleGravity = global::MenuIndio.Droid.Resource.Attribute.expandedTitleGravity;
+			global::NControl.Droid.Resource.Attribute.expandedTitleMargin = global::MenuIndio.Droid.Resource.Attribute.expandedTitleMargin;
+			global::NControl.Droid.Resource.Attribute.expandedTitleMarginBottom = global::MenuIndio.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::NControl.Droid.Resource.Attribute.expandedTitleMarginEnd = global::MenuIndio.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::NControl.Droid.Resource.Attribute.expandedTitleMarginStart = global::MenuIndio.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::NControl.Droid.Resource.Attribute.expandedTitleMarginTop = global::MenuIndio.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::NControl.Droid.Resource.Attribute.expandedTitleTextAppearance = global::MenuIndio.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::NControl.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::MenuIndio.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::NControl.Droid.Resource.Attribute.fabSize = global::MenuIndio.Droid.Resource.Attribute.fabSize;
+			global::NControl.Droid.Resource.Attribute.foregroundInsidePadding = global::MenuIndio.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::NControl.Droid.Resource.Attribute.gapBetweenBars = global::MenuIndio.Droid.Resource.Attribute.gapBetweenBars;
+			global::NControl.Droid.Resource.Attribute.goIcon = global::MenuIndio.Droid.Resource.Attribute.goIcon;
+			global::NControl.Droid.Resource.Attribute.headerLayout = global::MenuIndio.Droid.Resource.Attribute.headerLayout;
+			global::NControl.Droid.Resource.Attribute.height = global::MenuIndio.Droid.Resource.Attribute.height;
+			global::NControl.Droid.Resource.Attribute.hideOnContentScroll = global::MenuIndio.Droid.Resource.Attribute.hideOnContentScroll;
+			global::NControl.Droid.Resource.Attribute.hintAnimationEnabled = global::MenuIndio.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::NControl.Droid.Resource.Attribute.hintEnabled = global::MenuIndio.Droid.Resource.Attribute.hintEnabled;
+			global::NControl.Droid.Resource.Attribute.hintTextAppearance = global::MenuIndio.Droid.Resource.Attribute.hintTextAppearance;
+			global::NControl.Droid.Resource.Attribute.homeAsUpIndicator = global::MenuIndio.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::NControl.Droid.Resource.Attribute.homeLayout = global::MenuIndio.Droid.Resource.Attribute.homeLayout;
+			global::NControl.Droid.Resource.Attribute.icon = global::MenuIndio.Droid.Resource.Attribute.icon;
+			global::NControl.Droid.Resource.Attribute.iconifiedByDefault = global::MenuIndio.Droid.Resource.Attribute.iconifiedByDefault;
+			global::NControl.Droid.Resource.Attribute.imageButtonStyle = global::MenuIndio.Droid.Resource.Attribute.imageButtonStyle;
+			global::NControl.Droid.Resource.Attribute.indeterminateProgressStyle = global::MenuIndio.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::NControl.Droid.Resource.Attribute.initialActivityCount = global::MenuIndio.Droid.Resource.Attribute.initialActivityCount;
+			global::NControl.Droid.Resource.Attribute.insetForeground = global::MenuIndio.Droid.Resource.Attribute.insetForeground;
+			global::NControl.Droid.Resource.Attribute.isLightTheme = global::MenuIndio.Droid.Resource.Attribute.isLightTheme;
+			global::NControl.Droid.Resource.Attribute.itemBackground = global::MenuIndio.Droid.Resource.Attribute.itemBackground;
+			global::NControl.Droid.Resource.Attribute.itemIconTint = global::MenuIndio.Droid.Resource.Attribute.itemIconTint;
+			global::NControl.Droid.Resource.Attribute.itemPadding = global::MenuIndio.Droid.Resource.Attribute.itemPadding;
+			global::NControl.Droid.Resource.Attribute.itemTextAppearance = global::MenuIndio.Droid.Resource.Attribute.itemTextAppearance;
+			global::NControl.Droid.Resource.Attribute.itemTextColor = global::MenuIndio.Droid.Resource.Attribute.itemTextColor;
+			global::NControl.Droid.Resource.Attribute.keylines = global::MenuIndio.Droid.Resource.Attribute.keylines;
+			global::NControl.Droid.Resource.Attribute.layout = global::MenuIndio.Droid.Resource.Attribute.layout;
+			global::NControl.Droid.Resource.Attribute.layoutManager = global::MenuIndio.Droid.Resource.Attribute.layoutManager;
+			global::NControl.Droid.Resource.Attribute.layout_anchor = global::MenuIndio.Droid.Resource.Attribute.layout_anchor;
+			global::NControl.Droid.Resource.Attribute.layout_anchorGravity = global::MenuIndio.Droid.Resource.Attribute.layout_anchorGravity;
+			global::NControl.Droid.Resource.Attribute.layout_behavior = global::MenuIndio.Droid.Resource.Attribute.layout_behavior;
+			global::NControl.Droid.Resource.Attribute.layout_collapseMode = global::MenuIndio.Droid.Resource.Attribute.layout_collapseMode;
+			global::NControl.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::MenuIndio.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::NControl.Droid.Resource.Attribute.layout_keyline = global::MenuIndio.Droid.Resource.Attribute.layout_keyline;
+			global::NControl.Droid.Resource.Attribute.layout_scrollFlags = global::MenuIndio.Droid.Resource.Attribute.layout_scrollFlags;
+			global::NControl.Droid.Resource.Attribute.layout_scrollInterpolator = global::MenuIndio.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::NControl.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::MenuIndio.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::NControl.Droid.Resource.Attribute.listDividerAlertDialog = global::MenuIndio.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::NControl.Droid.Resource.Attribute.listItemLayout = global::MenuIndio.Droid.Resource.Attribute.listItemLayout;
+			global::NControl.Droid.Resource.Attribute.listLayout = global::MenuIndio.Droid.Resource.Attribute.listLayout;
+			global::NControl.Droid.Resource.Attribute.listPopupWindowStyle = global::MenuIndio.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::NControl.Droid.Resource.Attribute.listPreferredItemHeight = global::MenuIndio.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::NControl.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::MenuIndio.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::NControl.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::MenuIndio.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::NControl.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::MenuIndio.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::NControl.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::MenuIndio.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::NControl.Droid.Resource.Attribute.logo = global::MenuIndio.Droid.Resource.Attribute.logo;
+			global::NControl.Droid.Resource.Attribute.logoDescription = global::MenuIndio.Droid.Resource.Attribute.logoDescription;
+			global::NControl.Droid.Resource.Attribute.maxActionInlineWidth = global::MenuIndio.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::NControl.Droid.Resource.Attribute.maxButtonHeight = global::MenuIndio.Droid.Resource.Attribute.maxButtonHeight;
+			global::NControl.Droid.Resource.Attribute.measureWithLargestChild = global::MenuIndio.Droid.Resource.Attribute.measureWithLargestChild;
+			global::NControl.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::MenuIndio.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
+			global::NControl.Droid.Resource.Attribute.mediaRouteButtonStyle = global::MenuIndio.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::NControl.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::MenuIndio.Droid.Resource.Attribute.mediaRouteCloseDrawable;
+			global::NControl.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::MenuIndio.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
+			global::NControl.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::MenuIndio.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::NControl.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::MenuIndio.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::NControl.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::MenuIndio.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
+			global::NControl.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::MenuIndio.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
+			global::NControl.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::MenuIndio.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
+			global::NControl.Droid.Resource.Attribute.menu = global::MenuIndio.Droid.Resource.Attribute.menu;
+			global::NControl.Droid.Resource.Attribute.multiChoiceItemLayout = global::MenuIndio.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::NControl.Droid.Resource.Attribute.navigationContentDescription = global::MenuIndio.Droid.Resource.Attribute.navigationContentDescription;
+			global::NControl.Droid.Resource.Attribute.navigationIcon = global::MenuIndio.Droid.Resource.Attribute.navigationIcon;
+			global::NControl.Droid.Resource.Attribute.navigationMode = global::MenuIndio.Droid.Resource.Attribute.navigationMode;
+			global::NControl.Droid.Resource.Attribute.overlapAnchor = global::MenuIndio.Droid.Resource.Attribute.overlapAnchor;
+			global::NControl.Droid.Resource.Attribute.paddingEnd = global::MenuIndio.Droid.Resource.Attribute.paddingEnd;
+			global::NControl.Droid.Resource.Attribute.paddingStart = global::MenuIndio.Droid.Resource.Attribute.paddingStart;
+			global::NControl.Droid.Resource.Attribute.panelBackground = global::MenuIndio.Droid.Resource.Attribute.panelBackground;
+			global::NControl.Droid.Resource.Attribute.panelMenuListTheme = global::MenuIndio.Droid.Resource.Attribute.panelMenuListTheme;
+			global::NControl.Droid.Resource.Attribute.panelMenuListWidth = global::MenuIndio.Droid.Resource.Attribute.panelMenuListWidth;
+			global::NControl.Droid.Resource.Attribute.popupMenuStyle = global::MenuIndio.Droid.Resource.Attribute.popupMenuStyle;
+			global::NControl.Droid.Resource.Attribute.popupTheme = global::MenuIndio.Droid.Resource.Attribute.popupTheme;
+			global::NControl.Droid.Resource.Attribute.popupWindowStyle = global::MenuIndio.Droid.Resource.Attribute.popupWindowStyle;
+			global::NControl.Droid.Resource.Attribute.preserveIconSpacing = global::MenuIndio.Droid.Resource.Attribute.preserveIconSpacing;
+			global::NControl.Droid.Resource.Attribute.pressedTranslationZ = global::MenuIndio.Droid.Resource.Attribute.pressedTranslationZ;
+			global::NControl.Droid.Resource.Attribute.progressBarPadding = global::MenuIndio.Droid.Resource.Attribute.progressBarPadding;
+			global::NControl.Droid.Resource.Attribute.progressBarStyle = global::MenuIndio.Droid.Resource.Attribute.progressBarStyle;
+			global::NControl.Droid.Resource.Attribute.queryBackground = global::MenuIndio.Droid.Resource.Attribute.queryBackground;
+			global::NControl.Droid.Resource.Attribute.queryHint = global::MenuIndio.Droid.Resource.Attribute.queryHint;
+			global::NControl.Droid.Resource.Attribute.radioButtonStyle = global::MenuIndio.Droid.Resource.Attribute.radioButtonStyle;
+			global::NControl.Droid.Resource.Attribute.ratingBarStyle = global::MenuIndio.Droid.Resource.Attribute.ratingBarStyle;
+			global::NControl.Droid.Resource.Attribute.ratingBarStyleIndicator = global::MenuIndio.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::NControl.Droid.Resource.Attribute.ratingBarStyleSmall = global::MenuIndio.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::NControl.Droid.Resource.Attribute.reverseLayout = global::MenuIndio.Droid.Resource.Attribute.reverseLayout;
+			global::NControl.Droid.Resource.Attribute.rippleColor = global::MenuIndio.Droid.Resource.Attribute.rippleColor;
+			global::NControl.Droid.Resource.Attribute.searchHintIcon = global::MenuIndio.Droid.Resource.Attribute.searchHintIcon;
+			global::NControl.Droid.Resource.Attribute.searchIcon = global::MenuIndio.Droid.Resource.Attribute.searchIcon;
+			global::NControl.Droid.Resource.Attribute.searchViewStyle = global::MenuIndio.Droid.Resource.Attribute.searchViewStyle;
+			global::NControl.Droid.Resource.Attribute.seekBarStyle = global::MenuIndio.Droid.Resource.Attribute.seekBarStyle;
+			global::NControl.Droid.Resource.Attribute.selectableItemBackground = global::MenuIndio.Droid.Resource.Attribute.selectableItemBackground;
+			global::NControl.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::MenuIndio.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::NControl.Droid.Resource.Attribute.showAsAction = global::MenuIndio.Droid.Resource.Attribute.showAsAction;
+			global::NControl.Droid.Resource.Attribute.showDividers = global::MenuIndio.Droid.Resource.Attribute.showDividers;
+			global::NControl.Droid.Resource.Attribute.showText = global::MenuIndio.Droid.Resource.Attribute.showText;
+			global::NControl.Droid.Resource.Attribute.singleChoiceItemLayout = global::MenuIndio.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::NControl.Droid.Resource.Attribute.spanCount = global::MenuIndio.Droid.Resource.Attribute.spanCount;
+			global::NControl.Droid.Resource.Attribute.spinBars = global::MenuIndio.Droid.Resource.Attribute.spinBars;
+			global::NControl.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::MenuIndio.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::NControl.Droid.Resource.Attribute.spinnerStyle = global::MenuIndio.Droid.Resource.Attribute.spinnerStyle;
+			global::NControl.Droid.Resource.Attribute.splitTrack = global::MenuIndio.Droid.Resource.Attribute.splitTrack;
+			global::NControl.Droid.Resource.Attribute.srcCompat = global::MenuIndio.Droid.Resource.Attribute.srcCompat;
+			global::NControl.Droid.Resource.Attribute.stackFromEnd = global::MenuIndio.Droid.Resource.Attribute.stackFromEnd;
+			global::NControl.Droid.Resource.Attribute.state_above_anchor = global::MenuIndio.Droid.Resource.Attribute.state_above_anchor;
+			global::NControl.Droid.Resource.Attribute.statusBarBackground = global::MenuIndio.Droid.Resource.Attribute.statusBarBackground;
+			global::NControl.Droid.Resource.Attribute.statusBarScrim = global::MenuIndio.Droid.Resource.Attribute.statusBarScrim;
+			global::NControl.Droid.Resource.Attribute.submitBackground = global::MenuIndio.Droid.Resource.Attribute.submitBackground;
+			global::NControl.Droid.Resource.Attribute.subtitle = global::MenuIndio.Droid.Resource.Attribute.subtitle;
+			global::NControl.Droid.Resource.Attribute.subtitleTextAppearance = global::MenuIndio.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::NControl.Droid.Resource.Attribute.subtitleTextColor = global::MenuIndio.Droid.Resource.Attribute.subtitleTextColor;
+			global::NControl.Droid.Resource.Attribute.subtitleTextStyle = global::MenuIndio.Droid.Resource.Attribute.subtitleTextStyle;
+			global::NControl.Droid.Resource.Attribute.suggestionRowLayout = global::MenuIndio.Droid.Resource.Attribute.suggestionRowLayout;
+			global::NControl.Droid.Resource.Attribute.switchMinWidth = global::MenuIndio.Droid.Resource.Attribute.switchMinWidth;
+			global::NControl.Droid.Resource.Attribute.switchPadding = global::MenuIndio.Droid.Resource.Attribute.switchPadding;
+			global::NControl.Droid.Resource.Attribute.switchStyle = global::MenuIndio.Droid.Resource.Attribute.switchStyle;
+			global::NControl.Droid.Resource.Attribute.switchTextAppearance = global::MenuIndio.Droid.Resource.Attribute.switchTextAppearance;
+			global::NControl.Droid.Resource.Attribute.tabBackground = global::MenuIndio.Droid.Resource.Attribute.tabBackground;
+			global::NControl.Droid.Resource.Attribute.tabContentStart = global::MenuIndio.Droid.Resource.Attribute.tabContentStart;
+			global::NControl.Droid.Resource.Attribute.tabGravity = global::MenuIndio.Droid.Resource.Attribute.tabGravity;
+			global::NControl.Droid.Resource.Attribute.tabIndicatorColor = global::MenuIndio.Droid.Resource.Attribute.tabIndicatorColor;
+			global::NControl.Droid.Resource.Attribute.tabIndicatorHeight = global::MenuIndio.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::NControl.Droid.Resource.Attribute.tabMaxWidth = global::MenuIndio.Droid.Resource.Attribute.tabMaxWidth;
+			global::NControl.Droid.Resource.Attribute.tabMinWidth = global::MenuIndio.Droid.Resource.Attribute.tabMinWidth;
+			global::NControl.Droid.Resource.Attribute.tabMode = global::MenuIndio.Droid.Resource.Attribute.tabMode;
+			global::NControl.Droid.Resource.Attribute.tabPadding = global::MenuIndio.Droid.Resource.Attribute.tabPadding;
+			global::NControl.Droid.Resource.Attribute.tabPaddingBottom = global::MenuIndio.Droid.Resource.Attribute.tabPaddingBottom;
+			global::NControl.Droid.Resource.Attribute.tabPaddingEnd = global::MenuIndio.Droid.Resource.Attribute.tabPaddingEnd;
+			global::NControl.Droid.Resource.Attribute.tabPaddingStart = global::MenuIndio.Droid.Resource.Attribute.tabPaddingStart;
+			global::NControl.Droid.Resource.Attribute.tabPaddingTop = global::MenuIndio.Droid.Resource.Attribute.tabPaddingTop;
+			global::NControl.Droid.Resource.Attribute.tabSelectedTextColor = global::MenuIndio.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::NControl.Droid.Resource.Attribute.tabTextAppearance = global::MenuIndio.Droid.Resource.Attribute.tabTextAppearance;
+			global::NControl.Droid.Resource.Attribute.tabTextColor = global::MenuIndio.Droid.Resource.Attribute.tabTextColor;
+			global::NControl.Droid.Resource.Attribute.textAllCaps = global::MenuIndio.Droid.Resource.Attribute.textAllCaps;
+			global::NControl.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::MenuIndio.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::NControl.Droid.Resource.Attribute.textAppearanceListItem = global::MenuIndio.Droid.Resource.Attribute.textAppearanceListItem;
+			global::NControl.Droid.Resource.Attribute.textAppearanceListItemSmall = global::MenuIndio.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::NControl.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::MenuIndio.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::NControl.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::MenuIndio.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::NControl.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::MenuIndio.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::NControl.Droid.Resource.Attribute.textColorAlertDialogListItem = global::MenuIndio.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::NControl.Droid.Resource.Attribute.textColorSearchUrl = global::MenuIndio.Droid.Resource.Attribute.textColorSearchUrl;
+			global::NControl.Droid.Resource.Attribute.theme = global::MenuIndio.Droid.Resource.Attribute.theme;
+			global::NControl.Droid.Resource.Attribute.thickness = global::MenuIndio.Droid.Resource.Attribute.thickness;
+			global::NControl.Droid.Resource.Attribute.thumbTextPadding = global::MenuIndio.Droid.Resource.Attribute.thumbTextPadding;
+			global::NControl.Droid.Resource.Attribute.title = global::MenuIndio.Droid.Resource.Attribute.title;
+			global::NControl.Droid.Resource.Attribute.titleEnabled = global::MenuIndio.Droid.Resource.Attribute.titleEnabled;
+			global::NControl.Droid.Resource.Attribute.titleMarginBottom = global::MenuIndio.Droid.Resource.Attribute.titleMarginBottom;
+			global::NControl.Droid.Resource.Attribute.titleMarginEnd = global::MenuIndio.Droid.Resource.Attribute.titleMarginEnd;
+			global::NControl.Droid.Resource.Attribute.titleMarginStart = global::MenuIndio.Droid.Resource.Attribute.titleMarginStart;
+			global::NControl.Droid.Resource.Attribute.titleMarginTop = global::MenuIndio.Droid.Resource.Attribute.titleMarginTop;
+			global::NControl.Droid.Resource.Attribute.titleMargins = global::MenuIndio.Droid.Resource.Attribute.titleMargins;
+			global::NControl.Droid.Resource.Attribute.titleTextAppearance = global::MenuIndio.Droid.Resource.Attribute.titleTextAppearance;
+			global::NControl.Droid.Resource.Attribute.titleTextColor = global::MenuIndio.Droid.Resource.Attribute.titleTextColor;
+			global::NControl.Droid.Resource.Attribute.titleTextStyle = global::MenuIndio.Droid.Resource.Attribute.titleTextStyle;
+			global::NControl.Droid.Resource.Attribute.toolbarId = global::MenuIndio.Droid.Resource.Attribute.toolbarId;
+			global::NControl.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::MenuIndio.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::NControl.Droid.Resource.Attribute.toolbarStyle = global::MenuIndio.Droid.Resource.Attribute.toolbarStyle;
+			global::NControl.Droid.Resource.Attribute.track = global::MenuIndio.Droid.Resource.Attribute.track;
+			global::NControl.Droid.Resource.Attribute.useCompatPadding = global::MenuIndio.Droid.Resource.Attribute.useCompatPadding;
+			global::NControl.Droid.Resource.Attribute.voiceIcon = global::MenuIndio.Droid.Resource.Attribute.voiceIcon;
+			global::NControl.Droid.Resource.Attribute.windowActionBar = global::MenuIndio.Droid.Resource.Attribute.windowActionBar;
+			global::NControl.Droid.Resource.Attribute.windowActionBarOverlay = global::MenuIndio.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::NControl.Droid.Resource.Attribute.windowActionModeOverlay = global::MenuIndio.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::NControl.Droid.Resource.Attribute.windowFixedHeightMajor = global::MenuIndio.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::NControl.Droid.Resource.Attribute.windowFixedHeightMinor = global::MenuIndio.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::NControl.Droid.Resource.Attribute.windowFixedWidthMajor = global::MenuIndio.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::NControl.Droid.Resource.Attribute.windowFixedWidthMinor = global::MenuIndio.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::NControl.Droid.Resource.Attribute.windowMinWidthMajor = global::MenuIndio.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::NControl.Droid.Resource.Attribute.windowMinWidthMinor = global::MenuIndio.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::NControl.Droid.Resource.Attribute.windowNoTitle = global::MenuIndio.Droid.Resource.Attribute.windowNoTitle;
+			global::NControl.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::MenuIndio.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::NControl.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::MenuIndio.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::NControl.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::MenuIndio.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::NControl.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::MenuIndio.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::NControl.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::MenuIndio.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::NControl.Droid.Resource.Color.abc_color_highlight_material = global::MenuIndio.Droid.Resource.Color.abc_color_highlight_material;
+			global::NControl.Droid.Resource.Color.abc_input_method_navigation_guard = global::MenuIndio.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::NControl.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::MenuIndio.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::NControl.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::MenuIndio.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::NControl.Droid.Resource.Color.abc_primary_text_material_dark = global::MenuIndio.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::NControl.Droid.Resource.Color.abc_primary_text_material_light = global::MenuIndio.Droid.Resource.Color.abc_primary_text_material_light;
+			global::NControl.Droid.Resource.Color.abc_search_url_text = global::MenuIndio.Droid.Resource.Color.abc_search_url_text;
+			global::NControl.Droid.Resource.Color.abc_search_url_text_normal = global::MenuIndio.Droid.Resource.Color.abc_search_url_text_normal;
+			global::NControl.Droid.Resource.Color.abc_search_url_text_pressed = global::MenuIndio.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::NControl.Droid.Resource.Color.abc_search_url_text_selected = global::MenuIndio.Droid.Resource.Color.abc_search_url_text_selected;
+			global::NControl.Droid.Resource.Color.abc_secondary_text_material_dark = global::MenuIndio.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::NControl.Droid.Resource.Color.abc_secondary_text_material_light = global::MenuIndio.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::NControl.Droid.Resource.Color.accent_material_dark = global::MenuIndio.Droid.Resource.Color.accent_material_dark;
+			global::NControl.Droid.Resource.Color.accent_material_light = global::MenuIndio.Droid.Resource.Color.accent_material_light;
+			global::NControl.Droid.Resource.Color.background_floating_material_dark = global::MenuIndio.Droid.Resource.Color.background_floating_material_dark;
+			global::NControl.Droid.Resource.Color.background_floating_material_light = global::MenuIndio.Droid.Resource.Color.background_floating_material_light;
+			global::NControl.Droid.Resource.Color.background_material_dark = global::MenuIndio.Droid.Resource.Color.background_material_dark;
+			global::NControl.Droid.Resource.Color.background_material_light = global::MenuIndio.Droid.Resource.Color.background_material_light;
+			global::NControl.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::MenuIndio.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::NControl.Droid.Resource.Color.bright_foreground_disabled_material_light = global::MenuIndio.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::NControl.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::MenuIndio.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::NControl.Droid.Resource.Color.bright_foreground_inverse_material_light = global::MenuIndio.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::NControl.Droid.Resource.Color.bright_foreground_material_dark = global::MenuIndio.Droid.Resource.Color.bright_foreground_material_dark;
+			global::NControl.Droid.Resource.Color.bright_foreground_material_light = global::MenuIndio.Droid.Resource.Color.bright_foreground_material_light;
+			global::NControl.Droid.Resource.Color.button_material_dark = global::MenuIndio.Droid.Resource.Color.button_material_dark;
+			global::NControl.Droid.Resource.Color.button_material_light = global::MenuIndio.Droid.Resource.Color.button_material_light;
+			global::NControl.Droid.Resource.Color.cardview_dark_background = global::MenuIndio.Droid.Resource.Color.cardview_dark_background;
+			global::NControl.Droid.Resource.Color.cardview_light_background = global::MenuIndio.Droid.Resource.Color.cardview_light_background;
+			global::NControl.Droid.Resource.Color.cardview_shadow_end_color = global::MenuIndio.Droid.Resource.Color.cardview_shadow_end_color;
+			global::NControl.Droid.Resource.Color.cardview_shadow_start_color = global::MenuIndio.Droid.Resource.Color.cardview_shadow_start_color;
+			global::NControl.Droid.Resource.Color.design_fab_shadow_end_color = global::MenuIndio.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::NControl.Droid.Resource.Color.design_fab_shadow_mid_color = global::MenuIndio.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::NControl.Droid.Resource.Color.design_fab_shadow_start_color = global::MenuIndio.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::NControl.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::MenuIndio.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::NControl.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::MenuIndio.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::NControl.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::MenuIndio.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::NControl.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::MenuIndio.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::NControl.Droid.Resource.Color.design_snackbar_background_color = global::MenuIndio.Droid.Resource.Color.design_snackbar_background_color;
+			global::NControl.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::MenuIndio.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::NControl.Droid.Resource.Color.dim_foreground_disabled_material_light = global::MenuIndio.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::NControl.Droid.Resource.Color.dim_foreground_material_dark = global::MenuIndio.Droid.Resource.Color.dim_foreground_material_dark;
+			global::NControl.Droid.Resource.Color.dim_foreground_material_light = global::MenuIndio.Droid.Resource.Color.dim_foreground_material_light;
+			global::NControl.Droid.Resource.Color.foreground_material_dark = global::MenuIndio.Droid.Resource.Color.foreground_material_dark;
+			global::NControl.Droid.Resource.Color.foreground_material_light = global::MenuIndio.Droid.Resource.Color.foreground_material_light;
+			global::NControl.Droid.Resource.Color.highlighted_text_material_dark = global::MenuIndio.Droid.Resource.Color.highlighted_text_material_dark;
+			global::NControl.Droid.Resource.Color.highlighted_text_material_light = global::MenuIndio.Droid.Resource.Color.highlighted_text_material_light;
+			global::NControl.Droid.Resource.Color.material_blue_grey_800 = global::MenuIndio.Droid.Resource.Color.material_blue_grey_800;
+			global::NControl.Droid.Resource.Color.material_blue_grey_900 = global::MenuIndio.Droid.Resource.Color.material_blue_grey_900;
+			global::NControl.Droid.Resource.Color.material_blue_grey_950 = global::MenuIndio.Droid.Resource.Color.material_blue_grey_950;
+			global::NControl.Droid.Resource.Color.material_deep_teal_200 = global::MenuIndio.Droid.Resource.Color.material_deep_teal_200;
+			global::NControl.Droid.Resource.Color.material_deep_teal_500 = global::MenuIndio.Droid.Resource.Color.material_deep_teal_500;
+			global::NControl.Droid.Resource.Color.material_grey_100 = global::MenuIndio.Droid.Resource.Color.material_grey_100;
+			global::NControl.Droid.Resource.Color.material_grey_300 = global::MenuIndio.Droid.Resource.Color.material_grey_300;
+			global::NControl.Droid.Resource.Color.material_grey_50 = global::MenuIndio.Droid.Resource.Color.material_grey_50;
+			global::NControl.Droid.Resource.Color.material_grey_600 = global::MenuIndio.Droid.Resource.Color.material_grey_600;
+			global::NControl.Droid.Resource.Color.material_grey_800 = global::MenuIndio.Droid.Resource.Color.material_grey_800;
+			global::NControl.Droid.Resource.Color.material_grey_850 = global::MenuIndio.Droid.Resource.Color.material_grey_850;
+			global::NControl.Droid.Resource.Color.material_grey_900 = global::MenuIndio.Droid.Resource.Color.material_grey_900;
+			global::NControl.Droid.Resource.Color.primary_dark_material_dark = global::MenuIndio.Droid.Resource.Color.primary_dark_material_dark;
+			global::NControl.Droid.Resource.Color.primary_dark_material_light = global::MenuIndio.Droid.Resource.Color.primary_dark_material_light;
+			global::NControl.Droid.Resource.Color.primary_material_dark = global::MenuIndio.Droid.Resource.Color.primary_material_dark;
+			global::NControl.Droid.Resource.Color.primary_material_light = global::MenuIndio.Droid.Resource.Color.primary_material_light;
+			global::NControl.Droid.Resource.Color.primary_text_default_material_dark = global::MenuIndio.Droid.Resource.Color.primary_text_default_material_dark;
+			global::NControl.Droid.Resource.Color.primary_text_default_material_light = global::MenuIndio.Droid.Resource.Color.primary_text_default_material_light;
+			global::NControl.Droid.Resource.Color.primary_text_disabled_material_dark = global::MenuIndio.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::NControl.Droid.Resource.Color.primary_text_disabled_material_light = global::MenuIndio.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::NControl.Droid.Resource.Color.ripple_material_dark = global::MenuIndio.Droid.Resource.Color.ripple_material_dark;
+			global::NControl.Droid.Resource.Color.ripple_material_light = global::MenuIndio.Droid.Resource.Color.ripple_material_light;
+			global::NControl.Droid.Resource.Color.secondary_text_default_material_dark = global::MenuIndio.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::NControl.Droid.Resource.Color.secondary_text_default_material_light = global::MenuIndio.Droid.Resource.Color.secondary_text_default_material_light;
+			global::NControl.Droid.Resource.Color.secondary_text_disabled_material_dark = global::MenuIndio.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::NControl.Droid.Resource.Color.secondary_text_disabled_material_light = global::MenuIndio.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::NControl.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::MenuIndio.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::NControl.Droid.Resource.Color.switch_thumb_disabled_material_light = global::MenuIndio.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::NControl.Droid.Resource.Color.switch_thumb_material_dark = global::MenuIndio.Droid.Resource.Color.switch_thumb_material_dark;
+			global::NControl.Droid.Resource.Color.switch_thumb_material_light = global::MenuIndio.Droid.Resource.Color.switch_thumb_material_light;
+			global::NControl.Droid.Resource.Color.switch_thumb_normal_material_dark = global::MenuIndio.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::NControl.Droid.Resource.Color.switch_thumb_normal_material_light = global::MenuIndio.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::NControl.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::MenuIndio.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::NControl.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::MenuIndio.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::NControl.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::MenuIndio.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::NControl.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::MenuIndio.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::NControl.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::MenuIndio.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::NControl.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::MenuIndio.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::NControl.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::MenuIndio.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::NControl.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::MenuIndio.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::NControl.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::MenuIndio.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::NControl.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::MenuIndio.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::NControl.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::MenuIndio.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::NControl.Droid.Resource.Dimension.abc_action_button_min_height_material = global::MenuIndio.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::NControl.Droid.Resource.Dimension.abc_action_button_min_width_material = global::MenuIndio.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::NControl.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::MenuIndio.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::NControl.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::MenuIndio.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::NControl.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::MenuIndio.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::NControl.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::MenuIndio.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::NControl.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::MenuIndio.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::NControl.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::MenuIndio.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::NControl.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::MenuIndio.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::NControl.Droid.Resource.Dimension.abc_control_corner_material = global::MenuIndio.Droid.Resource.Dimension.abc_control_corner_material;
+			global::NControl.Droid.Resource.Dimension.abc_control_inset_material = global::MenuIndio.Droid.Resource.Dimension.abc_control_inset_material;
+			global::NControl.Droid.Resource.Dimension.abc_control_padding_material = global::MenuIndio.Droid.Resource.Dimension.abc_control_padding_material;
+			global::NControl.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::MenuIndio.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::NControl.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::MenuIndio.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::NControl.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::MenuIndio.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::NControl.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::MenuIndio.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::NControl.Droid.Resource.Dimension.abc_dialog_min_width_major = global::MenuIndio.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::NControl.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::MenuIndio.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::NControl.Droid.Resource.Dimension.abc_dialog_padding_material = global::MenuIndio.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::NControl.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::MenuIndio.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::NControl.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::MenuIndio.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::NControl.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::MenuIndio.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::NControl.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::MenuIndio.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::NControl.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::MenuIndio.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::NControl.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::MenuIndio.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::NControl.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::MenuIndio.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::NControl.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::MenuIndio.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::NControl.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::MenuIndio.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::NControl.Droid.Resource.Dimension.abc_floating_window_z = global::MenuIndio.Droid.Resource.Dimension.abc_floating_window_z;
+			global::NControl.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::MenuIndio.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::NControl.Droid.Resource.Dimension.abc_panel_menu_list_width = global::MenuIndio.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::NControl.Droid.Resource.Dimension.abc_search_view_preferred_width = global::MenuIndio.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::NControl.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::MenuIndio.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::NControl.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::MenuIndio.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::NControl.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::MenuIndio.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::NControl.Droid.Resource.Dimension.abc_switch_padding = global::MenuIndio.Droid.Resource.Dimension.abc_switch_padding;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_body_1_material = global::MenuIndio.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_body_2_material = global::MenuIndio.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_button_material = global::MenuIndio.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_caption_material = global::MenuIndio.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_display_1_material = global::MenuIndio.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_display_2_material = global::MenuIndio.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_display_3_material = global::MenuIndio.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_display_4_material = global::MenuIndio.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_headline_material = global::MenuIndio.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_large_material = global::MenuIndio.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_medium_material = global::MenuIndio.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_menu_material = global::MenuIndio.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_small_material = global::MenuIndio.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_subhead_material = global::MenuIndio.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::MenuIndio.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_title_material = global::MenuIndio.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::NControl.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::MenuIndio.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::NControl.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::MenuIndio.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::NControl.Droid.Resource.Dimension.cardview_default_elevation = global::MenuIndio.Droid.Resource.Dimension.cardview_default_elevation;
+			global::NControl.Droid.Resource.Dimension.cardview_default_radius = global::MenuIndio.Droid.Resource.Dimension.cardview_default_radius;
+			global::NControl.Droid.Resource.Dimension.design_appbar_elevation = global::MenuIndio.Droid.Resource.Dimension.design_appbar_elevation;
+			global::NControl.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::MenuIndio.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::NControl.Droid.Resource.Dimension.design_fab_border_width = global::MenuIndio.Droid.Resource.Dimension.design_fab_border_width;
+			global::NControl.Droid.Resource.Dimension.design_fab_elevation = global::MenuIndio.Droid.Resource.Dimension.design_fab_elevation;
+			global::NControl.Droid.Resource.Dimension.design_fab_image_size = global::MenuIndio.Droid.Resource.Dimension.design_fab_image_size;
+			global::NControl.Droid.Resource.Dimension.design_fab_size_mini = global::MenuIndio.Droid.Resource.Dimension.design_fab_size_mini;
+			global::NControl.Droid.Resource.Dimension.design_fab_size_normal = global::MenuIndio.Droid.Resource.Dimension.design_fab_size_normal;
+			global::NControl.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::MenuIndio.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::NControl.Droid.Resource.Dimension.design_navigation_elevation = global::MenuIndio.Droid.Resource.Dimension.design_navigation_elevation;
+			global::NControl.Droid.Resource.Dimension.design_navigation_icon_padding = global::MenuIndio.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::NControl.Droid.Resource.Dimension.design_navigation_icon_size = global::MenuIndio.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::NControl.Droid.Resource.Dimension.design_navigation_max_width = global::MenuIndio.Droid.Resource.Dimension.design_navigation_max_width;
+			global::NControl.Droid.Resource.Dimension.design_navigation_padding_bottom = global::MenuIndio.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::NControl.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::MenuIndio.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::NControl.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::MenuIndio.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::NControl.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::MenuIndio.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::NControl.Droid.Resource.Dimension.design_snackbar_elevation = global::MenuIndio.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::NControl.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::MenuIndio.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::NControl.Droid.Resource.Dimension.design_snackbar_max_width = global::MenuIndio.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::NControl.Droid.Resource.Dimension.design_snackbar_min_width = global::MenuIndio.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::NControl.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::MenuIndio.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::NControl.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::MenuIndio.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::NControl.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::MenuIndio.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::NControl.Droid.Resource.Dimension.design_snackbar_text_size = global::MenuIndio.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::NControl.Droid.Resource.Dimension.design_tab_max_width = global::MenuIndio.Droid.Resource.Dimension.design_tab_max_width;
+			global::NControl.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::MenuIndio.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::NControl.Droid.Resource.Dimension.design_tab_text_size = global::MenuIndio.Droid.Resource.Dimension.design_tab_text_size;
+			global::NControl.Droid.Resource.Dimension.design_tab_text_size_2line = global::MenuIndio.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::NControl.Droid.Resource.Dimension.disabled_alpha_material_dark = global::MenuIndio.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::NControl.Droid.Resource.Dimension.disabled_alpha_material_light = global::MenuIndio.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::NControl.Droid.Resource.Dimension.highlight_alpha_material_colored = global::MenuIndio.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::NControl.Droid.Resource.Dimension.highlight_alpha_material_dark = global::MenuIndio.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::NControl.Droid.Resource.Dimension.highlight_alpha_material_light = global::MenuIndio.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::NControl.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::MenuIndio.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::NControl.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::MenuIndio.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::NControl.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::MenuIndio.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::NControl.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::MenuIndio.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
+			global::NControl.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::MenuIndio.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
+			global::NControl.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::MenuIndio.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
+			global::NControl.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::MenuIndio.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
+			global::NControl.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::MenuIndio.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
+			global::NControl.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::MenuIndio.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
+			global::NControl.Droid.Resource.Dimension.notification_large_icon_height = global::MenuIndio.Droid.Resource.Dimension.notification_large_icon_height;
+			global::NControl.Droid.Resource.Dimension.notification_large_icon_width = global::MenuIndio.Droid.Resource.Dimension.notification_large_icon_width;
+			global::NControl.Droid.Resource.Dimension.notification_subtext_size = global::MenuIndio.Droid.Resource.Dimension.notification_subtext_size;
+			global::NControl.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::MenuIndio.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::MenuIndio.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::NControl.Droid.Resource.Drawable.abc_btn_borderless_material = global::MenuIndio.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::NControl.Droid.Resource.Drawable.abc_btn_check_material = global::MenuIndio.Droid.Resource.Drawable.abc_btn_check_material;
+			global::NControl.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::MenuIndio.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::NControl.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::MenuIndio.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::NControl.Droid.Resource.Drawable.abc_btn_colored_material = global::MenuIndio.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::NControl.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::MenuIndio.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::NControl.Droid.Resource.Drawable.abc_btn_radio_material = global::MenuIndio.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::NControl.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::MenuIndio.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::NControl.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::MenuIndio.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::NControl.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::MenuIndio.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::NControl.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::MenuIndio.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::NControl.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::MenuIndio.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::NControl.Droid.Resource.Drawable.abc_cab_background_top_material = global::MenuIndio.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::NControl.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::MenuIndio.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_control_background_material = global::MenuIndio.Droid.Resource.Drawable.abc_control_background_material;
+			global::NControl.Droid.Resource.Drawable.abc_edit_text_material = global::MenuIndio.Droid.Resource.Drawable.abc_edit_text_material;
+			global::NControl.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::MenuIndio.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::MenuIndio.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::MenuIndio.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::MenuIndio.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::MenuIndio.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::MenuIndio.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::MenuIndio.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::NControl.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::MenuIndio.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::NControl.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::MenuIndio.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::NControl.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::MenuIndio.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::NControl.Droid.Resource.Drawable.abc_item_background_holo_dark = global::MenuIndio.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::NControl.Droid.Resource.Drawable.abc_item_background_holo_light = global::MenuIndio.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::NControl.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::MenuIndio.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_list_focused_holo = global::MenuIndio.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::NControl.Droid.Resource.Drawable.abc_list_longpressed_holo = global::MenuIndio.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::NControl.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::MenuIndio.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::NControl.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::MenuIndio.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::NControl.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::MenuIndio.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::NControl.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::MenuIndio.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::NControl.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::MenuIndio.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::NControl.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::MenuIndio.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::NControl.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::MenuIndio.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::NControl.Droid.Resource.Drawable.abc_list_selector_holo_light = global::MenuIndio.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::NControl.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::MenuIndio.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::NControl.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::MenuIndio.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::NControl.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::MenuIndio.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::NControl.Droid.Resource.Drawable.abc_ratingbar_small_material = global::MenuIndio.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::NControl.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::MenuIndio.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::MenuIndio.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::NControl.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::MenuIndio.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::NControl.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::MenuIndio.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::MenuIndio.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::MenuIndio.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::NControl.Droid.Resource.Drawable.abc_seekbar_track_material = global::MenuIndio.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::NControl.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::MenuIndio.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::MenuIndio.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::NControl.Droid.Resource.Drawable.abc_switch_thumb_material = global::MenuIndio.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::NControl.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::MenuIndio.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_tab_indicator_material = global::MenuIndio.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::NControl.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::MenuIndio.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_text_cursor_material = global::MenuIndio.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::NControl.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::MenuIndio.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::MenuIndio.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::MenuIndio.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::MenuIndio.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::NControl.Droid.Resource.Drawable.abc_textfield_search_material = global::MenuIndio.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::NControl.Droid.Resource.Drawable.design_fab_background = global::MenuIndio.Droid.Resource.Drawable.design_fab_background;
+			global::NControl.Droid.Resource.Drawable.design_snackbar_background = global::MenuIndio.Droid.Resource.Drawable.design_snackbar_background;
+			global::NControl.Droid.Resource.Drawable.ic_audiotrack_light = global::MenuIndio.Droid.Resource.Drawable.ic_audiotrack_light;
+			global::NControl.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::MenuIndio.Droid.Resource.Drawable.mr_dialog_material_background_dark;
+			global::NControl.Droid.Resource.Drawable.mr_dialog_material_background_light = global::MenuIndio.Droid.Resource.Drawable.mr_dialog_material_background_light;
+			global::NControl.Droid.Resource.Drawable.notification_template_icon_bg = global::MenuIndio.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::NControl.Droid.Resource.Id.action0 = global::MenuIndio.Droid.Resource.Id.action0;
+			global::NControl.Droid.Resource.Id.action_bar = global::MenuIndio.Droid.Resource.Id.action_bar;
+			global::NControl.Droid.Resource.Id.action_bar_activity_content = global::MenuIndio.Droid.Resource.Id.action_bar_activity_content;
+			global::NControl.Droid.Resource.Id.action_bar_container = global::MenuIndio.Droid.Resource.Id.action_bar_container;
+			global::NControl.Droid.Resource.Id.action_bar_root = global::MenuIndio.Droid.Resource.Id.action_bar_root;
+			global::NControl.Droid.Resource.Id.action_bar_spinner = global::MenuIndio.Droid.Resource.Id.action_bar_spinner;
+			global::NControl.Droid.Resource.Id.action_bar_subtitle = global::MenuIndio.Droid.Resource.Id.action_bar_subtitle;
+			global::NControl.Droid.Resource.Id.action_bar_title = global::MenuIndio.Droid.Resource.Id.action_bar_title;
+			global::NControl.Droid.Resource.Id.action_context_bar = global::MenuIndio.Droid.Resource.Id.action_context_bar;
+			global::NControl.Droid.Resource.Id.action_divider = global::MenuIndio.Droid.Resource.Id.action_divider;
+			global::NControl.Droid.Resource.Id.action_menu_divider = global::MenuIndio.Droid.Resource.Id.action_menu_divider;
+			global::NControl.Droid.Resource.Id.action_menu_presenter = global::MenuIndio.Droid.Resource.Id.action_menu_presenter;
+			global::NControl.Droid.Resource.Id.action_mode_bar = global::MenuIndio.Droid.Resource.Id.action_mode_bar;
+			global::NControl.Droid.Resource.Id.action_mode_bar_stub = global::MenuIndio.Droid.Resource.Id.action_mode_bar_stub;
+			global::NControl.Droid.Resource.Id.action_mode_close_button = global::MenuIndio.Droid.Resource.Id.action_mode_close_button;
+			global::NControl.Droid.Resource.Id.activity_chooser_view_content = global::MenuIndio.Droid.Resource.Id.activity_chooser_view_content;
+			global::NControl.Droid.Resource.Id.alertTitle = global::MenuIndio.Droid.Resource.Id.alertTitle;
+			global::NControl.Droid.Resource.Id.always = global::MenuIndio.Droid.Resource.Id.always;
+			global::NControl.Droid.Resource.Id.beginning = global::MenuIndio.Droid.Resource.Id.beginning;
+			global::NControl.Droid.Resource.Id.bottom = global::MenuIndio.Droid.Resource.Id.bottom;
+			global::NControl.Droid.Resource.Id.buttonPanel = global::MenuIndio.Droid.Resource.Id.buttonPanel;
+			global::NControl.Droid.Resource.Id.cancel_action = global::MenuIndio.Droid.Resource.Id.cancel_action;
+			global::NControl.Droid.Resource.Id.center = global::MenuIndio.Droid.Resource.Id.center;
+			global::NControl.Droid.Resource.Id.center_horizontal = global::MenuIndio.Droid.Resource.Id.center_horizontal;
+			global::NControl.Droid.Resource.Id.center_vertical = global::MenuIndio.Droid.Resource.Id.center_vertical;
+			global::NControl.Droid.Resource.Id.checkbox = global::MenuIndio.Droid.Resource.Id.checkbox;
+			global::NControl.Droid.Resource.Id.chronometer = global::MenuIndio.Droid.Resource.Id.chronometer;
+			global::NControl.Droid.Resource.Id.clip_horizontal = global::MenuIndio.Droid.Resource.Id.clip_horizontal;
+			global::NControl.Droid.Resource.Id.clip_vertical = global::MenuIndio.Droid.Resource.Id.clip_vertical;
+			global::NControl.Droid.Resource.Id.collapseActionView = global::MenuIndio.Droid.Resource.Id.collapseActionView;
+			global::NControl.Droid.Resource.Id.contentPanel = global::MenuIndio.Droid.Resource.Id.contentPanel;
+			global::NControl.Droid.Resource.Id.custom = global::MenuIndio.Droid.Resource.Id.custom;
+			global::NControl.Droid.Resource.Id.customPanel = global::MenuIndio.Droid.Resource.Id.customPanel;
+			global::NControl.Droid.Resource.Id.decor_content_parent = global::MenuIndio.Droid.Resource.Id.decor_content_parent;
+			global::NControl.Droid.Resource.Id.default_activity_button = global::MenuIndio.Droid.Resource.Id.default_activity_button;
+			global::NControl.Droid.Resource.Id.design_bottom_sheet = global::MenuIndio.Droid.Resource.Id.design_bottom_sheet;
+			global::NControl.Droid.Resource.Id.design_menu_item_action_area = global::MenuIndio.Droid.Resource.Id.design_menu_item_action_area;
+			global::NControl.Droid.Resource.Id.design_menu_item_action_area_stub = global::MenuIndio.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::NControl.Droid.Resource.Id.design_menu_item_text = global::MenuIndio.Droid.Resource.Id.design_menu_item_text;
+			global::NControl.Droid.Resource.Id.design_navigation_view = global::MenuIndio.Droid.Resource.Id.design_navigation_view;
+			global::NControl.Droid.Resource.Id.disableHome = global::MenuIndio.Droid.Resource.Id.disableHome;
+			global::NControl.Droid.Resource.Id.edit_query = global::MenuIndio.Droid.Resource.Id.edit_query;
+			global::NControl.Droid.Resource.Id.end = global::MenuIndio.Droid.Resource.Id.end;
+			global::NControl.Droid.Resource.Id.end_padder = global::MenuIndio.Droid.Resource.Id.end_padder;
+			global::NControl.Droid.Resource.Id.enterAlways = global::MenuIndio.Droid.Resource.Id.enterAlways;
+			global::NControl.Droid.Resource.Id.enterAlwaysCollapsed = global::MenuIndio.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::NControl.Droid.Resource.Id.exitUntilCollapsed = global::MenuIndio.Droid.Resource.Id.exitUntilCollapsed;
+			global::NControl.Droid.Resource.Id.expand_activities_button = global::MenuIndio.Droid.Resource.Id.expand_activities_button;
+			global::NControl.Droid.Resource.Id.expanded_menu = global::MenuIndio.Droid.Resource.Id.expanded_menu;
+			global::NControl.Droid.Resource.Id.fill = global::MenuIndio.Droid.Resource.Id.fill;
+			global::NControl.Droid.Resource.Id.fill_horizontal = global::MenuIndio.Droid.Resource.Id.fill_horizontal;
+			global::NControl.Droid.Resource.Id.fill_vertical = global::MenuIndio.Droid.Resource.Id.fill_vertical;
+			global::NControl.Droid.Resource.Id.@fixed = global::MenuIndio.Droid.Resource.Id.@fixed;
+			global::NControl.Droid.Resource.Id.home = global::MenuIndio.Droid.Resource.Id.home;
+			global::NControl.Droid.Resource.Id.homeAsUp = global::MenuIndio.Droid.Resource.Id.homeAsUp;
+			global::NControl.Droid.Resource.Id.icon = global::MenuIndio.Droid.Resource.Id.icon;
+			global::NControl.Droid.Resource.Id.ifRoom = global::MenuIndio.Droid.Resource.Id.ifRoom;
+			global::NControl.Droid.Resource.Id.image = global::MenuIndio.Droid.Resource.Id.image;
+			global::NControl.Droid.Resource.Id.info = global::MenuIndio.Droid.Resource.Id.info;
+			global::NControl.Droid.Resource.Id.item_touch_helper_previous_elevation = global::MenuIndio.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::NControl.Droid.Resource.Id.left = global::MenuIndio.Droid.Resource.Id.left;
+			global::NControl.Droid.Resource.Id.line1 = global::MenuIndio.Droid.Resource.Id.line1;
+			global::NControl.Droid.Resource.Id.line3 = global::MenuIndio.Droid.Resource.Id.line3;
+			global::NControl.Droid.Resource.Id.listMode = global::MenuIndio.Droid.Resource.Id.listMode;
+			global::NControl.Droid.Resource.Id.list_item = global::MenuIndio.Droid.Resource.Id.list_item;
+			global::NControl.Droid.Resource.Id.media_actions = global::MenuIndio.Droid.Resource.Id.media_actions;
+			global::NControl.Droid.Resource.Id.middle = global::MenuIndio.Droid.Resource.Id.middle;
+			global::NControl.Droid.Resource.Id.mini = global::MenuIndio.Droid.Resource.Id.mini;
+			global::NControl.Droid.Resource.Id.mr_art = global::MenuIndio.Droid.Resource.Id.mr_art;
+			global::NControl.Droid.Resource.Id.mr_chooser_list = global::MenuIndio.Droid.Resource.Id.mr_chooser_list;
+			global::NControl.Droid.Resource.Id.mr_chooser_route_desc = global::MenuIndio.Droid.Resource.Id.mr_chooser_route_desc;
+			global::NControl.Droid.Resource.Id.mr_chooser_route_icon = global::MenuIndio.Droid.Resource.Id.mr_chooser_route_icon;
+			global::NControl.Droid.Resource.Id.mr_chooser_route_name = global::MenuIndio.Droid.Resource.Id.mr_chooser_route_name;
+			global::NControl.Droid.Resource.Id.mr_close = global::MenuIndio.Droid.Resource.Id.mr_close;
+			global::NControl.Droid.Resource.Id.mr_control_divider = global::MenuIndio.Droid.Resource.Id.mr_control_divider;
+			global::NControl.Droid.Resource.Id.mr_control_subtitle = global::MenuIndio.Droid.Resource.Id.mr_control_subtitle;
+			global::NControl.Droid.Resource.Id.mr_control_title = global::MenuIndio.Droid.Resource.Id.mr_control_title;
+			global::NControl.Droid.Resource.Id.mr_control_title_container = global::MenuIndio.Droid.Resource.Id.mr_control_title_container;
+			global::NControl.Droid.Resource.Id.mr_custom_control = global::MenuIndio.Droid.Resource.Id.mr_custom_control;
+			global::NControl.Droid.Resource.Id.mr_default_control = global::MenuIndio.Droid.Resource.Id.mr_default_control;
+			global::NControl.Droid.Resource.Id.mr_dialog_area = global::MenuIndio.Droid.Resource.Id.mr_dialog_area;
+			global::NControl.Droid.Resource.Id.mr_expandable_area = global::MenuIndio.Droid.Resource.Id.mr_expandable_area;
+			global::NControl.Droid.Resource.Id.mr_group_expand_collapse = global::MenuIndio.Droid.Resource.Id.mr_group_expand_collapse;
+			global::NControl.Droid.Resource.Id.mr_media_main_control = global::MenuIndio.Droid.Resource.Id.mr_media_main_control;
+			global::NControl.Droid.Resource.Id.mr_name = global::MenuIndio.Droid.Resource.Id.mr_name;
+			global::NControl.Droid.Resource.Id.mr_playback_control = global::MenuIndio.Droid.Resource.Id.mr_playback_control;
+			global::NControl.Droid.Resource.Id.mr_title_bar = global::MenuIndio.Droid.Resource.Id.mr_title_bar;
+			global::NControl.Droid.Resource.Id.mr_volume_control = global::MenuIndio.Droid.Resource.Id.mr_volume_control;
+			global::NControl.Droid.Resource.Id.mr_volume_group_list = global::MenuIndio.Droid.Resource.Id.mr_volume_group_list;
+			global::NControl.Droid.Resource.Id.mr_volume_item_icon = global::MenuIndio.Droid.Resource.Id.mr_volume_item_icon;
+			global::NControl.Droid.Resource.Id.mr_volume_slider = global::MenuIndio.Droid.Resource.Id.mr_volume_slider;
+			global::NControl.Droid.Resource.Id.multiply = global::MenuIndio.Droid.Resource.Id.multiply;
+			global::NControl.Droid.Resource.Id.navigation_header_container = global::MenuIndio.Droid.Resource.Id.navigation_header_container;
+			global::NControl.Droid.Resource.Id.never = global::MenuIndio.Droid.Resource.Id.never;
+			global::NControl.Droid.Resource.Id.none = global::MenuIndio.Droid.Resource.Id.none;
+			global::NControl.Droid.Resource.Id.normal = global::MenuIndio.Droid.Resource.Id.normal;
+			global::NControl.Droid.Resource.Id.parallax = global::MenuIndio.Droid.Resource.Id.parallax;
+			global::NControl.Droid.Resource.Id.parentPanel = global::MenuIndio.Droid.Resource.Id.parentPanel;
+			global::NControl.Droid.Resource.Id.pin = global::MenuIndio.Droid.Resource.Id.pin;
+			global::NControl.Droid.Resource.Id.progress_circular = global::MenuIndio.Droid.Resource.Id.progress_circular;
+			global::NControl.Droid.Resource.Id.progress_horizontal = global::MenuIndio.Droid.Resource.Id.progress_horizontal;
+			global::NControl.Droid.Resource.Id.radio = global::MenuIndio.Droid.Resource.Id.radio;
+			global::NControl.Droid.Resource.Id.right = global::MenuIndio.Droid.Resource.Id.right;
+			global::NControl.Droid.Resource.Id.screen = global::MenuIndio.Droid.Resource.Id.screen;
+			global::NControl.Droid.Resource.Id.scroll = global::MenuIndio.Droid.Resource.Id.scroll;
+			global::NControl.Droid.Resource.Id.scrollIndicatorDown = global::MenuIndio.Droid.Resource.Id.scrollIndicatorDown;
+			global::NControl.Droid.Resource.Id.scrollIndicatorUp = global::MenuIndio.Droid.Resource.Id.scrollIndicatorUp;
+			global::NControl.Droid.Resource.Id.scrollView = global::MenuIndio.Droid.Resource.Id.scrollView;
+			global::NControl.Droid.Resource.Id.scrollable = global::MenuIndio.Droid.Resource.Id.scrollable;
+			global::NControl.Droid.Resource.Id.search_badge = global::MenuIndio.Droid.Resource.Id.search_badge;
+			global::NControl.Droid.Resource.Id.search_bar = global::MenuIndio.Droid.Resource.Id.search_bar;
+			global::NControl.Droid.Resource.Id.search_button = global::MenuIndio.Droid.Resource.Id.search_button;
+			global::NControl.Droid.Resource.Id.search_close_btn = global::MenuIndio.Droid.Resource.Id.search_close_btn;
+			global::NControl.Droid.Resource.Id.search_edit_frame = global::MenuIndio.Droid.Resource.Id.search_edit_frame;
+			global::NControl.Droid.Resource.Id.search_go_btn = global::MenuIndio.Droid.Resource.Id.search_go_btn;
+			global::NControl.Droid.Resource.Id.search_mag_icon = global::MenuIndio.Droid.Resource.Id.search_mag_icon;
+			global::NControl.Droid.Resource.Id.search_plate = global::MenuIndio.Droid.Resource.Id.search_plate;
+			global::NControl.Droid.Resource.Id.search_src_text = global::MenuIndio.Droid.Resource.Id.search_src_text;
+			global::NControl.Droid.Resource.Id.search_voice_btn = global::MenuIndio.Droid.Resource.Id.search_voice_btn;
+			global::NControl.Droid.Resource.Id.select_dialog_listview = global::MenuIndio.Droid.Resource.Id.select_dialog_listview;
+			global::NControl.Droid.Resource.Id.shortcut = global::MenuIndio.Droid.Resource.Id.shortcut;
+			global::NControl.Droid.Resource.Id.showCustom = global::MenuIndio.Droid.Resource.Id.showCustom;
+			global::NControl.Droid.Resource.Id.showHome = global::MenuIndio.Droid.Resource.Id.showHome;
+			global::NControl.Droid.Resource.Id.showTitle = global::MenuIndio.Droid.Resource.Id.showTitle;
+			global::NControl.Droid.Resource.Id.snackbar_action = global::MenuIndio.Droid.Resource.Id.snackbar_action;
+			global::NControl.Droid.Resource.Id.snackbar_text = global::MenuIndio.Droid.Resource.Id.snackbar_text;
+			global::NControl.Droid.Resource.Id.snap = global::MenuIndio.Droid.Resource.Id.snap;
+			global::NControl.Droid.Resource.Id.spacer = global::MenuIndio.Droid.Resource.Id.spacer;
+			global::NControl.Droid.Resource.Id.split_action_bar = global::MenuIndio.Droid.Resource.Id.split_action_bar;
+			global::NControl.Droid.Resource.Id.src_atop = global::MenuIndio.Droid.Resource.Id.src_atop;
+			global::NControl.Droid.Resource.Id.src_in = global::MenuIndio.Droid.Resource.Id.src_in;
+			global::NControl.Droid.Resource.Id.src_over = global::MenuIndio.Droid.Resource.Id.src_over;
+			global::NControl.Droid.Resource.Id.start = global::MenuIndio.Droid.Resource.Id.start;
+			global::NControl.Droid.Resource.Id.status_bar_latest_event_content = global::MenuIndio.Droid.Resource.Id.status_bar_latest_event_content;
+			global::NControl.Droid.Resource.Id.submit_area = global::MenuIndio.Droid.Resource.Id.submit_area;
+			global::NControl.Droid.Resource.Id.tabMode = global::MenuIndio.Droid.Resource.Id.tabMode;
+			global::NControl.Droid.Resource.Id.text = global::MenuIndio.Droid.Resource.Id.text;
+			global::NControl.Droid.Resource.Id.text2 = global::MenuIndio.Droid.Resource.Id.text2;
+			global::NControl.Droid.Resource.Id.textSpacerNoButtons = global::MenuIndio.Droid.Resource.Id.textSpacerNoButtons;
+			global::NControl.Droid.Resource.Id.time = global::MenuIndio.Droid.Resource.Id.time;
+			global::NControl.Droid.Resource.Id.title = global::MenuIndio.Droid.Resource.Id.title;
+			global::NControl.Droid.Resource.Id.title_template = global::MenuIndio.Droid.Resource.Id.title_template;
+			global::NControl.Droid.Resource.Id.top = global::MenuIndio.Droid.Resource.Id.top;
+			global::NControl.Droid.Resource.Id.topPanel = global::MenuIndio.Droid.Resource.Id.topPanel;
+			global::NControl.Droid.Resource.Id.touch_outside = global::MenuIndio.Droid.Resource.Id.touch_outside;
+			global::NControl.Droid.Resource.Id.up = global::MenuIndio.Droid.Resource.Id.up;
+			global::NControl.Droid.Resource.Id.useLogo = global::MenuIndio.Droid.Resource.Id.useLogo;
+			global::NControl.Droid.Resource.Id.view_offset_helper = global::MenuIndio.Droid.Resource.Id.view_offset_helper;
+			global::NControl.Droid.Resource.Id.volume_item_container = global::MenuIndio.Droid.Resource.Id.volume_item_container;
+			global::NControl.Droid.Resource.Id.withText = global::MenuIndio.Droid.Resource.Id.withText;
+			global::NControl.Droid.Resource.Id.wrap_content = global::MenuIndio.Droid.Resource.Id.wrap_content;
+			global::NControl.Droid.Resource.Integer.abc_config_activityDefaultDur = global::MenuIndio.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::NControl.Droid.Resource.Integer.abc_config_activityShortDur = global::MenuIndio.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::NControl.Droid.Resource.Integer.bottom_sheet_slide_duration = global::MenuIndio.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::NControl.Droid.Resource.Integer.cancel_button_image_alpha = global::MenuIndio.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::NControl.Droid.Resource.Integer.design_snackbar_text_max_lines = global::MenuIndio.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::NControl.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::MenuIndio.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
+			global::NControl.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::MenuIndio.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
+			global::NControl.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::MenuIndio.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
+			global::NControl.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::MenuIndio.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::NControl.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::MenuIndio.Droid.Resource.Interpolator.mr_fast_out_slow_in;
+			global::NControl.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::MenuIndio.Droid.Resource.Interpolator.mr_linear_out_slow_in;
+			global::NControl.Droid.Resource.Layout.abc_action_bar_title_item = global::MenuIndio.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::NControl.Droid.Resource.Layout.abc_action_bar_up_container = global::MenuIndio.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::NControl.Droid.Resource.Layout.abc_action_menu_item_layout = global::MenuIndio.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::NControl.Droid.Resource.Layout.abc_action_menu_layout = global::MenuIndio.Droid.Resource.Layout.abc_action_menu_layout;
+			global::NControl.Droid.Resource.Layout.abc_action_mode_bar = global::MenuIndio.Droid.Resource.Layout.abc_action_mode_bar;
+			global::NControl.Droid.Resource.Layout.abc_action_mode_close_item_material = global::MenuIndio.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::NControl.Droid.Resource.Layout.abc_activity_chooser_view = global::MenuIndio.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::NControl.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::MenuIndio.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::NControl.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::MenuIndio.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::NControl.Droid.Resource.Layout.abc_alert_dialog_material = global::MenuIndio.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::NControl.Droid.Resource.Layout.abc_dialog_title_material = global::MenuIndio.Droid.Resource.Layout.abc_dialog_title_material;
+			global::NControl.Droid.Resource.Layout.abc_expanded_menu_layout = global::MenuIndio.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::NControl.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::MenuIndio.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::NControl.Droid.Resource.Layout.abc_list_menu_item_icon = global::MenuIndio.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::NControl.Droid.Resource.Layout.abc_list_menu_item_layout = global::MenuIndio.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::NControl.Droid.Resource.Layout.abc_list_menu_item_radio = global::MenuIndio.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::NControl.Droid.Resource.Layout.abc_popup_menu_item_layout = global::MenuIndio.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::NControl.Droid.Resource.Layout.abc_screen_content_include = global::MenuIndio.Droid.Resource.Layout.abc_screen_content_include;
+			global::NControl.Droid.Resource.Layout.abc_screen_simple = global::MenuIndio.Droid.Resource.Layout.abc_screen_simple;
+			global::NControl.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::MenuIndio.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::NControl.Droid.Resource.Layout.abc_screen_toolbar = global::MenuIndio.Droid.Resource.Layout.abc_screen_toolbar;
+			global::NControl.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::MenuIndio.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::NControl.Droid.Resource.Layout.abc_search_view = global::MenuIndio.Droid.Resource.Layout.abc_search_view;
+			global::NControl.Droid.Resource.Layout.abc_select_dialog_material = global::MenuIndio.Droid.Resource.Layout.abc_select_dialog_material;
+			global::NControl.Droid.Resource.Layout.design_bottom_sheet_dialog = global::MenuIndio.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::NControl.Droid.Resource.Layout.design_layout_snackbar = global::MenuIndio.Droid.Resource.Layout.design_layout_snackbar;
+			global::NControl.Droid.Resource.Layout.design_layout_snackbar_include = global::MenuIndio.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::NControl.Droid.Resource.Layout.design_layout_tab_icon = global::MenuIndio.Droid.Resource.Layout.design_layout_tab_icon;
+			global::NControl.Droid.Resource.Layout.design_layout_tab_text = global::MenuIndio.Droid.Resource.Layout.design_layout_tab_text;
+			global::NControl.Droid.Resource.Layout.design_menu_item_action_area = global::MenuIndio.Droid.Resource.Layout.design_menu_item_action_area;
+			global::NControl.Droid.Resource.Layout.design_navigation_item = global::MenuIndio.Droid.Resource.Layout.design_navigation_item;
+			global::NControl.Droid.Resource.Layout.design_navigation_item_header = global::MenuIndio.Droid.Resource.Layout.design_navigation_item_header;
+			global::NControl.Droid.Resource.Layout.design_navigation_item_separator = global::MenuIndio.Droid.Resource.Layout.design_navigation_item_separator;
+			global::NControl.Droid.Resource.Layout.design_navigation_item_subheader = global::MenuIndio.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::NControl.Droid.Resource.Layout.design_navigation_menu = global::MenuIndio.Droid.Resource.Layout.design_navigation_menu;
+			global::NControl.Droid.Resource.Layout.design_navigation_menu_item = global::MenuIndio.Droid.Resource.Layout.design_navigation_menu_item;
+			global::NControl.Droid.Resource.Layout.mr_chooser_dialog = global::MenuIndio.Droid.Resource.Layout.mr_chooser_dialog;
+			global::NControl.Droid.Resource.Layout.mr_chooser_list_item = global::MenuIndio.Droid.Resource.Layout.mr_chooser_list_item;
+			global::NControl.Droid.Resource.Layout.mr_controller_material_dialog_b = global::MenuIndio.Droid.Resource.Layout.mr_controller_material_dialog_b;
+			global::NControl.Droid.Resource.Layout.mr_controller_volume_item = global::MenuIndio.Droid.Resource.Layout.mr_controller_volume_item;
+			global::NControl.Droid.Resource.Layout.mr_playback_control = global::MenuIndio.Droid.Resource.Layout.mr_playback_control;
+			global::NControl.Droid.Resource.Layout.mr_volume_control = global::MenuIndio.Droid.Resource.Layout.mr_volume_control;
+			global::NControl.Droid.Resource.Layout.notification_media_action = global::MenuIndio.Droid.Resource.Layout.notification_media_action;
+			global::NControl.Droid.Resource.Layout.notification_media_cancel_action = global::MenuIndio.Droid.Resource.Layout.notification_media_cancel_action;
+			global::NControl.Droid.Resource.Layout.notification_template_big_media = global::MenuIndio.Droid.Resource.Layout.notification_template_big_media;
+			global::NControl.Droid.Resource.Layout.notification_template_big_media_narrow = global::MenuIndio.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::NControl.Droid.Resource.Layout.notification_template_media = global::MenuIndio.Droid.Resource.Layout.notification_template_media;
+			global::NControl.Droid.Resource.Layout.notification_template_part_chronometer = global::MenuIndio.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::NControl.Droid.Resource.Layout.notification_template_part_time = global::MenuIndio.Droid.Resource.Layout.notification_template_part_time;
+			global::NControl.Droid.Resource.Layout.select_dialog_item_material = global::MenuIndio.Droid.Resource.Layout.select_dialog_item_material;
+			global::NControl.Droid.Resource.Layout.select_dialog_multichoice_material = global::MenuIndio.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::NControl.Droid.Resource.Layout.select_dialog_singlechoice_material = global::MenuIndio.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::NControl.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::MenuIndio.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::NControl.Droid.Resource.String.abc_action_bar_home_description = global::MenuIndio.Droid.Resource.String.abc_action_bar_home_description;
+			global::NControl.Droid.Resource.String.abc_action_bar_up_description = global::MenuIndio.Droid.Resource.String.abc_action_bar_up_description;
+			global::NControl.Droid.Resource.String.abc_action_menu_overflow_description = global::MenuIndio.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::NControl.Droid.Resource.String.abc_action_mode_done = global::MenuIndio.Droid.Resource.String.abc_action_mode_done;
+			global::NControl.Droid.Resource.String.abc_activity_chooser_view_see_all = global::MenuIndio.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::NControl.Droid.Resource.String.abc_activitychooserview_choose_application = global::MenuIndio.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::NControl.Droid.Resource.String.abc_capital_off = global::MenuIndio.Droid.Resource.String.abc_capital_off;
+			global::NControl.Droid.Resource.String.abc_capital_on = global::MenuIndio.Droid.Resource.String.abc_capital_on;
+			global::NControl.Droid.Resource.String.abc_search_hint = global::MenuIndio.Droid.Resource.String.abc_search_hint;
+			global::NControl.Droid.Resource.String.abc_searchview_description_clear = global::MenuIndio.Droid.Resource.String.abc_searchview_description_clear;
+			global::NControl.Droid.Resource.String.abc_searchview_description_query = global::MenuIndio.Droid.Resource.String.abc_searchview_description_query;
+			global::NControl.Droid.Resource.String.abc_searchview_description_search = global::MenuIndio.Droid.Resource.String.abc_searchview_description_search;
+			global::NControl.Droid.Resource.String.abc_searchview_description_submit = global::MenuIndio.Droid.Resource.String.abc_searchview_description_submit;
+			global::NControl.Droid.Resource.String.abc_searchview_description_voice = global::MenuIndio.Droid.Resource.String.abc_searchview_description_voice;
+			global::NControl.Droid.Resource.String.abc_shareactionprovider_share_with = global::MenuIndio.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::NControl.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::MenuIndio.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::NControl.Droid.Resource.String.abc_toolbar_collapse_description = global::MenuIndio.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::NControl.Droid.Resource.String.appbar_scrolling_view_behavior = global::MenuIndio.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::NControl.Droid.Resource.String.bottom_sheet_behavior = global::MenuIndio.Droid.Resource.String.bottom_sheet_behavior;
+			global::NControl.Droid.Resource.String.character_counter_pattern = global::MenuIndio.Droid.Resource.String.character_counter_pattern;
+			global::NControl.Droid.Resource.String.library_name = global::MenuIndio.Droid.Resource.String.library_name;
+			global::NControl.Droid.Resource.String.mr_button_content_description = global::MenuIndio.Droid.Resource.String.mr_button_content_description;
+			global::NControl.Droid.Resource.String.mr_chooser_searching = global::MenuIndio.Droid.Resource.String.mr_chooser_searching;
+			global::NControl.Droid.Resource.String.mr_chooser_title = global::MenuIndio.Droid.Resource.String.mr_chooser_title;
+			global::NControl.Droid.Resource.String.mr_controller_casting_screen = global::MenuIndio.Droid.Resource.String.mr_controller_casting_screen;
+			global::NControl.Droid.Resource.String.mr_controller_close_description = global::MenuIndio.Droid.Resource.String.mr_controller_close_description;
+			global::NControl.Droid.Resource.String.mr_controller_collapse_group = global::MenuIndio.Droid.Resource.String.mr_controller_collapse_group;
+			global::NControl.Droid.Resource.String.mr_controller_disconnect = global::MenuIndio.Droid.Resource.String.mr_controller_disconnect;
+			global::NControl.Droid.Resource.String.mr_controller_expand_group = global::MenuIndio.Droid.Resource.String.mr_controller_expand_group;
+			global::NControl.Droid.Resource.String.mr_controller_no_info_available = global::MenuIndio.Droid.Resource.String.mr_controller_no_info_available;
+			global::NControl.Droid.Resource.String.mr_controller_no_media_selected = global::MenuIndio.Droid.Resource.String.mr_controller_no_media_selected;
+			global::NControl.Droid.Resource.String.mr_controller_pause = global::MenuIndio.Droid.Resource.String.mr_controller_pause;
+			global::NControl.Droid.Resource.String.mr_controller_play = global::MenuIndio.Droid.Resource.String.mr_controller_play;
+			global::NControl.Droid.Resource.String.mr_controller_stop = global::MenuIndio.Droid.Resource.String.mr_controller_stop;
+			global::NControl.Droid.Resource.String.mr_system_route_name = global::MenuIndio.Droid.Resource.String.mr_system_route_name;
+			global::NControl.Droid.Resource.String.mr_user_route_category_name = global::MenuIndio.Droid.Resource.String.mr_user_route_category_name;
+			global::NControl.Droid.Resource.String.status_bar_notification_info_overflow = global::MenuIndio.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::NControl.Droid.Resource.Style.AlertDialog_AppCompat = global::MenuIndio.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::NControl.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::MenuIndio.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::NControl.Droid.Resource.Style.Animation_AppCompat_Dialog = global::MenuIndio.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::NControl.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::MenuIndio.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::NControl.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::MenuIndio.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::NControl.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::MenuIndio.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::NControl.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::MenuIndio.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::NControl.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::MenuIndio.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::NControl.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::MenuIndio.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::NControl.Droid.Resource.Style.Base_CardView = global::MenuIndio.Droid.Resource.Style.Base_CardView;
+			global::NControl.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::MenuIndio.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::NControl.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::MenuIndio.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::NControl.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::MenuIndio.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::NControl.Droid.Resource.Style.Base_Theme_AppCompat = global::MenuIndio.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::NControl.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::MenuIndio.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::NControl.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::MenuIndio.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::NControl.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::MenuIndio.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::NControl.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::MenuIndio.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::NControl.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::MenuIndio.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::NControl.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::MenuIndio.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::NControl.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::MenuIndio.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::NControl.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::MenuIndio.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::NControl.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::MenuIndio.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::NControl.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::MenuIndio.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::NControl.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::MenuIndio.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::NControl.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::MenuIndio.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::NControl.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::MenuIndio.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::NControl.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::MenuIndio.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::NControl.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::MenuIndio.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::NControl.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::MenuIndio.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::NControl.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::MenuIndio.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::NControl.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::MenuIndio.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::NControl.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::MenuIndio.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::NControl.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::MenuIndio.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::NControl.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::MenuIndio.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::NControl.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::MenuIndio.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::NControl.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::MenuIndio.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::NControl.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::MenuIndio.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::NControl.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::MenuIndio.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::NControl.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::MenuIndio.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::NControl.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::MenuIndio.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::NControl.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::MenuIndio.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::NControl.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::MenuIndio.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::NControl.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::MenuIndio.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::NControl.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::MenuIndio.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::NControl.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::MenuIndio.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::NControl.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::MenuIndio.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::NControl.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::MenuIndio.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::NControl.Droid.Resource.Style.CardView = global::MenuIndio.Droid.Resource.Style.CardView;
+			global::NControl.Droid.Resource.Style.CardView_Dark = global::MenuIndio.Droid.Resource.Style.CardView_Dark;
+			global::NControl.Droid.Resource.Style.CardView_Light = global::MenuIndio.Droid.Resource.Style.CardView_Light;
+			global::NControl.Droid.Resource.Style.Platform_AppCompat = global::MenuIndio.Droid.Resource.Style.Platform_AppCompat;
+			global::NControl.Droid.Resource.Style.Platform_AppCompat_Light = global::MenuIndio.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::NControl.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::MenuIndio.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::NControl.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::MenuIndio.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::NControl.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::MenuIndio.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::NControl.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::MenuIndio.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::NControl.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::MenuIndio.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::NControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::MenuIndio.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::NControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::MenuIndio.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::NControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::MenuIndio.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::NControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::MenuIndio.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::NControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::MenuIndio.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::NControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::MenuIndio.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::NControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::MenuIndio.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::NControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::MenuIndio.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::NControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::MenuIndio.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::NControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::MenuIndio.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::NControl.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::MenuIndio.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::NControl.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::MenuIndio.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::NControl.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::MenuIndio.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::NControl.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::MenuIndio.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::NControl.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::MenuIndio.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::NControl.Droid.Resource.Style.TextAppearance_Design_Counter = global::MenuIndio.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::NControl.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::MenuIndio.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::NControl.Droid.Resource.Style.TextAppearance_Design_Error = global::MenuIndio.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::NControl.Droid.Resource.Style.TextAppearance_Design_Hint = global::MenuIndio.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::NControl.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::MenuIndio.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::NControl.Droid.Resource.Style.TextAppearance_Design_Tab = global::MenuIndio.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::NControl.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::MenuIndio.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::NControl.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::MenuIndio.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::NControl.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::MenuIndio.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat = global::MenuIndio.Droid.Resource.Style.Theme_AppCompat;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::MenuIndio.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_DayNight = global::MenuIndio.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::MenuIndio.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::MenuIndio.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::MenuIndio.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::MenuIndio.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::MenuIndio.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::MenuIndio.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_Dialog = global::MenuIndio.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::MenuIndio.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::MenuIndio.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::MenuIndio.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_Light = global::MenuIndio.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::MenuIndio.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::MenuIndio.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::MenuIndio.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::MenuIndio.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::MenuIndio.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::MenuIndio.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::NControl.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::MenuIndio.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::NControl.Droid.Resource.Style.Theme_Design = global::MenuIndio.Droid.Resource.Style.Theme_Design;
+			global::NControl.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::MenuIndio.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::NControl.Droid.Resource.Style.Theme_Design_Light = global::MenuIndio.Droid.Resource.Style.Theme_Design_Light;
+			global::NControl.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::MenuIndio.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::NControl.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::MenuIndio.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::NControl.Droid.Resource.Style.Theme_Design_NoActionBar = global::MenuIndio.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::NControl.Droid.Resource.Style.Theme_MediaRouter = global::MenuIndio.Droid.Resource.Style.Theme_MediaRouter;
+			global::NControl.Droid.Resource.Style.Theme_MediaRouter_Light = global::MenuIndio.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::NControl.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::MenuIndio.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
+			global::NControl.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::MenuIndio.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
+			global::NControl.Droid.Resource.Style.ThemeOverlay_AppCompat = global::MenuIndio.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::NControl.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::MenuIndio.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::NControl.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::MenuIndio.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::NControl.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::MenuIndio.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::NControl.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::MenuIndio.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Button = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_EditText = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ListView = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_SearchView = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Spinner = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::NControl.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::MenuIndio.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::NControl.Droid.Resource.Style.Widget_Design_AppBarLayout = global::MenuIndio.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::NControl.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::MenuIndio.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::NControl.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::MenuIndio.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::NControl.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::MenuIndio.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::NControl.Droid.Resource.Style.Widget_Design_NavigationView = global::MenuIndio.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::NControl.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::MenuIndio.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::NControl.Droid.Resource.Style.Widget_Design_Snackbar = global::MenuIndio.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::NControl.Droid.Resource.Style.Widget_Design_TabLayout = global::MenuIndio.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::NControl.Droid.Resource.Style.Widget_Design_TextInputLayout = global::MenuIndio.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::NControl.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::MenuIndio.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::NControl.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::MenuIndio.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::NControl.Droid.Resource.Styleable.ActionBar = global::MenuIndio.Droid.Resource.Styleable.ActionBar;
+			global::NControl.Droid.Resource.Styleable.ActionBar_background = global::MenuIndio.Droid.Resource.Styleable.ActionBar_background;
+			global::NControl.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::MenuIndio.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::NControl.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::MenuIndio.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::NControl.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::MenuIndio.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::NControl.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::MenuIndio.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::NControl.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::MenuIndio.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::NControl.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::MenuIndio.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::NControl.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::MenuIndio.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::NControl.Droid.Resource.Styleable.ActionBar_displayOptions = global::MenuIndio.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::NControl.Droid.Resource.Styleable.ActionBar_divider = global::MenuIndio.Droid.Resource.Styleable.ActionBar_divider;
+			global::NControl.Droid.Resource.Styleable.ActionBar_elevation = global::MenuIndio.Droid.Resource.Styleable.ActionBar_elevation;
+			global::NControl.Droid.Resource.Styleable.ActionBar_height = global::MenuIndio.Droid.Resource.Styleable.ActionBar_height;
+			global::NControl.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::MenuIndio.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::NControl.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::MenuIndio.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::NControl.Droid.Resource.Styleable.ActionBar_homeLayout = global::MenuIndio.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::NControl.Droid.Resource.Styleable.ActionBar_icon = global::MenuIndio.Droid.Resource.Styleable.ActionBar_icon;
+			global::NControl.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::MenuIndio.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::NControl.Droid.Resource.Styleable.ActionBar_itemPadding = global::MenuIndio.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::NControl.Droid.Resource.Styleable.ActionBar_logo = global::MenuIndio.Droid.Resource.Styleable.ActionBar_logo;
+			global::NControl.Droid.Resource.Styleable.ActionBar_navigationMode = global::MenuIndio.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::NControl.Droid.Resource.Styleable.ActionBar_popupTheme = global::MenuIndio.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::NControl.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::MenuIndio.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::NControl.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::MenuIndio.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::NControl.Droid.Resource.Styleable.ActionBar_subtitle = global::MenuIndio.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::NControl.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::MenuIndio.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::NControl.Droid.Resource.Styleable.ActionBar_title = global::MenuIndio.Droid.Resource.Styleable.ActionBar_title;
+			global::NControl.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::MenuIndio.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::NControl.Droid.Resource.Styleable.ActionBarLayout = global::MenuIndio.Droid.Resource.Styleable.ActionBarLayout;
+			global::NControl.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::MenuIndio.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::NControl.Droid.Resource.Styleable.ActionMenuItemView = global::MenuIndio.Droid.Resource.Styleable.ActionMenuItemView;
+			global::NControl.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::MenuIndio.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::NControl.Droid.Resource.Styleable.ActionMenuView = global::MenuIndio.Droid.Resource.Styleable.ActionMenuView;
+			global::NControl.Droid.Resource.Styleable.ActionMode = global::MenuIndio.Droid.Resource.Styleable.ActionMode;
+			global::NControl.Droid.Resource.Styleable.ActionMode_background = global::MenuIndio.Droid.Resource.Styleable.ActionMode_background;
+			global::NControl.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::MenuIndio.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::NControl.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::MenuIndio.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::NControl.Droid.Resource.Styleable.ActionMode_height = global::MenuIndio.Droid.Resource.Styleable.ActionMode_height;
+			global::NControl.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::MenuIndio.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::NControl.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::MenuIndio.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::NControl.Droid.Resource.Styleable.ActivityChooserView = global::MenuIndio.Droid.Resource.Styleable.ActivityChooserView;
+			global::NControl.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::MenuIndio.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::NControl.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::MenuIndio.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::NControl.Droid.Resource.Styleable.AlertDialog = global::MenuIndio.Droid.Resource.Styleable.AlertDialog;
+			global::NControl.Droid.Resource.Styleable.AlertDialog_android_layout = global::MenuIndio.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::NControl.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::MenuIndio.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::NControl.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::MenuIndio.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::NControl.Droid.Resource.Styleable.AlertDialog_listLayout = global::MenuIndio.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::NControl.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::MenuIndio.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::NControl.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::MenuIndio.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::NControl.Droid.Resource.Styleable.AppBarLayout = global::MenuIndio.Droid.Resource.Styleable.AppBarLayout;
+			global::NControl.Droid.Resource.Styleable.AppBarLayout_android_background = global::MenuIndio.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::NControl.Droid.Resource.Styleable.AppBarLayout_elevation = global::MenuIndio.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::NControl.Droid.Resource.Styleable.AppBarLayout_expanded = global::MenuIndio.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::NControl.Droid.Resource.Styleable.AppCompatImageView = global::MenuIndio.Droid.Resource.Styleable.AppCompatImageView;
+			global::NControl.Droid.Resource.Styleable.AppCompatImageView_android_src = global::MenuIndio.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::NControl.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::MenuIndio.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::NControl.Droid.Resource.Styleable.AppCompatTextView = global::MenuIndio.Droid.Resource.Styleable.AppCompatTextView;
+			global::NControl.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::MenuIndio.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::NControl.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::MenuIndio.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::NControl.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::MenuIndio.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::NControl.Droid.Resource.Styleable.ButtonBarLayout = global::MenuIndio.Droid.Resource.Styleable.ButtonBarLayout;
+			global::NControl.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::MenuIndio.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::NControl.Droid.Resource.Styleable.CardView = global::MenuIndio.Droid.Resource.Styleable.CardView;
+			global::NControl.Droid.Resource.Styleable.CardView_android_minHeight = global::MenuIndio.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::NControl.Droid.Resource.Styleable.CardView_android_minWidth = global::MenuIndio.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::NControl.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::MenuIndio.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::NControl.Droid.Resource.Styleable.CardView_cardCornerRadius = global::MenuIndio.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::NControl.Droid.Resource.Styleable.CardView_cardElevation = global::MenuIndio.Droid.Resource.Styleable.CardView_cardElevation;
+			global::NControl.Droid.Resource.Styleable.CardView_cardMaxElevation = global::MenuIndio.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::NControl.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::MenuIndio.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::NControl.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::MenuIndio.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::NControl.Droid.Resource.Styleable.CardView_contentPadding = global::MenuIndio.Droid.Resource.Styleable.CardView_contentPadding;
+			global::NControl.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::MenuIndio.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::NControl.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::MenuIndio.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::NControl.Droid.Resource.Styleable.CardView_contentPaddingRight = global::MenuIndio.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::NControl.Droid.Resource.Styleable.CardView_contentPaddingTop = global::MenuIndio.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout = global::MenuIndio.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::MenuIndio.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::MenuIndio.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::MenuIndio.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::MenuIndio.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::MenuIndio.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::MenuIndio.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::MenuIndio.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::MenuIndio.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::MenuIndio.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::MenuIndio.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::MenuIndio.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::MenuIndio.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::MenuIndio.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::NControl.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::MenuIndio.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::NControl.Droid.Resource.Styleable.CompoundButton = global::MenuIndio.Droid.Resource.Styleable.CompoundButton;
+			global::NControl.Droid.Resource.Styleable.CompoundButton_android_button = global::MenuIndio.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::NControl.Droid.Resource.Styleable.CompoundButton_buttonTint = global::MenuIndio.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::NControl.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::MenuIndio.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::NControl.Droid.Resource.Styleable.CoordinatorLayout = global::MenuIndio.Droid.Resource.Styleable.CoordinatorLayout;
+			global::NControl.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::MenuIndio.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::NControl.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::MenuIndio.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::NControl.Droid.Resource.Styleable.DesignTheme = global::MenuIndio.Droid.Resource.Styleable.DesignTheme;
+			global::NControl.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::MenuIndio.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::NControl.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::MenuIndio.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::NControl.Droid.Resource.Styleable.DrawerArrowToggle = global::MenuIndio.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::NControl.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::MenuIndio.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::NControl.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::MenuIndio.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::NControl.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::MenuIndio.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::NControl.Droid.Resource.Styleable.DrawerArrowToggle_color = global::MenuIndio.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::NControl.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::MenuIndio.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::NControl.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::MenuIndio.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::NControl.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::MenuIndio.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::NControl.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::MenuIndio.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::NControl.Droid.Resource.Styleable.FloatingActionButton = global::MenuIndio.Droid.Resource.Styleable.FloatingActionButton;
+			global::NControl.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::MenuIndio.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::NControl.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::MenuIndio.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::NControl.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::MenuIndio.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::NControl.Droid.Resource.Styleable.FloatingActionButton_elevation = global::MenuIndio.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::NControl.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::MenuIndio.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::NControl.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::MenuIndio.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::NControl.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::MenuIndio.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::NControl.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::MenuIndio.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::NControl.Droid.Resource.Styleable.ForegroundLinearLayout = global::MenuIndio.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::NControl.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::MenuIndio.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::NControl.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::MenuIndio.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::NControl.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::MenuIndio.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat = global::MenuIndio.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::MenuIndio.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::MenuIndio.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::MenuIndio.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::MenuIndio.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::MenuIndio.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::MenuIndio.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::MenuIndio.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::MenuIndio.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::MenuIndio.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::MenuIndio.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::MenuIndio.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::MenuIndio.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::MenuIndio.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::NControl.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::MenuIndio.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::NControl.Droid.Resource.Styleable.ListPopupWindow = global::MenuIndio.Droid.Resource.Styleable.ListPopupWindow;
+			global::NControl.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::MenuIndio.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::NControl.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::MenuIndio.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::NControl.Droid.Resource.Styleable.MediaRouteButton = global::MenuIndio.Droid.Resource.Styleable.MediaRouteButton;
+			global::NControl.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::MenuIndio.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::NControl.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::MenuIndio.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::NControl.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::MenuIndio.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::NControl.Droid.Resource.Styleable.MenuGroup = global::MenuIndio.Droid.Resource.Styleable.MenuGroup;
+			global::NControl.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::MenuIndio.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::NControl.Droid.Resource.Styleable.MenuGroup_android_enabled = global::MenuIndio.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::NControl.Droid.Resource.Styleable.MenuGroup_android_id = global::MenuIndio.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::NControl.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::MenuIndio.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::NControl.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::MenuIndio.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::NControl.Droid.Resource.Styleable.MenuGroup_android_visible = global::MenuIndio.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::NControl.Droid.Resource.Styleable.MenuItem = global::MenuIndio.Droid.Resource.Styleable.MenuItem;
+			global::NControl.Droid.Resource.Styleable.MenuItem_actionLayout = global::MenuIndio.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::NControl.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::MenuIndio.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::NControl.Droid.Resource.Styleable.MenuItem_actionViewClass = global::MenuIndio.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::NControl.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::MenuIndio.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::NControl.Droid.Resource.Styleable.MenuItem_android_checkable = global::MenuIndio.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::NControl.Droid.Resource.Styleable.MenuItem_android_checked = global::MenuIndio.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::NControl.Droid.Resource.Styleable.MenuItem_android_enabled = global::MenuIndio.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::NControl.Droid.Resource.Styleable.MenuItem_android_icon = global::MenuIndio.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::NControl.Droid.Resource.Styleable.MenuItem_android_id = global::MenuIndio.Droid.Resource.Styleable.MenuItem_android_id;
+			global::NControl.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::MenuIndio.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::NControl.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::MenuIndio.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::NControl.Droid.Resource.Styleable.MenuItem_android_onClick = global::MenuIndio.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::NControl.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::MenuIndio.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::NControl.Droid.Resource.Styleable.MenuItem_android_title = global::MenuIndio.Droid.Resource.Styleable.MenuItem_android_title;
+			global::NControl.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::MenuIndio.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::NControl.Droid.Resource.Styleable.MenuItem_android_visible = global::MenuIndio.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::NControl.Droid.Resource.Styleable.MenuItem_showAsAction = global::MenuIndio.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::NControl.Droid.Resource.Styleable.MenuView = global::MenuIndio.Droid.Resource.Styleable.MenuView;
+			global::NControl.Droid.Resource.Styleable.MenuView_android_headerBackground = global::MenuIndio.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::NControl.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::MenuIndio.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::NControl.Droid.Resource.Styleable.MenuView_android_itemBackground = global::MenuIndio.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::NControl.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::MenuIndio.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::NControl.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::MenuIndio.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::NControl.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::MenuIndio.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::NControl.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::MenuIndio.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::NControl.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::MenuIndio.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::NControl.Droid.Resource.Styleable.NavigationView = global::MenuIndio.Droid.Resource.Styleable.NavigationView;
+			global::NControl.Droid.Resource.Styleable.NavigationView_android_background = global::MenuIndio.Droid.Resource.Styleable.NavigationView_android_background;
+			global::NControl.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::MenuIndio.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::NControl.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::MenuIndio.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::NControl.Droid.Resource.Styleable.NavigationView_elevation = global::MenuIndio.Droid.Resource.Styleable.NavigationView_elevation;
+			global::NControl.Droid.Resource.Styleable.NavigationView_headerLayout = global::MenuIndio.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::NControl.Droid.Resource.Styleable.NavigationView_itemBackground = global::MenuIndio.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::NControl.Droid.Resource.Styleable.NavigationView_itemIconTint = global::MenuIndio.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::NControl.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::MenuIndio.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::NControl.Droid.Resource.Styleable.NavigationView_itemTextColor = global::MenuIndio.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::NControl.Droid.Resource.Styleable.NavigationView_menu = global::MenuIndio.Droid.Resource.Styleable.NavigationView_menu;
+			global::NControl.Droid.Resource.Styleable.PopupWindow = global::MenuIndio.Droid.Resource.Styleable.PopupWindow;
+			global::NControl.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::MenuIndio.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::NControl.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::MenuIndio.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::NControl.Droid.Resource.Styleable.PopupWindowBackgroundState = global::MenuIndio.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::NControl.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::MenuIndio.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::NControl.Droid.Resource.Styleable.RecyclerView = global::MenuIndio.Droid.Resource.Styleable.RecyclerView;
+			global::NControl.Droid.Resource.Styleable.RecyclerView_android_orientation = global::MenuIndio.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::NControl.Droid.Resource.Styleable.RecyclerView_layoutManager = global::MenuIndio.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::NControl.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::MenuIndio.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::NControl.Droid.Resource.Styleable.RecyclerView_spanCount = global::MenuIndio.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::NControl.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::MenuIndio.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::NControl.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::MenuIndio.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::NControl.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::MenuIndio.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::NControl.Droid.Resource.Styleable.SearchView = global::MenuIndio.Droid.Resource.Styleable.SearchView;
+			global::NControl.Droid.Resource.Styleable.SearchView_android_focusable = global::MenuIndio.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::NControl.Droid.Resource.Styleable.SearchView_android_imeOptions = global::MenuIndio.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::NControl.Droid.Resource.Styleable.SearchView_android_inputType = global::MenuIndio.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::NControl.Droid.Resource.Styleable.SearchView_android_maxWidth = global::MenuIndio.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::NControl.Droid.Resource.Styleable.SearchView_closeIcon = global::MenuIndio.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::NControl.Droid.Resource.Styleable.SearchView_commitIcon = global::MenuIndio.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::NControl.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::MenuIndio.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::NControl.Droid.Resource.Styleable.SearchView_goIcon = global::MenuIndio.Droid.Resource.Styleable.SearchView_goIcon;
+			global::NControl.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::MenuIndio.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::NControl.Droid.Resource.Styleable.SearchView_layout = global::MenuIndio.Droid.Resource.Styleable.SearchView_layout;
+			global::NControl.Droid.Resource.Styleable.SearchView_queryBackground = global::MenuIndio.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::NControl.Droid.Resource.Styleable.SearchView_queryHint = global::MenuIndio.Droid.Resource.Styleable.SearchView_queryHint;
+			global::NControl.Droid.Resource.Styleable.SearchView_searchHintIcon = global::MenuIndio.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::NControl.Droid.Resource.Styleable.SearchView_searchIcon = global::MenuIndio.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::NControl.Droid.Resource.Styleable.SearchView_submitBackground = global::MenuIndio.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::NControl.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::MenuIndio.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::NControl.Droid.Resource.Styleable.SearchView_voiceIcon = global::MenuIndio.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::NControl.Droid.Resource.Styleable.SnackbarLayout = global::MenuIndio.Droid.Resource.Styleable.SnackbarLayout;
+			global::NControl.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::MenuIndio.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::NControl.Droid.Resource.Styleable.SnackbarLayout_elevation = global::MenuIndio.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::NControl.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::MenuIndio.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::NControl.Droid.Resource.Styleable.Spinner = global::MenuIndio.Droid.Resource.Styleable.Spinner;
+			global::NControl.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::MenuIndio.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::NControl.Droid.Resource.Styleable.Spinner_android_entries = global::MenuIndio.Droid.Resource.Styleable.Spinner_android_entries;
+			global::NControl.Droid.Resource.Styleable.Spinner_android_popupBackground = global::MenuIndio.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::NControl.Droid.Resource.Styleable.Spinner_android_prompt = global::MenuIndio.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::NControl.Droid.Resource.Styleable.Spinner_popupTheme = global::MenuIndio.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::NControl.Droid.Resource.Styleable.SwitchCompat = global::MenuIndio.Droid.Resource.Styleable.SwitchCompat;
+			global::NControl.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::MenuIndio.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::NControl.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::MenuIndio.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::NControl.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::MenuIndio.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::NControl.Droid.Resource.Styleable.SwitchCompat_showText = global::MenuIndio.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::NControl.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::MenuIndio.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::NControl.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::MenuIndio.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::NControl.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::MenuIndio.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::NControl.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::MenuIndio.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::NControl.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::MenuIndio.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::NControl.Droid.Resource.Styleable.SwitchCompat_track = global::MenuIndio.Droid.Resource.Styleable.SwitchCompat_track;
+			global::NControl.Droid.Resource.Styleable.TabItem = global::MenuIndio.Droid.Resource.Styleable.TabItem;
+			global::NControl.Droid.Resource.Styleable.TabItem_android_icon = global::MenuIndio.Droid.Resource.Styleable.TabItem_android_icon;
+			global::NControl.Droid.Resource.Styleable.TabItem_android_layout = global::MenuIndio.Droid.Resource.Styleable.TabItem_android_layout;
+			global::NControl.Droid.Resource.Styleable.TabItem_android_text = global::MenuIndio.Droid.Resource.Styleable.TabItem_android_text;
+			global::NControl.Droid.Resource.Styleable.TabLayout = global::MenuIndio.Droid.Resource.Styleable.TabLayout;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabBackground = global::MenuIndio.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabContentStart = global::MenuIndio.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabGravity = global::MenuIndio.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::MenuIndio.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::MenuIndio.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::MenuIndio.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::MenuIndio.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabMode = global::MenuIndio.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabPadding = global::MenuIndio.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::MenuIndio.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::MenuIndio.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::MenuIndio.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::MenuIndio.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::MenuIndio.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::MenuIndio.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::NControl.Droid.Resource.Styleable.TabLayout_tabTextColor = global::MenuIndio.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::NControl.Droid.Resource.Styleable.TextAppearance = global::MenuIndio.Droid.Resource.Styleable.TextAppearance;
+			global::NControl.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::MenuIndio.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::NControl.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::MenuIndio.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::NControl.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::MenuIndio.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::NControl.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::MenuIndio.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::NControl.Droid.Resource.Styleable.TextAppearance_android_textColor = global::MenuIndio.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::NControl.Droid.Resource.Styleable.TextAppearance_android_textSize = global::MenuIndio.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::NControl.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::MenuIndio.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::NControl.Droid.Resource.Styleable.TextAppearance_android_typeface = global::MenuIndio.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::NControl.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::MenuIndio.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::NControl.Droid.Resource.Styleable.TextInputLayout = global::MenuIndio.Droid.Resource.Styleable.TextInputLayout;
+			global::NControl.Droid.Resource.Styleable.TextInputLayout_android_hint = global::MenuIndio.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::NControl.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::MenuIndio.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::NControl.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::MenuIndio.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::NControl.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::MenuIndio.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::NControl.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::MenuIndio.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::NControl.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::MenuIndio.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::NControl.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::MenuIndio.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::NControl.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::MenuIndio.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::NControl.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::MenuIndio.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::NControl.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::MenuIndio.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::NControl.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::MenuIndio.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::NControl.Droid.Resource.Styleable.Toolbar = global::MenuIndio.Droid.Resource.Styleable.Toolbar;
+			global::NControl.Droid.Resource.Styleable.Toolbar_android_gravity = global::MenuIndio.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::NControl.Droid.Resource.Styleable.Toolbar_android_minHeight = global::MenuIndio.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::NControl.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::MenuIndio.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::NControl.Droid.Resource.Styleable.Toolbar_collapseIcon = global::MenuIndio.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::NControl.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::MenuIndio.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::NControl.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::MenuIndio.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::NControl.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::MenuIndio.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::NControl.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::MenuIndio.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::NControl.Droid.Resource.Styleable.Toolbar_logo = global::MenuIndio.Droid.Resource.Styleable.Toolbar_logo;
+			global::NControl.Droid.Resource.Styleable.Toolbar_logoDescription = global::MenuIndio.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::NControl.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::MenuIndio.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::NControl.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::MenuIndio.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::NControl.Droid.Resource.Styleable.Toolbar_navigationIcon = global::MenuIndio.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::NControl.Droid.Resource.Styleable.Toolbar_popupTheme = global::MenuIndio.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::NControl.Droid.Resource.Styleable.Toolbar_subtitle = global::MenuIndio.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::NControl.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::MenuIndio.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::NControl.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::MenuIndio.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::NControl.Droid.Resource.Styleable.Toolbar_title = global::MenuIndio.Droid.Resource.Styleable.Toolbar_title;
+			global::NControl.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::MenuIndio.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::NControl.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::MenuIndio.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::NControl.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::MenuIndio.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::NControl.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::MenuIndio.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::NControl.Droid.Resource.Styleable.Toolbar_titleMargins = global::MenuIndio.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::NControl.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::MenuIndio.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::NControl.Droid.Resource.Styleable.Toolbar_titleTextColor = global::MenuIndio.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::NControl.Droid.Resource.Styleable.View = global::MenuIndio.Droid.Resource.Styleable.View;
+			global::NControl.Droid.Resource.Styleable.View_android_focusable = global::MenuIndio.Droid.Resource.Styleable.View_android_focusable;
+			global::NControl.Droid.Resource.Styleable.View_android_theme = global::MenuIndio.Droid.Resource.Styleable.View_android_theme;
+			global::NControl.Droid.Resource.Styleable.View_paddingEnd = global::MenuIndio.Droid.Resource.Styleable.View_paddingEnd;
+			global::NControl.Droid.Resource.Styleable.View_paddingStart = global::MenuIndio.Droid.Resource.Styleable.View_paddingStart;
+			global::NControl.Droid.Resource.Styleable.View_theme = global::MenuIndio.Droid.Resource.Styleable.View_theme;
+			global::NControl.Droid.Resource.Styleable.ViewBackgroundHelper = global::MenuIndio.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::NControl.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::MenuIndio.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::NControl.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::MenuIndio.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::NControl.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::MenuIndio.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::NControl.Droid.Resource.Styleable.ViewStubCompat = global::MenuIndio.Droid.Resource.Styleable.ViewStubCompat;
+			global::NControl.Droid.Resource.Styleable.ViewStubCompat_android_id = global::MenuIndio.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::NControl.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::MenuIndio.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::NControl.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::MenuIndio.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::NGraphics.Android.Resource.String.library_name = global::MenuIndio.Droid.Resource.String.library_name;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::MenuIndio.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::MenuIndio.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::MenuIndio.Droid.Resource.Attribute.font;
@@ -6400,613 +8011,616 @@ namespace MenuIndio.Droid
 			public const int ic_invitar = 2131165340;
 			
 			// aapt resource value: 0x7F07009D
-			public const int ic_maps = 2131165341;
+			public const int ic_LogOut = 2131165341;
 			
 			// aapt resource value: 0x7F07009E
-			public const int ic_media_pause_dark = 2131165342;
+			public const int ic_maps = 2131165342;
 			
 			// aapt resource value: 0x7F07009F
-			public const int ic_media_pause_light = 2131165343;
+			public const int ic_media_pause_dark = 2131165343;
 			
 			// aapt resource value: 0x7F0700A0
-			public const int ic_media_play_dark = 2131165344;
+			public const int ic_media_pause_light = 2131165344;
 			
 			// aapt resource value: 0x7F0700A1
-			public const int ic_media_play_light = 2131165345;
+			public const int ic_media_play_dark = 2131165345;
 			
 			// aapt resource value: 0x7F0700A2
-			public const int ic_media_stop_dark = 2131165346;
+			public const int ic_media_play_light = 2131165346;
 			
 			// aapt resource value: 0x7F0700A3
-			public const int ic_media_stop_light = 2131165347;
+			public const int ic_media_stop_dark = 2131165347;
 			
 			// aapt resource value: 0x7F0700A4
-			public const int ic_mr_button_connected_00_dark = 2131165348;
+			public const int ic_media_stop_light = 2131165348;
 			
 			// aapt resource value: 0x7F0700A5
-			public const int ic_mr_button_connected_00_light = 2131165349;
+			public const int ic_mr_button_connected_00_dark = 2131165349;
 			
 			// aapt resource value: 0x7F0700A6
-			public const int ic_mr_button_connected_01_dark = 2131165350;
+			public const int ic_mr_button_connected_00_light = 2131165350;
 			
 			// aapt resource value: 0x7F0700A7
-			public const int ic_mr_button_connected_01_light = 2131165351;
+			public const int ic_mr_button_connected_01_dark = 2131165351;
 			
 			// aapt resource value: 0x7F0700A8
-			public const int ic_mr_button_connected_02_dark = 2131165352;
+			public const int ic_mr_button_connected_01_light = 2131165352;
 			
 			// aapt resource value: 0x7F0700A9
-			public const int ic_mr_button_connected_02_light = 2131165353;
+			public const int ic_mr_button_connected_02_dark = 2131165353;
 			
 			// aapt resource value: 0x7F0700AA
-			public const int ic_mr_button_connected_03_dark = 2131165354;
+			public const int ic_mr_button_connected_02_light = 2131165354;
 			
 			// aapt resource value: 0x7F0700AB
-			public const int ic_mr_button_connected_03_light = 2131165355;
+			public const int ic_mr_button_connected_03_dark = 2131165355;
 			
 			// aapt resource value: 0x7F0700AC
-			public const int ic_mr_button_connected_04_dark = 2131165356;
+			public const int ic_mr_button_connected_03_light = 2131165356;
 			
 			// aapt resource value: 0x7F0700AD
-			public const int ic_mr_button_connected_04_light = 2131165357;
+			public const int ic_mr_button_connected_04_dark = 2131165357;
 			
 			// aapt resource value: 0x7F0700AE
-			public const int ic_mr_button_connected_05_dark = 2131165358;
+			public const int ic_mr_button_connected_04_light = 2131165358;
 			
 			// aapt resource value: 0x7F0700AF
-			public const int ic_mr_button_connected_05_light = 2131165359;
+			public const int ic_mr_button_connected_05_dark = 2131165359;
 			
 			// aapt resource value: 0x7F0700B0
-			public const int ic_mr_button_connected_06_dark = 2131165360;
+			public const int ic_mr_button_connected_05_light = 2131165360;
 			
 			// aapt resource value: 0x7F0700B1
-			public const int ic_mr_button_connected_06_light = 2131165361;
+			public const int ic_mr_button_connected_06_dark = 2131165361;
 			
 			// aapt resource value: 0x7F0700B2
-			public const int ic_mr_button_connected_07_dark = 2131165362;
+			public const int ic_mr_button_connected_06_light = 2131165362;
 			
 			// aapt resource value: 0x7F0700B3
-			public const int ic_mr_button_connected_07_light = 2131165363;
+			public const int ic_mr_button_connected_07_dark = 2131165363;
 			
 			// aapt resource value: 0x7F0700B4
-			public const int ic_mr_button_connected_08_dark = 2131165364;
+			public const int ic_mr_button_connected_07_light = 2131165364;
 			
 			// aapt resource value: 0x7F0700B5
-			public const int ic_mr_button_connected_08_light = 2131165365;
+			public const int ic_mr_button_connected_08_dark = 2131165365;
 			
 			// aapt resource value: 0x7F0700B6
-			public const int ic_mr_button_connected_09_dark = 2131165366;
+			public const int ic_mr_button_connected_08_light = 2131165366;
 			
 			// aapt resource value: 0x7F0700B7
-			public const int ic_mr_button_connected_09_light = 2131165367;
+			public const int ic_mr_button_connected_09_dark = 2131165367;
 			
 			// aapt resource value: 0x7F0700B8
-			public const int ic_mr_button_connected_10_dark = 2131165368;
+			public const int ic_mr_button_connected_09_light = 2131165368;
 			
 			// aapt resource value: 0x7F0700B9
-			public const int ic_mr_button_connected_10_light = 2131165369;
+			public const int ic_mr_button_connected_10_dark = 2131165369;
 			
 			// aapt resource value: 0x7F0700BA
-			public const int ic_mr_button_connected_11_dark = 2131165370;
+			public const int ic_mr_button_connected_10_light = 2131165370;
 			
 			// aapt resource value: 0x7F0700BB
-			public const int ic_mr_button_connected_11_light = 2131165371;
+			public const int ic_mr_button_connected_11_dark = 2131165371;
 			
 			// aapt resource value: 0x7F0700BC
-			public const int ic_mr_button_connected_12_dark = 2131165372;
+			public const int ic_mr_button_connected_11_light = 2131165372;
 			
 			// aapt resource value: 0x7F0700BD
-			public const int ic_mr_button_connected_12_light = 2131165373;
+			public const int ic_mr_button_connected_12_dark = 2131165373;
 			
 			// aapt resource value: 0x7F0700BE
-			public const int ic_mr_button_connected_13_dark = 2131165374;
+			public const int ic_mr_button_connected_12_light = 2131165374;
 			
 			// aapt resource value: 0x7F0700BF
-			public const int ic_mr_button_connected_13_light = 2131165375;
+			public const int ic_mr_button_connected_13_dark = 2131165375;
 			
 			// aapt resource value: 0x7F0700C0
-			public const int ic_mr_button_connected_14_dark = 2131165376;
+			public const int ic_mr_button_connected_13_light = 2131165376;
 			
 			// aapt resource value: 0x7F0700C1
-			public const int ic_mr_button_connected_14_light = 2131165377;
+			public const int ic_mr_button_connected_14_dark = 2131165377;
 			
 			// aapt resource value: 0x7F0700C2
-			public const int ic_mr_button_connected_15_dark = 2131165378;
+			public const int ic_mr_button_connected_14_light = 2131165378;
 			
 			// aapt resource value: 0x7F0700C3
-			public const int ic_mr_button_connected_15_light = 2131165379;
+			public const int ic_mr_button_connected_15_dark = 2131165379;
 			
 			// aapt resource value: 0x7F0700C4
-			public const int ic_mr_button_connected_16_dark = 2131165380;
+			public const int ic_mr_button_connected_15_light = 2131165380;
 			
 			// aapt resource value: 0x7F0700C5
-			public const int ic_mr_button_connected_16_light = 2131165381;
+			public const int ic_mr_button_connected_16_dark = 2131165381;
 			
 			// aapt resource value: 0x7F0700C6
-			public const int ic_mr_button_connected_17_dark = 2131165382;
+			public const int ic_mr_button_connected_16_light = 2131165382;
 			
 			// aapt resource value: 0x7F0700C7
-			public const int ic_mr_button_connected_17_light = 2131165383;
+			public const int ic_mr_button_connected_17_dark = 2131165383;
 			
 			// aapt resource value: 0x7F0700C8
-			public const int ic_mr_button_connected_18_dark = 2131165384;
+			public const int ic_mr_button_connected_17_light = 2131165384;
 			
 			// aapt resource value: 0x7F0700C9
-			public const int ic_mr_button_connected_18_light = 2131165385;
+			public const int ic_mr_button_connected_18_dark = 2131165385;
 			
 			// aapt resource value: 0x7F0700CA
-			public const int ic_mr_button_connected_19_dark = 2131165386;
+			public const int ic_mr_button_connected_18_light = 2131165386;
 			
 			// aapt resource value: 0x7F0700CB
-			public const int ic_mr_button_connected_19_light = 2131165387;
+			public const int ic_mr_button_connected_19_dark = 2131165387;
 			
 			// aapt resource value: 0x7F0700CC
-			public const int ic_mr_button_connected_20_dark = 2131165388;
+			public const int ic_mr_button_connected_19_light = 2131165388;
 			
 			// aapt resource value: 0x7F0700CD
-			public const int ic_mr_button_connected_20_light = 2131165389;
+			public const int ic_mr_button_connected_20_dark = 2131165389;
 			
 			// aapt resource value: 0x7F0700CE
-			public const int ic_mr_button_connected_21_dark = 2131165390;
+			public const int ic_mr_button_connected_20_light = 2131165390;
 			
 			// aapt resource value: 0x7F0700CF
-			public const int ic_mr_button_connected_21_light = 2131165391;
+			public const int ic_mr_button_connected_21_dark = 2131165391;
 			
 			// aapt resource value: 0x7F0700D0
-			public const int ic_mr_button_connected_22_dark = 2131165392;
+			public const int ic_mr_button_connected_21_light = 2131165392;
 			
 			// aapt resource value: 0x7F0700D1
-			public const int ic_mr_button_connected_22_light = 2131165393;
+			public const int ic_mr_button_connected_22_dark = 2131165393;
 			
 			// aapt resource value: 0x7F0700D2
-			public const int ic_mr_button_connected_23_dark = 2131165394;
+			public const int ic_mr_button_connected_22_light = 2131165394;
 			
 			// aapt resource value: 0x7F0700D3
-			public const int ic_mr_button_connected_23_light = 2131165395;
+			public const int ic_mr_button_connected_23_dark = 2131165395;
 			
 			// aapt resource value: 0x7F0700D4
-			public const int ic_mr_button_connected_24_dark = 2131165396;
+			public const int ic_mr_button_connected_23_light = 2131165396;
 			
 			// aapt resource value: 0x7F0700D5
-			public const int ic_mr_button_connected_24_light = 2131165397;
+			public const int ic_mr_button_connected_24_dark = 2131165397;
 			
 			// aapt resource value: 0x7F0700D6
-			public const int ic_mr_button_connected_25_dark = 2131165398;
+			public const int ic_mr_button_connected_24_light = 2131165398;
 			
 			// aapt resource value: 0x7F0700D7
-			public const int ic_mr_button_connected_25_light = 2131165399;
+			public const int ic_mr_button_connected_25_dark = 2131165399;
 			
 			// aapt resource value: 0x7F0700D8
-			public const int ic_mr_button_connected_26_dark = 2131165400;
+			public const int ic_mr_button_connected_25_light = 2131165400;
 			
 			// aapt resource value: 0x7F0700D9
-			public const int ic_mr_button_connected_26_light = 2131165401;
+			public const int ic_mr_button_connected_26_dark = 2131165401;
 			
 			// aapt resource value: 0x7F0700DA
-			public const int ic_mr_button_connected_27_dark = 2131165402;
+			public const int ic_mr_button_connected_26_light = 2131165402;
 			
 			// aapt resource value: 0x7F0700DB
-			public const int ic_mr_button_connected_27_light = 2131165403;
+			public const int ic_mr_button_connected_27_dark = 2131165403;
 			
 			// aapt resource value: 0x7F0700DC
-			public const int ic_mr_button_connected_28_dark = 2131165404;
+			public const int ic_mr_button_connected_27_light = 2131165404;
 			
 			// aapt resource value: 0x7F0700DD
-			public const int ic_mr_button_connected_28_light = 2131165405;
+			public const int ic_mr_button_connected_28_dark = 2131165405;
 			
 			// aapt resource value: 0x7F0700DE
-			public const int ic_mr_button_connected_29_dark = 2131165406;
+			public const int ic_mr_button_connected_28_light = 2131165406;
 			
 			// aapt resource value: 0x7F0700DF
-			public const int ic_mr_button_connected_29_light = 2131165407;
+			public const int ic_mr_button_connected_29_dark = 2131165407;
 			
 			// aapt resource value: 0x7F0700E0
-			public const int ic_mr_button_connected_30_dark = 2131165408;
+			public const int ic_mr_button_connected_29_light = 2131165408;
 			
 			// aapt resource value: 0x7F0700E1
-			public const int ic_mr_button_connected_30_light = 2131165409;
+			public const int ic_mr_button_connected_30_dark = 2131165409;
 			
 			// aapt resource value: 0x7F0700E2
-			public const int ic_mr_button_connecting_00_dark = 2131165410;
+			public const int ic_mr_button_connected_30_light = 2131165410;
 			
 			// aapt resource value: 0x7F0700E3
-			public const int ic_mr_button_connecting_00_light = 2131165411;
+			public const int ic_mr_button_connecting_00_dark = 2131165411;
 			
 			// aapt resource value: 0x7F0700E4
-			public const int ic_mr_button_connecting_01_dark = 2131165412;
+			public const int ic_mr_button_connecting_00_light = 2131165412;
 			
 			// aapt resource value: 0x7F0700E5
-			public const int ic_mr_button_connecting_01_light = 2131165413;
+			public const int ic_mr_button_connecting_01_dark = 2131165413;
 			
 			// aapt resource value: 0x7F0700E6
-			public const int ic_mr_button_connecting_02_dark = 2131165414;
+			public const int ic_mr_button_connecting_01_light = 2131165414;
 			
 			// aapt resource value: 0x7F0700E7
-			public const int ic_mr_button_connecting_02_light = 2131165415;
+			public const int ic_mr_button_connecting_02_dark = 2131165415;
 			
 			// aapt resource value: 0x7F0700E8
-			public const int ic_mr_button_connecting_03_dark = 2131165416;
+			public const int ic_mr_button_connecting_02_light = 2131165416;
 			
 			// aapt resource value: 0x7F0700E9
-			public const int ic_mr_button_connecting_03_light = 2131165417;
+			public const int ic_mr_button_connecting_03_dark = 2131165417;
 			
 			// aapt resource value: 0x7F0700EA
-			public const int ic_mr_button_connecting_04_dark = 2131165418;
+			public const int ic_mr_button_connecting_03_light = 2131165418;
 			
 			// aapt resource value: 0x7F0700EB
-			public const int ic_mr_button_connecting_04_light = 2131165419;
+			public const int ic_mr_button_connecting_04_dark = 2131165419;
 			
 			// aapt resource value: 0x7F0700EC
-			public const int ic_mr_button_connecting_05_dark = 2131165420;
+			public const int ic_mr_button_connecting_04_light = 2131165420;
 			
 			// aapt resource value: 0x7F0700ED
-			public const int ic_mr_button_connecting_05_light = 2131165421;
+			public const int ic_mr_button_connecting_05_dark = 2131165421;
 			
 			// aapt resource value: 0x7F0700EE
-			public const int ic_mr_button_connecting_06_dark = 2131165422;
+			public const int ic_mr_button_connecting_05_light = 2131165422;
 			
 			// aapt resource value: 0x7F0700EF
-			public const int ic_mr_button_connecting_06_light = 2131165423;
+			public const int ic_mr_button_connecting_06_dark = 2131165423;
 			
 			// aapt resource value: 0x7F0700F0
-			public const int ic_mr_button_connecting_07_dark = 2131165424;
+			public const int ic_mr_button_connecting_06_light = 2131165424;
 			
 			// aapt resource value: 0x7F0700F1
-			public const int ic_mr_button_connecting_07_light = 2131165425;
+			public const int ic_mr_button_connecting_07_dark = 2131165425;
 			
 			// aapt resource value: 0x7F0700F2
-			public const int ic_mr_button_connecting_08_dark = 2131165426;
+			public const int ic_mr_button_connecting_07_light = 2131165426;
 			
 			// aapt resource value: 0x7F0700F3
-			public const int ic_mr_button_connecting_08_light = 2131165427;
+			public const int ic_mr_button_connecting_08_dark = 2131165427;
 			
 			// aapt resource value: 0x7F0700F4
-			public const int ic_mr_button_connecting_09_dark = 2131165428;
+			public const int ic_mr_button_connecting_08_light = 2131165428;
 			
 			// aapt resource value: 0x7F0700F5
-			public const int ic_mr_button_connecting_09_light = 2131165429;
+			public const int ic_mr_button_connecting_09_dark = 2131165429;
 			
 			// aapt resource value: 0x7F0700F6
-			public const int ic_mr_button_connecting_10_dark = 2131165430;
+			public const int ic_mr_button_connecting_09_light = 2131165430;
 			
 			// aapt resource value: 0x7F0700F7
-			public const int ic_mr_button_connecting_10_light = 2131165431;
+			public const int ic_mr_button_connecting_10_dark = 2131165431;
 			
 			// aapt resource value: 0x7F0700F8
-			public const int ic_mr_button_connecting_11_dark = 2131165432;
+			public const int ic_mr_button_connecting_10_light = 2131165432;
 			
 			// aapt resource value: 0x7F0700F9
-			public const int ic_mr_button_connecting_11_light = 2131165433;
+			public const int ic_mr_button_connecting_11_dark = 2131165433;
 			
 			// aapt resource value: 0x7F0700FA
-			public const int ic_mr_button_connecting_12_dark = 2131165434;
+			public const int ic_mr_button_connecting_11_light = 2131165434;
 			
 			// aapt resource value: 0x7F0700FB
-			public const int ic_mr_button_connecting_12_light = 2131165435;
+			public const int ic_mr_button_connecting_12_dark = 2131165435;
 			
 			// aapt resource value: 0x7F0700FC
-			public const int ic_mr_button_connecting_13_dark = 2131165436;
+			public const int ic_mr_button_connecting_12_light = 2131165436;
 			
 			// aapt resource value: 0x7F0700FD
-			public const int ic_mr_button_connecting_13_light = 2131165437;
+			public const int ic_mr_button_connecting_13_dark = 2131165437;
 			
 			// aapt resource value: 0x7F0700FE
-			public const int ic_mr_button_connecting_14_dark = 2131165438;
+			public const int ic_mr_button_connecting_13_light = 2131165438;
 			
 			// aapt resource value: 0x7F0700FF
-			public const int ic_mr_button_connecting_14_light = 2131165439;
+			public const int ic_mr_button_connecting_14_dark = 2131165439;
 			
 			// aapt resource value: 0x7F070100
-			public const int ic_mr_button_connecting_15_dark = 2131165440;
+			public const int ic_mr_button_connecting_14_light = 2131165440;
 			
 			// aapt resource value: 0x7F070101
-			public const int ic_mr_button_connecting_15_light = 2131165441;
+			public const int ic_mr_button_connecting_15_dark = 2131165441;
 			
 			// aapt resource value: 0x7F070102
-			public const int ic_mr_button_connecting_16_dark = 2131165442;
+			public const int ic_mr_button_connecting_15_light = 2131165442;
 			
 			// aapt resource value: 0x7F070103
-			public const int ic_mr_button_connecting_16_light = 2131165443;
+			public const int ic_mr_button_connecting_16_dark = 2131165443;
 			
 			// aapt resource value: 0x7F070104
-			public const int ic_mr_button_connecting_17_dark = 2131165444;
+			public const int ic_mr_button_connecting_16_light = 2131165444;
 			
 			// aapt resource value: 0x7F070105
-			public const int ic_mr_button_connecting_17_light = 2131165445;
+			public const int ic_mr_button_connecting_17_dark = 2131165445;
 			
 			// aapt resource value: 0x7F070106
-			public const int ic_mr_button_connecting_18_dark = 2131165446;
+			public const int ic_mr_button_connecting_17_light = 2131165446;
 			
 			// aapt resource value: 0x7F070107
-			public const int ic_mr_button_connecting_18_light = 2131165447;
+			public const int ic_mr_button_connecting_18_dark = 2131165447;
 			
 			// aapt resource value: 0x7F070108
-			public const int ic_mr_button_connecting_19_dark = 2131165448;
+			public const int ic_mr_button_connecting_18_light = 2131165448;
 			
 			// aapt resource value: 0x7F070109
-			public const int ic_mr_button_connecting_19_light = 2131165449;
+			public const int ic_mr_button_connecting_19_dark = 2131165449;
 			
 			// aapt resource value: 0x7F07010A
-			public const int ic_mr_button_connecting_20_dark = 2131165450;
+			public const int ic_mr_button_connecting_19_light = 2131165450;
 			
 			// aapt resource value: 0x7F07010B
-			public const int ic_mr_button_connecting_20_light = 2131165451;
+			public const int ic_mr_button_connecting_20_dark = 2131165451;
 			
 			// aapt resource value: 0x7F07010C
-			public const int ic_mr_button_connecting_21_dark = 2131165452;
+			public const int ic_mr_button_connecting_20_light = 2131165452;
 			
 			// aapt resource value: 0x7F07010D
-			public const int ic_mr_button_connecting_21_light = 2131165453;
+			public const int ic_mr_button_connecting_21_dark = 2131165453;
 			
 			// aapt resource value: 0x7F07010E
-			public const int ic_mr_button_connecting_22_dark = 2131165454;
+			public const int ic_mr_button_connecting_21_light = 2131165454;
 			
 			// aapt resource value: 0x7F07010F
-			public const int ic_mr_button_connecting_22_light = 2131165455;
+			public const int ic_mr_button_connecting_22_dark = 2131165455;
 			
 			// aapt resource value: 0x7F070110
-			public const int ic_mr_button_connecting_23_dark = 2131165456;
+			public const int ic_mr_button_connecting_22_light = 2131165456;
 			
 			// aapt resource value: 0x7F070111
-			public const int ic_mr_button_connecting_23_light = 2131165457;
+			public const int ic_mr_button_connecting_23_dark = 2131165457;
 			
 			// aapt resource value: 0x7F070112
-			public const int ic_mr_button_connecting_24_dark = 2131165458;
+			public const int ic_mr_button_connecting_23_light = 2131165458;
 			
 			// aapt resource value: 0x7F070113
-			public const int ic_mr_button_connecting_24_light = 2131165459;
+			public const int ic_mr_button_connecting_24_dark = 2131165459;
 			
 			// aapt resource value: 0x7F070114
-			public const int ic_mr_button_connecting_25_dark = 2131165460;
+			public const int ic_mr_button_connecting_24_light = 2131165460;
 			
 			// aapt resource value: 0x7F070115
-			public const int ic_mr_button_connecting_25_light = 2131165461;
+			public const int ic_mr_button_connecting_25_dark = 2131165461;
 			
 			// aapt resource value: 0x7F070116
-			public const int ic_mr_button_connecting_26_dark = 2131165462;
+			public const int ic_mr_button_connecting_25_light = 2131165462;
 			
 			// aapt resource value: 0x7F070117
-			public const int ic_mr_button_connecting_26_light = 2131165463;
+			public const int ic_mr_button_connecting_26_dark = 2131165463;
 			
 			// aapt resource value: 0x7F070118
-			public const int ic_mr_button_connecting_27_dark = 2131165464;
+			public const int ic_mr_button_connecting_26_light = 2131165464;
 			
 			// aapt resource value: 0x7F070119
-			public const int ic_mr_button_connecting_27_light = 2131165465;
+			public const int ic_mr_button_connecting_27_dark = 2131165465;
 			
 			// aapt resource value: 0x7F07011A
-			public const int ic_mr_button_connecting_28_dark = 2131165466;
+			public const int ic_mr_button_connecting_27_light = 2131165466;
 			
 			// aapt resource value: 0x7F07011B
-			public const int ic_mr_button_connecting_28_light = 2131165467;
+			public const int ic_mr_button_connecting_28_dark = 2131165467;
 			
 			// aapt resource value: 0x7F07011C
-			public const int ic_mr_button_connecting_29_dark = 2131165468;
+			public const int ic_mr_button_connecting_28_light = 2131165468;
 			
 			// aapt resource value: 0x7F07011D
-			public const int ic_mr_button_connecting_29_light = 2131165469;
+			public const int ic_mr_button_connecting_29_dark = 2131165469;
 			
 			// aapt resource value: 0x7F07011E
-			public const int ic_mr_button_connecting_30_dark = 2131165470;
+			public const int ic_mr_button_connecting_29_light = 2131165470;
 			
 			// aapt resource value: 0x7F07011F
-			public const int ic_mr_button_connecting_30_light = 2131165471;
+			public const int ic_mr_button_connecting_30_dark = 2131165471;
 			
 			// aapt resource value: 0x7F070120
-			public const int ic_mr_button_disabled_dark = 2131165472;
+			public const int ic_mr_button_connecting_30_light = 2131165472;
 			
 			// aapt resource value: 0x7F070121
-			public const int ic_mr_button_disabled_light = 2131165473;
+			public const int ic_mr_button_disabled_dark = 2131165473;
 			
 			// aapt resource value: 0x7F070122
-			public const int ic_mr_button_disconnected_dark = 2131165474;
+			public const int ic_mr_button_disabled_light = 2131165474;
 			
 			// aapt resource value: 0x7F070123
-			public const int ic_mr_button_disconnected_light = 2131165475;
+			public const int ic_mr_button_disconnected_dark = 2131165475;
 			
 			// aapt resource value: 0x7F070124
-			public const int ic_mr_button_grey = 2131165476;
+			public const int ic_mr_button_disconnected_light = 2131165476;
 			
 			// aapt resource value: 0x7F070125
-			public const int ic_mtrl_chip_checked_black = 2131165477;
+			public const int ic_mr_button_grey = 2131165477;
 			
 			// aapt resource value: 0x7F070126
-			public const int ic_mtrl_chip_checked_circle = 2131165478;
+			public const int ic_mtrl_chip_checked_black = 2131165478;
 			
 			// aapt resource value: 0x7F070127
-			public const int ic_mtrl_chip_close_circle = 2131165479;
+			public const int ic_mtrl_chip_checked_circle = 2131165479;
 			
 			// aapt resource value: 0x7F070128
-			public const int ic_settings = 2131165480;
+			public const int ic_mtrl_chip_close_circle = 2131165480;
 			
 			// aapt resource value: 0x7F070129
-			public const int ic_tax = 2131165481;
+			public const int ic_settings = 2131165481;
 			
 			// aapt resource value: 0x7F07012A
-			public const int ic_vol_type_speaker_dark = 2131165482;
+			public const int ic_tax = 2131165482;
 			
 			// aapt resource value: 0x7F07012B
-			public const int ic_vol_type_speaker_group_dark = 2131165483;
+			public const int ic_vol_type_speaker_dark = 2131165483;
 			
 			// aapt resource value: 0x7F07012C
-			public const int ic_vol_type_speaker_group_light = 2131165484;
+			public const int ic_vol_type_speaker_group_dark = 2131165484;
 			
 			// aapt resource value: 0x7F07012D
-			public const int ic_vol_type_speaker_light = 2131165485;
+			public const int ic_vol_type_speaker_group_light = 2131165485;
 			
 			// aapt resource value: 0x7F07012E
-			public const int ic_vol_type_tv_dark = 2131165486;
+			public const int ic_vol_type_speaker_light = 2131165486;
 			
 			// aapt resource value: 0x7F07012F
-			public const int ic_vol_type_tv_light = 2131165487;
+			public const int ic_vol_type_tv_dark = 2131165487;
 			
 			// aapt resource value: 0x7F070130
-			public const int mapbox_compass_icon = 2131165488;
+			public const int ic_vol_type_tv_light = 2131165488;
 			
 			// aapt resource value: 0x7F070131
-			public const int mapbox_info_bg_selector = 2131165489;
+			public const int mapbox_compass_icon = 2131165489;
 			
 			// aapt resource value: 0x7F070132
-			public const int mapbox_info_icon_default = 2131165490;
+			public const int mapbox_info_bg_selector = 2131165490;
 			
 			// aapt resource value: 0x7F070133
-			public const int mapbox_info_icon_selected = 2131165491;
+			public const int mapbox_info_icon_default = 2131165491;
 			
 			// aapt resource value: 0x7F070134
-			public const int mapbox_logo_helmet = 2131165492;
+			public const int mapbox_info_icon_selected = 2131165492;
 			
 			// aapt resource value: 0x7F070135
-			public const int mapbox_logo_icon = 2131165493;
-			
-			// aapt resource value: 0x7F070137
-			public const int mapbox_markerview_icon_default = 2131165495;
+			public const int mapbox_logo_helmet = 2131165493;
 			
 			// aapt resource value: 0x7F070136
-			public const int mapbox_marker_icon_default = 2131165494;
+			public const int mapbox_logo_icon = 2131165494;
 			
 			// aapt resource value: 0x7F070138
-			public const int mapbox_mylocation_bg_shape = 2131165496;
+			public const int mapbox_markerview_icon_default = 2131165496;
+			
+			// aapt resource value: 0x7F070137
+			public const int mapbox_marker_icon_default = 2131165495;
 			
 			// aapt resource value: 0x7F070139
-			public const int mapbox_mylocation_icon_bearing = 2131165497;
+			public const int mapbox_mylocation_bg_shape = 2131165497;
 			
 			// aapt resource value: 0x7F07013A
-			public const int mapbox_mylocation_icon_default = 2131165498;
+			public const int mapbox_mylocation_icon_bearing = 2131165498;
 			
 			// aapt resource value: 0x7F07013B
-			public const int mapbox_popup_window_transparent = 2131165499;
+			public const int mapbox_mylocation_icon_default = 2131165499;
 			
 			// aapt resource value: 0x7F07013C
-			public const int mapbox_rounded_corner = 2131165500;
+			public const int mapbox_popup_window_transparent = 2131165500;
 			
 			// aapt resource value: 0x7F07013D
-			public const int mapbox_user_bearing_icon = 2131165501;
+			public const int mapbox_rounded_corner = 2131165501;
 			
 			// aapt resource value: 0x7F07013E
-			public const int mapbox_user_icon = 2131165502;
+			public const int mapbox_user_bearing_icon = 2131165502;
 			
 			// aapt resource value: 0x7F07013F
-			public const int mapbox_user_icon_shadow = 2131165503;
+			public const int mapbox_user_icon = 2131165503;
 			
 			// aapt resource value: 0x7F070140
-			public const int mapbox_user_icon_stale = 2131165504;
+			public const int mapbox_user_icon_shadow = 2131165504;
 			
 			// aapt resource value: 0x7F070141
-			public const int mapbox_user_puck_icon = 2131165505;
+			public const int mapbox_user_icon_stale = 2131165505;
 			
 			// aapt resource value: 0x7F070142
-			public const int mapbox_user_stroke_icon = 2131165506;
+			public const int mapbox_user_puck_icon = 2131165506;
 			
 			// aapt resource value: 0x7F070143
-			public const int mr_button_connected_dark = 2131165507;
+			public const int mapbox_user_stroke_icon = 2131165507;
 			
 			// aapt resource value: 0x7F070144
-			public const int mr_button_connected_light = 2131165508;
+			public const int mr_button_connected_dark = 2131165508;
 			
 			// aapt resource value: 0x7F070145
-			public const int mr_button_connecting_dark = 2131165509;
+			public const int mr_button_connected_light = 2131165509;
 			
 			// aapt resource value: 0x7F070146
-			public const int mr_button_connecting_light = 2131165510;
+			public const int mr_button_connecting_dark = 2131165510;
 			
 			// aapt resource value: 0x7F070147
-			public const int mr_button_dark = 2131165511;
+			public const int mr_button_connecting_light = 2131165511;
 			
 			// aapt resource value: 0x7F070148
-			public const int mr_button_light = 2131165512;
+			public const int mr_button_dark = 2131165512;
 			
 			// aapt resource value: 0x7F070149
-			public const int mr_dialog_close_dark = 2131165513;
+			public const int mr_button_light = 2131165513;
 			
 			// aapt resource value: 0x7F07014A
-			public const int mr_dialog_close_light = 2131165514;
+			public const int mr_dialog_close_dark = 2131165514;
 			
 			// aapt resource value: 0x7F07014B
-			public const int mr_dialog_material_background_dark = 2131165515;
+			public const int mr_dialog_close_light = 2131165515;
 			
 			// aapt resource value: 0x7F07014C
-			public const int mr_dialog_material_background_light = 2131165516;
+			public const int mr_dialog_material_background_dark = 2131165516;
 			
 			// aapt resource value: 0x7F07014D
-			public const int mr_group_collapse = 2131165517;
+			public const int mr_dialog_material_background_light = 2131165517;
 			
 			// aapt resource value: 0x7F07014E
-			public const int mr_group_expand = 2131165518;
+			public const int mr_group_collapse = 2131165518;
 			
 			// aapt resource value: 0x7F07014F
-			public const int mr_media_pause_dark = 2131165519;
+			public const int mr_group_expand = 2131165519;
 			
 			// aapt resource value: 0x7F070150
-			public const int mr_media_pause_light = 2131165520;
+			public const int mr_media_pause_dark = 2131165520;
 			
 			// aapt resource value: 0x7F070151
-			public const int mr_media_play_dark = 2131165521;
+			public const int mr_media_pause_light = 2131165521;
 			
 			// aapt resource value: 0x7F070152
-			public const int mr_media_play_light = 2131165522;
+			public const int mr_media_play_dark = 2131165522;
 			
 			// aapt resource value: 0x7F070153
-			public const int mr_media_stop_dark = 2131165523;
+			public const int mr_media_play_light = 2131165523;
 			
 			// aapt resource value: 0x7F070154
-			public const int mr_media_stop_light = 2131165524;
+			public const int mr_media_stop_dark = 2131165524;
 			
 			// aapt resource value: 0x7F070155
-			public const int mr_vol_type_audiotrack_dark = 2131165525;
+			public const int mr_media_stop_light = 2131165525;
 			
 			// aapt resource value: 0x7F070156
-			public const int mr_vol_type_audiotrack_light = 2131165526;
+			public const int mr_vol_type_audiotrack_dark = 2131165526;
 			
 			// aapt resource value: 0x7F070157
-			public const int mtrl_snackbar_background = 2131165527;
+			public const int mr_vol_type_audiotrack_light = 2131165527;
 			
 			// aapt resource value: 0x7F070158
-			public const int mtrl_tabs_default_indicator = 2131165528;
+			public const int mtrl_snackbar_background = 2131165528;
 			
 			// aapt resource value: 0x7F070159
-			public const int navigation_empty_icon = 2131165529;
+			public const int mtrl_tabs_default_indicator = 2131165529;
 			
 			// aapt resource value: 0x7F07015A
-			public const int notification_action_background = 2131165530;
+			public const int navigation_empty_icon = 2131165530;
 			
 			// aapt resource value: 0x7F07015B
-			public const int notification_bg = 2131165531;
+			public const int notification_action_background = 2131165531;
 			
 			// aapt resource value: 0x7F07015C
-			public const int notification_bg_low = 2131165532;
+			public const int notification_bg = 2131165532;
 			
 			// aapt resource value: 0x7F07015D
-			public const int notification_bg_low_normal = 2131165533;
+			public const int notification_bg_low = 2131165533;
 			
 			// aapt resource value: 0x7F07015E
-			public const int notification_bg_low_pressed = 2131165534;
+			public const int notification_bg_low_normal = 2131165534;
 			
 			// aapt resource value: 0x7F07015F
-			public const int notification_bg_normal = 2131165535;
+			public const int notification_bg_low_pressed = 2131165535;
 			
 			// aapt resource value: 0x7F070160
-			public const int notification_bg_normal_pressed = 2131165536;
+			public const int notification_bg_normal = 2131165536;
 			
 			// aapt resource value: 0x7F070161
-			public const int notification_icon_background = 2131165537;
+			public const int notification_bg_normal_pressed = 2131165537;
 			
 			// aapt resource value: 0x7F070162
-			public const int notification_template_icon_bg = 2131165538;
+			public const int notification_icon_background = 2131165538;
 			
 			// aapt resource value: 0x7F070163
-			public const int notification_template_icon_low_bg = 2131165539;
+			public const int notification_template_icon_bg = 2131165539;
 			
 			// aapt resource value: 0x7F070164
-			public const int notification_tile_bg = 2131165540;
+			public const int notification_template_icon_low_bg = 2131165540;
 			
 			// aapt resource value: 0x7F070165
-			public const int notify_panel_notification_icon_bg = 2131165541;
+			public const int notification_tile_bg = 2131165541;
 			
 			// aapt resource value: 0x7F070166
-			public const int tooltip_frame_dark = 2131165542;
+			public const int notify_panel_notification_icon_bg = 2131165542;
 			
 			// aapt resource value: 0x7F070167
-			public const int tooltip_frame_light = 2131165543;
+			public const int tooltip_frame_dark = 2131165543;
+			
+			// aapt resource value: 0x7F070168
+			public const int tooltip_frame_light = 2131165544;
 			
 			static Drawable()
 			{
@@ -8440,169 +10054,172 @@ namespace MenuIndio.Droid
 			public const int hide_bottom_view_on_scroll_behavior = 2131558462;
 			
 			// aapt resource value: 0x7F0D003F
-			public const int mapbox_attributionErrorNoBrowser = 2131558463;
-			
-			// aapt resource value: 0x7F0D0045
-			public const int mapbox_attributionsDialogTitle = 2131558469;
-			
-			// aapt resource value: 0x7F0D0046
-			public const int mapbox_attributionsIconContentDescription = 2131558470;
+			public const int library_name = 2131558463;
 			
 			// aapt resource value: 0x7F0D0040
-			public const int mapbox_attributionTelemetryMessage = 2131558464;
+			public const int mapbox_attributionErrorNoBrowser = 2131558464;
 			
-			// aapt resource value: 0x7F0D0041
-			public const int mapbox_attributionTelemetryNegative = 2131558465;
-			
-			// aapt resource value: 0x7F0D0042
-			public const int mapbox_attributionTelemetryNeutral = 2131558466;
-			
-			// aapt resource value: 0x7F0D0043
-			public const int mapbox_attributionTelemetryPositive = 2131558467;
-			
-			// aapt resource value: 0x7F0D0044
-			public const int mapbox_attributionTelemetryTitle = 2131558468;
+			// aapt resource value: 0x7F0D0046
+			public const int mapbox_attributionsDialogTitle = 2131558470;
 			
 			// aapt resource value: 0x7F0D0047
-			public const int mapbox_compassContentDescription = 2131558471;
+			public const int mapbox_attributionsIconContentDescription = 2131558471;
+			
+			// aapt resource value: 0x7F0D0041
+			public const int mapbox_attributionTelemetryMessage = 2131558465;
+			
+			// aapt resource value: 0x7F0D0042
+			public const int mapbox_attributionTelemetryNegative = 2131558466;
+			
+			// aapt resource value: 0x7F0D0043
+			public const int mapbox_attributionTelemetryNeutral = 2131558467;
+			
+			// aapt resource value: 0x7F0D0044
+			public const int mapbox_attributionTelemetryPositive = 2131558468;
+			
+			// aapt resource value: 0x7F0D0045
+			public const int mapbox_attributionTelemetryTitle = 2131558469;
 			
 			// aapt resource value: 0x7F0D0048
-			public const int mapbox_mapActionDescription = 2131558472;
+			public const int mapbox_compassContentDescription = 2131558472;
 			
 			// aapt resource value: 0x7F0D0049
-			public const int mapbox_myLocationViewContentDescription = 2131558473;
+			public const int mapbox_mapActionDescription = 2131558473;
 			
 			// aapt resource value: 0x7F0D004A
-			public const int mapbox_offline_error_region_definition_invalid = 2131558474;
+			public const int mapbox_myLocationViewContentDescription = 2131558474;
 			
 			// aapt resource value: 0x7F0D004B
-			public const int mapbox_style_dark = 2131558475;
+			public const int mapbox_offline_error_region_definition_invalid = 2131558475;
 			
 			// aapt resource value: 0x7F0D004C
-			public const int mapbox_style_light = 2131558476;
+			public const int mapbox_style_dark = 2131558476;
 			
 			// aapt resource value: 0x7F0D004D
-			public const int mapbox_style_mapbox_streets = 2131558477;
+			public const int mapbox_style_light = 2131558477;
 			
 			// aapt resource value: 0x7F0D004E
-			public const int mapbox_style_outdoors = 2131558478;
+			public const int mapbox_style_mapbox_streets = 2131558478;
 			
 			// aapt resource value: 0x7F0D004F
-			public const int mapbox_style_satellite = 2131558479;
+			public const int mapbox_style_outdoors = 2131558479;
 			
 			// aapt resource value: 0x7F0D0050
-			public const int mapbox_style_satellite_streets = 2131558480;
+			public const int mapbox_style_satellite = 2131558480;
 			
 			// aapt resource value: 0x7F0D0051
-			public const int mapbox_style_traffic_day = 2131558481;
+			public const int mapbox_style_satellite_streets = 2131558481;
 			
 			// aapt resource value: 0x7F0D0052
-			public const int mapbox_style_traffic_night = 2131558482;
+			public const int mapbox_style_traffic_day = 2131558482;
 			
 			// aapt resource value: 0x7F0D0053
-			public const int mapbox_telemetryImproveMap = 2131558483;
+			public const int mapbox_style_traffic_night = 2131558483;
 			
 			// aapt resource value: 0x7F0D0054
-			public const int mapbox_telemetryLink = 2131558484;
+			public const int mapbox_telemetryImproveMap = 2131558484;
 			
 			// aapt resource value: 0x7F0D0055
-			public const int mapbox_telemetrySettings = 2131558485;
+			public const int mapbox_telemetryLink = 2131558485;
 			
 			// aapt resource value: 0x7F0D0056
-			public const int mr_button_content_description = 2131558486;
+			public const int mapbox_telemetrySettings = 2131558486;
 			
 			// aapt resource value: 0x7F0D0057
-			public const int mr_cast_button_connected = 2131558487;
+			public const int mr_button_content_description = 2131558487;
 			
 			// aapt resource value: 0x7F0D0058
-			public const int mr_cast_button_connecting = 2131558488;
+			public const int mr_cast_button_connected = 2131558488;
 			
 			// aapt resource value: 0x7F0D0059
-			public const int mr_cast_button_disconnected = 2131558489;
+			public const int mr_cast_button_connecting = 2131558489;
 			
 			// aapt resource value: 0x7F0D005A
-			public const int mr_cast_dialog_title_view_placeholder = 2131558490;
+			public const int mr_cast_button_disconnected = 2131558490;
 			
 			// aapt resource value: 0x7F0D005B
-			public const int mr_chooser_searching = 2131558491;
+			public const int mr_cast_dialog_title_view_placeholder = 2131558491;
 			
 			// aapt resource value: 0x7F0D005C
-			public const int mr_chooser_title = 2131558492;
+			public const int mr_chooser_searching = 2131558492;
 			
 			// aapt resource value: 0x7F0D005D
-			public const int mr_controller_album_art = 2131558493;
+			public const int mr_chooser_title = 2131558493;
 			
 			// aapt resource value: 0x7F0D005E
-			public const int mr_controller_casting_screen = 2131558494;
+			public const int mr_controller_album_art = 2131558494;
 			
 			// aapt resource value: 0x7F0D005F
-			public const int mr_controller_close_description = 2131558495;
+			public const int mr_controller_casting_screen = 2131558495;
 			
 			// aapt resource value: 0x7F0D0060
-			public const int mr_controller_collapse_group = 2131558496;
+			public const int mr_controller_close_description = 2131558496;
 			
 			// aapt resource value: 0x7F0D0061
-			public const int mr_controller_disconnect = 2131558497;
+			public const int mr_controller_collapse_group = 2131558497;
 			
 			// aapt resource value: 0x7F0D0062
-			public const int mr_controller_expand_group = 2131558498;
+			public const int mr_controller_disconnect = 2131558498;
 			
 			// aapt resource value: 0x7F0D0063
-			public const int mr_controller_no_info_available = 2131558499;
+			public const int mr_controller_expand_group = 2131558499;
 			
 			// aapt resource value: 0x7F0D0064
-			public const int mr_controller_no_media_selected = 2131558500;
+			public const int mr_controller_no_info_available = 2131558500;
 			
 			// aapt resource value: 0x7F0D0065
-			public const int mr_controller_pause = 2131558501;
+			public const int mr_controller_no_media_selected = 2131558501;
 			
 			// aapt resource value: 0x7F0D0066
-			public const int mr_controller_play = 2131558502;
+			public const int mr_controller_pause = 2131558502;
 			
 			// aapt resource value: 0x7F0D0067
-			public const int mr_controller_stop = 2131558503;
+			public const int mr_controller_play = 2131558503;
 			
 			// aapt resource value: 0x7F0D0068
-			public const int mr_controller_stop_casting = 2131558504;
+			public const int mr_controller_stop = 2131558504;
 			
 			// aapt resource value: 0x7F0D0069
-			public const int mr_controller_volume_slider = 2131558505;
+			public const int mr_controller_stop_casting = 2131558505;
 			
 			// aapt resource value: 0x7F0D006A
-			public const int mr_dialog_device_header = 2131558506;
+			public const int mr_controller_volume_slider = 2131558506;
 			
 			// aapt resource value: 0x7F0D006B
-			public const int mr_dialog_route_header = 2131558507;
+			public const int mr_dialog_device_header = 2131558507;
 			
 			// aapt resource value: 0x7F0D006C
-			public const int mr_system_route_name = 2131558508;
+			public const int mr_dialog_route_header = 2131558508;
 			
 			// aapt resource value: 0x7F0D006D
-			public const int mr_user_route_category_name = 2131558509;
+			public const int mr_system_route_name = 2131558509;
 			
 			// aapt resource value: 0x7F0D006E
-			public const int mtrl_chip_close_icon_content_description = 2131558510;
+			public const int mr_user_route_category_name = 2131558510;
 			
 			// aapt resource value: 0x7F0D006F
-			public const int password_toggle_content_description = 2131558511;
+			public const int mtrl_chip_close_icon_content_description = 2131558511;
 			
 			// aapt resource value: 0x7F0D0070
-			public const int path_password_eye = 2131558512;
+			public const int password_toggle_content_description = 2131558512;
 			
 			// aapt resource value: 0x7F0D0071
-			public const int path_password_eye_mask_strike_through = 2131558513;
+			public const int path_password_eye = 2131558513;
 			
 			// aapt resource value: 0x7F0D0072
-			public const int path_password_eye_mask_visible = 2131558514;
+			public const int path_password_eye_mask_strike_through = 2131558514;
 			
 			// aapt resource value: 0x7F0D0073
-			public const int path_password_strike_through = 2131558515;
+			public const int path_password_eye_mask_visible = 2131558515;
 			
 			// aapt resource value: 0x7F0D0074
-			public const int search_menu_title = 2131558516;
+			public const int path_password_strike_through = 2131558516;
 			
 			// aapt resource value: 0x7F0D0075
-			public const int status_bar_notification_info_overflow = 2131558517;
+			public const int search_menu_title = 2131558517;
+			
+			// aapt resource value: 0x7F0D0076
+			public const int status_bar_notification_info_overflow = 2131558518;
 			
 			static String()
 			{
