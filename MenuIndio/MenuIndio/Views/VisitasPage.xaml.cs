@@ -16,6 +16,7 @@ namespace MenuIndio.Views
         public VisitasPage() {
             InitializeComponent();
         }
+        
       
         private async void OpenWhatsApp(object sender, EventArgs e)
         {

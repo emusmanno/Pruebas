@@ -4,27 +4,36 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             xmlns:controls="clr-namespace:MenuIndio.Controls;assembly=MenuIndio"
              x:Class="MenuIndio.Views.VisitasPage"         
              Title="{Binding Title}">
 
    
     <ContentPage.Content>
         <StackLayout>
+            <Image 
+                    Aspect="AspectFill" 
+                    Opacity="0.6" 
+                    Source="https://imgar.zonapropcdn.com/avisos/1/00/42/11/40/76/1200x1200/1570800863.jpg"/>
+            <Image 
+                    Aspect="AspectFill"                     
+                    Source="https://imgar.zonapropcdn.com/avisos/1/00/42/11/40/76/1200x1200/1570800863.jpg"/>
+            <Image 
+                    Aspect="AspectFill" 
+                    Opacity="0.6" 
+                    Source="https://imgar.zonapropcdn.com/avisos/1/00/42/11/40/76/1200x1200/1570800863.jpg"/>
             <Label Text="Enviar Invitacion !"
                 FontSize="50"
                 FontAttributes="Bold"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <Button Text="Enviar por WhatsApp" Margin="0,10,0,0" ContentLayout="Left,5" Image="enviar.png" Clicked="OpenWhatsApp"/>
-            <controls:GradientButton
-            Margin="10"
-            BorderRadius="20"
-            StartColor="#29FF99"
-            EndColor="#25E854"                
-            HorizontalOptions="FillAndExpand"            
-            Text="Get started"
-            TextColor="White" />
+            <Button Text="Enviar por WhatsApp" 
+                    Margin="0,10,0,0"                       
+                    BackgroundColor="#29FF99" 
+                    ContentLayout="Left,5" 
+                    CornerRadius="30"
+                    Image="enviar.png" 
+                    Clicked="OpenWhatsApp"/>
+          
         </StackLayout>
 
     </ContentPage.Content>
