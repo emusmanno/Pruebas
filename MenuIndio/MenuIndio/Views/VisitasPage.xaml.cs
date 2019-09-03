@@ -23,7 +23,7 @@ namespace MenuIndio.Views
             try
             {
                 Chat.Open("", "https://sansebastian.linksolution.com.ar:81/Account/RegistroNuevoUsuario");
-
+                
             }
             catch (Exception ex)
             {

@@ -5,7 +5,9 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:pages="clr-namespace:MenuIndio;assembly=MenuIndio"
              mc:Ignorable="d"
-             x:Class="MenuIndio.MainShell">
+             x:Class="MenuIndio.MainShell"
+             BackgroundColor="#3AFC98"
+             Title="Inicio">
 
     <Shell.FlyoutHeaderTemplate>
         <DataTemplate>

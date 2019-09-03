@@ -5,7 +5,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="MenuIndio.Views.VisitasPage"         
-             Title="{Binding Title}">
+             Title="Enviar Invitacion">
 
    
     <ContentPage.Content>
@@ -23,6 +23,11 @@
                     HorizontalOptions="Center" 
                     VerticalOptions="Center"/>
             </Grid>                      
+          
+            <ImageButton 
+                    CornerRadius="30"
+                    Aspect="AspectFill"                     
+                    Source="https://imgar.zonapropcdn.com/avisos/1/00/42/11/40/76/1200x1200/1570800863.jpg"/>
             <Button Text="Enviar por WhatsApp" 
                     Font="20"
                     Margin="50,10,50,10"                       
