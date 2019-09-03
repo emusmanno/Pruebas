@@ -6,11 +6,16 @@
              mc:Ignorable="d"
              x:Class="MenuIndio.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
-
+    <ContentPage.Content>
+        <Grid RowSpacing="10" ColumnSpacing="10" BackgroundColor="White" Padding="5">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                
+            </Grid.RowDefinitions>
+            
+        </Grid>        
+    </ContentPage.Content>
 </ContentPage>

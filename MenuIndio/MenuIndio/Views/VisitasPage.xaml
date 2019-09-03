@@ -10,30 +10,34 @@
    
     <ContentPage.Content>
         <StackLayout>
-            <Image 
+            <Grid BackgroundColor="Black" HeightRequest="200">
+                <Image 
                     Aspect="AspectFill" 
                     Opacity="0.6" 
                     Source="https://imgar.zonapropcdn.com/avisos/1/00/42/11/40/76/1200x1200/1570800863.jpg"/>
+                <Label 
+                    Text="Enviar Invitacion !" 
+                    TextColor="White" 
+                    FontAttributes="Bold" 
+                    FontSize="52"                    
+                    HorizontalOptions="Center" 
+                    VerticalOptions="Center"/>
+            </Grid>                      
+            <Button Text="Enviar por WhatsApp" 
+                    Font="20"
+                    Margin="50,10,50,10"                       
+                    BackgroundColor="#08EB7F" 
+                    ContentLayout="Left,9" 
+                    CornerRadius="60"
+                    Image="ic_invitar.png" 
+                    Clicked="OpenWhatsApp"/>
             <Image 
                     Aspect="AspectFill"                     
                     Source="https://imgar.zonapropcdn.com/avisos/1/00/42/11/40/76/1200x1200/1570800863.jpg"/>
             <Image 
                     Aspect="AspectFill" 
                     Opacity="0.6" 
-                    Source="https://imgar.zonapropcdn.com/avisos/1/00/42/11/40/76/1200x1200/1570800863.jpg"/>
-            <Label Text="Enviar Invitacion !"
-                FontSize="50"
-                FontAttributes="Bold"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-            <Button Text="Enviar por WhatsApp" 
-                    Margin="0,10,0,0"                       
-                    BackgroundColor="#29FF99" 
-                    ContentLayout="Left,5" 
-                    CornerRadius="30"
-                    Image="enviar.png" 
-                    Clicked="OpenWhatsApp"/>
-          
+                    Source="https://imgar.zonapropcdn.com/avisos/1/00/42/11/40/76/1200x1200/1570800863.jpg"/>            
         </StackLayout>
 
     </ContentPage.Content>

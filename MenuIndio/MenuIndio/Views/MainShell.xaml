@@ -25,7 +25,7 @@
             </Grid>
         </DataTemplate>
     </Shell.FlyoutHeaderTemplate>
-    <FlyoutItem Title="Inicio" Icon="ic_boquita.png" >
+    <FlyoutItem Title="Inicio" Icon="ic_home.png" >
         <Tab >
             <ShellContent ContentTemplate="{DataTemplate pages:MainPage}"/>
         </Tab>
@@ -51,7 +51,7 @@
         </Tab>
         
     </FlyoutItem>
-    <FlyoutItem IsEnabled="true" Title="Log Out" Icon="ic_LogOut.png" >
+    <FlyoutItem IsEnabled="true" Title="Cerrar Sesion" Icon="ic_LogOut.png" >
         <Tab>
             <ShellContent ContentTemplate="{DataTemplate pages:MainPage}"/>
         </Tab>
