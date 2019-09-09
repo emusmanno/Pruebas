@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MenuIndio.Models;
+using MenuIndio.Views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -6,11 +8,21 @@ namespace MenuIndio
 {
     public partial class App : Application
     {
+        public static bool IsUserLoggedIn { get; set; }
         public App()
         {
             InitializeComponent();
-
-            MainPage = new MainShell();
+            if (!Settings.IsLoggedIn)
+            {
+                MainPage = new LoginPage();
+              //  MainPage = new NavigationPage( new MainShell());            
+            }
+            else
+            {
+                MainPage = new MainShell();
+          
+            }
+          //  MainPage = new LoginPage();
         }
 
         protected override void OnStart()

@@ -7,8 +7,8 @@
              mc:Ignorable="d"
              x:Class="MenuIndio.MainShell"
              BackgroundColor="#3AFC98"
-             Title="Inicio">
-
+             Title="Inicio"
+             x:Name="Shell"   >
     <Shell.FlyoutHeaderTemplate>
         <DataTemplate>
             <Grid BackgroundColor="Black" HeightRequest="200">
@@ -53,8 +53,8 @@
         </Tab>
         
     </FlyoutItem>
-    <FlyoutItem IsEnabled="true" Title="Cerrar Sesion" Icon="ic_LogOut.png" >
-        <Tab>
+    <FlyoutItem IsEnabled="true" Title="Cerrar Sesion" Icon="ic_LogOut.png" x:Name="Cerrar">
+        <Tab >
             <ShellContent ContentTemplate="{DataTemplate pages:MainPage}"/>
         </Tab>
 

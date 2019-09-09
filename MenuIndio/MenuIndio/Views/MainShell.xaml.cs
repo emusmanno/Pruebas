@@ -1,4 +1,6 @@
-﻿using System;
+﻿using MenuIndio.Models;
+using MenuIndio.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +17,9 @@ namespace MenuIndio
         public MainShell()
         {
             InitializeComponent();
+ 
         }
+     
+
     }
 }

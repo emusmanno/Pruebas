@@ -8,15 +8,24 @@ using Android.Widget;
 using Android.OS;
 using Android.Gms.Maps;
 using Com.Mapbox.Mapboxsdk;
+using System.Net;
+using System.Runtime.ConstrainedExecution;
+using static Com.Mapbox.Mapboxsdk.Attribution.AttributionMeasure;
+using Acr.UserDialogs;
 
 namespace MenuIndio.Droid
 {
-    [Activity(Label = "San Sebastian", Icon = "@mipmap/ic_launcher", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "San Sebastian", Icon = "@mipmap/ic_launcher", Theme = "@style/MainTheme", MainLauncher = false, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
+        
        
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            //
+            UserDialogs.Init(this);
+            ServicePointManager.ServerCertificateValidationCallback += (o, Cer, Chain, errors) => true;
+            //
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
 

@@ -6,17 +6,14 @@
              mc:Ignorable="d"
              x:Class="MenuIndio.MainPage"
              Title="Inicio">
+    <StackLayout>
 
-    <ContentPage.Content>
-        <Grid RowSpacing="10" ColumnSpacing="10" BackgroundColor="White" Padding="5">
-            <Grid.RowDefinitions>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
-                <RowDefinition Height="*"/>
-                <RowDefinition Height="*"/>
-                
-            </Grid.RowDefinitions>
-            
-        </Grid>        
-    </ContentPage.Content>
+        <ListView x:Name="MyListView">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Title}" TextColor="Black"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
 </ContentPage>

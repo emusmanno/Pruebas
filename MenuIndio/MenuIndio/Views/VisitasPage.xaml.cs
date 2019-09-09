@@ -6,18 +6,25 @@ using System.Threading.Tasks;
 using Xamarin.Forms.OpenWhatsApp;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using System.ComponentModel;
 
 namespace MenuIndio.Views
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
+
+    [DesignTimeVisible(false)]
     public partial class VisitasPage : ContentPage
     {
 
         public VisitasPage() {
             InitializeComponent();
         }
-        
-      
+        protected override void OnAppearing()
+        {
+
+            base.OnAppearing();
+            NavigationPage.SetHasNavigationBar(this, false); // Oculta la barra de navegación
+        }
+
         private async void OpenWhatsApp(object sender, EventArgs e)
         {
             try
