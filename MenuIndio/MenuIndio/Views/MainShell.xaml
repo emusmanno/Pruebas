@@ -6,7 +6,8 @@
              xmlns:pages="clr-namespace:MenuIndio;assembly=MenuIndio"
              mc:Ignorable="d"
              x:Class="MenuIndio.MainShell"
-             BackgroundColor="#3AFC98"
+             BackgroundColor="#8e8f66"
+
              Title="Inicio"
              x:Name="Shell"
            >
@@ -46,6 +47,11 @@
     <FlyoutItem Title="Puntos de Interes" Icon="ic_maps.png" >
         <Tab>
             <ShellContent ContentTemplate="{DataTemplate pages:Views.MapsPage}"/>
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Telefonos Utiles" Icon="ic_call.png" >
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate pages:Views.TelefonosPage}"/>
         </Tab>
     </FlyoutItem>
     <FlyoutItem IsEnabled="False" Title="Configuracion" Icon="ic_settings.png" >
