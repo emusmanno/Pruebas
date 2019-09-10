@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuIndio.Android", "MenuIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuIndio.iOS", "MenuIndio\MenuIndio.iOS\MenuIndio.iOS.csproj", "{FEC12CD9-8674-44CB-9B6F-8AEBFF7C4447}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuIndio", "MenuIndio\MenuIndio\MenuIndio.csproj", "{1EFFD9E1-573F-4F55-A119-F58490B2EA63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MenuIndio", "MenuIndio\MenuIndio\MenuIndio.csproj", "{1EFFD9E1-573F-4F55-A119-F58490B2EA63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

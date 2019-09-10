@@ -5,16 +5,11 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="MenuIndio.Views.MapsPage">
-  <!--Pages can be added as references or inline-->
-
     <ContentPage.Content>
-        <ScrollView>
-            <StackLayout>
-                <Label Text="Vamo"/>
-                <Label Text="Vamo"/>
-                <Entry x:Name="Vamo"/>
-            </StackLayout>
-        </ScrollView>
+        <StackLayout>
+            <Label Text="Welcome to Xamarin.Forms!"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
     </ContentPage.Content>
-    
 </ContentPage>

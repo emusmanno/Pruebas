@@ -17,9 +17,27 @@ namespace MenuIndio
         public MainShell()
         {
             InitializeComponent();
- 
+            Shell.PropertyChanged += Test;
+
         }
-     
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
+            if (Shell.CurrentItem.Title == "Cerrar Sesion")
+            {
+
+            }
+            //your code here;
+
+        } 
+        public void Test(object e, EventArgs eve )
+        {
+            if (Shell.CurrentItem.Title == "Cerrar Sesion")
+            {
+                Settings.IsLoggedIn = false;
+                Application.Current.MainPage = new LoginPage();
+            }
+        }
 
     }
 }
