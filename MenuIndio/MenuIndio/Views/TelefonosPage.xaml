@@ -5,21 +5,29 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="MenuIndio.Views.TelefonosPage"
-             Title="Telefonos Utiles">
+             Title="Telefonos Utiles"
+            >
     <ContentPage.Content>
         <StackLayout>
             <ImageButton Source="https://www.isletasnoticias.com.ar/wp-content/uploads/2019/03/telefonos-utiles.jpg"  HorizontalOptions="Center"
                  
               />
-            <Label 
-                FontSize="20"
-                Text="Omarcito es crack"
-                x:Name="labelPop"/>
-
-            <Button 
-                Text="Omarcito"
-                Clicked="PlacePhoneCall"/>
-
+            <ListView x:Name="lst" HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate >
+                        
+                        <ViewCell >
+                            <StackLayout Orientation="Horizontal">
+                                <StackLayout Orientation="Vertical">
+                                    <Label Text="{Binding Name}" Font="18" Margin="20, 0, 0, 0" ></Label>
+                                    <Label Text="{Binding Num}" TextColor="Gray" Margin="20, 0, 0,0" ></Label>
+                                </StackLayout>
+                                <Image Source="ic_call" HeightRequest="30" WidthRequest="50" HorizontalOptions="EndAndExpand"></Image>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage> 

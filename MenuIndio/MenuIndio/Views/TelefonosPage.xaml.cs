@@ -15,14 +15,42 @@ namespace MenuIndio.Views
         public TelefonosPage()
         {
             InitializeComponent();
-            lblClickFunc();
+            //   lblClickFunc();
+            lst.ItemsSource = new List<ContactoUtil>() {
+    new ContactoUtil() {
+            Name = "Umair", Num = "0456445450945", imgsource = "https://cdn2.iconfinder.com/data/icons/basics-1/100/Call-512.png",
+        },
+        new ContactoUtil() {
+            Name = "Cat", Num = "034456445905", imgsource = "https://cdn2.iconfinder.com/data/icons/basics-1/100/Call-512.png",
+        },
+        new ContactoUtil() {
+            Name = "Nature", Num = "56445905", imgsource = "https://cdn2.iconfinder.com/data/icons/basics-1/100/Call-512.png",
+        },
+        new ContactoUtil() {
+            Name = "Pato", Num = "1131187529", imgsource = "https://cdn2.iconfinder.com/data/icons/basics-1/100/Call-512.png",
+        },
+        };
+            
+            lst.ItemSelected += clickItem;
+         
+
+
         }
 
-        private void PlacePhoneCall(object sender, EventArgs e)
+   
+
+        private void clickItem(object sender, SelectedItemChangedEventArgs e)
+        {
+    
+            ContactoUtil c =(ContactoUtil) e.SelectedItem;
+            PlacePhoneCall(c.Num);
+        }
+
+        private void PlacePhoneCall(string numero)
         {
             try
             {
-                PhoneDialer.Open("1136167515");
+                PhoneDialer.Open(numero);
 
             }
             catch (ArgumentNullException anEx)
@@ -39,7 +67,7 @@ namespace MenuIndio.Views
             }
         }
 
-        void lblClickFunc()
+      /*  void lblClickFunc(string num)
         {
             labelPop.GestureRecognizers.Add(item: new TapGestureRecognizer()
             {
@@ -52,7 +80,7 @@ namespace MenuIndio.Views
 
             });
 
-        }
+        }*/
 
     }
 
