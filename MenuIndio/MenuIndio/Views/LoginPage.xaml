@@ -1,24 +1,43 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-             x:Class="MenuIndio.Views.LoginPage" Title="Login">
-   
-    <ContentPage.Content>
+             x:Class="MenuIndio.Views.LoginPage" 
+             Title="Login">
+
+    <Grid ColumnSpacing="10" RowSpacing="30" >
         <StackLayout VerticalOptions="StartAndExpand">
-            <Picker x:Name="tdoc" SelectedIndex="{Binding Industry}" HorizontalOptions="FillAndExpand" >
+            <Image Margin="0,30,0,0" Source="logoSanSebas.png" />
+
+            <Label Text="Bienvenido!" FontSize="30" FontFamily="Arial Black" HorizontalTextAlignment="Center" />
+            <Label Margin="0,30,0,0" Text="Tipo de Documento" FontSize="20" FontFamily="Arial" HorizontalTextAlignment="Center"/>
+
+            <Picker Margin="50,0,50,0" x:Name="tdoc" SelectedIndex="{Binding Industry}" HorizontalOptions="FillAndExpand" >
                 <Picker.Items>
                     <x:String>DNI</x:String>
                     <x:String>LC</x:String>
                 </Picker.Items>
             </Picker>
-            <Label Text="Documento" />
-            <Entry x:Name="usernameEntry" Keyboard="Numeric" Placeholder="N DOC" />
-            <Label Text="Password" />
-            <Entry x:Name="passwordEntry" IsPassword="true" />
-            <Button Text="Login" Clicked="OnLoginButtonClicked" />
-            <Button Text="SignUp" Clicked="OnLoginButtonClicked" />
-            <Label x:Name="messageLabel" />
-            
+
+            <Label Text="Documento" FontSize="20" FontFamily="Arial" HorizontalTextAlignment="Center"/>
+            <Entry Margin="50,0,50,0" x:Name="usernameEntry" Keyboard="Numeric" Placeholder="Documento" />
+
+            <Label Text="Password"  FontSize="20" FontFamily="Arial" HorizontalTextAlignment="Center"/>
+            <Entry Margin="50,0,50,0" x:Name="passwordEntry" Placeholder="Password" IsPassword="true" />
+
+            <Grid  Margin="0,30,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Button Grid.Column="0" CornerRadius="30" BackgroundColor="#799154" TextColor="White" Text="Login" Clicked="OnLoginButtonClicked" />
+                <Button Grid.Column="1" CornerRadius="30" BackgroundColor="#799154" TextColor="White" Text="Sign Up" Clicked="OnLoginButtonClicked" />
+                <Label x:Name="messageLabel" />
+            </Grid>
+
         </StackLayout>
-    </ContentPage.Content>
+
+        <Label VerticalOptions="End" HorizontalOptions="Start" Text="Powered by:" FontSize="20" FontFamily="Arial" HorizontalTextAlignment="Center" />
+        <Image VerticalOptions="End" Margin="100,0,100,0" Source="linksolution.png" />
+    </Grid>
+
 </ContentPage>
