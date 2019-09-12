@@ -5,15 +5,66 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="MenuIndio.MainPage"
+             BackgroundColor="#E9E9E9"
              Title="Inicio">
-    <StackLayout>
 
-        <ListView x:Name="MyListView">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <TextCell Text="{Binding Title}" TextColor="Black"/>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+   
+    <StackLayout HeightRequest="250"  Margin="10,10">
+        <Frame HeightRequest="100" CornerRadius="30" Padding="0" BackgroundColor="DeepSkyBlue" >
+            <Grid >
+                <Image
+                        Aspect="AspectFill"       
+                        Opacity="0.5"
+                        Source="https://imgar.zonapropcdn.com/avisos/1/00/42/11/40/76/1200x1200/1570800863.jpg" />                <Grid  Margin="0,30,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    
+                    <Label
+                        Grid.Row="0"
+                        Text="Novedades!!!" 
+                        TextColor="White" 
+                        FontFamily="Calibri"
+                        FontAttributes="Bold" 
+                        HorizontalOptions="Center"
+                        VerticalOptions="Start"
+                        FontSize="25"/>
+                    <Label 
+                        Grid.Row="0"                    
+                        VerticalOptions="End"
+                        FontFamily="Calibri"
+                        Text="Subtitulo" 
+                        TextColor="White"                     
+                        FontSize="18"/>
+
+                </Grid>
+                
+            </Grid>
+        </Frame>
+        <Frame CornerRadius="15" Padding="0" >
+            <StackLayout >
+                <Image
+                Aspect="AspectFill"         
+                Source="https://imgar.zonapropcdn.com/avisos/1/00/42/11/40/76/1200x1200/1570800863.jpg" />
+                <Label
+                Margin="10,0,0,0"
+                Text="Novedades!!!" 
+                TextColor="Black" 
+                FontFamily="Calibri"
+                FontAttributes="Bold" 
+                VerticalOptions="Start"
+                FontSize="25"/>
+                <Label 
+                Margin="10,0,0,10"                    
+                VerticalOptions="End"
+                FontFamily="Calibri"
+                Text="Subtitulo" 
+                TextColor="Black"                     
+                FontSize="18"/>
+            </StackLayout>                
+        </Frame>
     </StackLayout>
+    
+    
 </ContentPage>

@@ -11,7 +11,7 @@
             <Label Text="Bienvenido!" FontSize="30" FontFamily="Arial Black" HorizontalTextAlignment="Center" />
             <Label Margin="0,30,0,0" Text="Tipo de Documento" FontSize="20" FontFamily="Arial" HorizontalTextAlignment="Center"/>
 
-            <Picker Margin="50,0,50,0" x:Name="tdoc" SelectedIndex="{Binding Industry}" HorizontalOptions="FillAndExpand" >
+            <Picker Margin="50,0,50,0" x:Name="tdoc" Title="Seleccione documento" SelectedIndex="{Binding Industry}" HorizontalOptions="FillAndExpand" >
                 <Picker.Items>
                     <x:String>DNI</x:String>
                     <x:String>LC</x:String>

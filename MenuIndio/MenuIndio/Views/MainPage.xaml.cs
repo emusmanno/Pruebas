@@ -19,11 +19,7 @@ namespace MenuIndio
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
-        private const string Url = "http://jsonplaceholder.typicode.com/posts";
-        private const string UrlWS = "";
-        private readonly HttpClient client = new HttpClient();
-        private ObservableCollection<Model_Post> _post;
-        RestService _restService;
+     
 
         public MainPage()
         {
@@ -43,7 +39,7 @@ namespace MenuIndio
             NavigationPage.SetHasNavigationBar(this, false); // Oculta la barra de navegación
         }
 
-        List<string> Ciudades = new List<string> {"Buenos Aires","Japon","United States" };
+        
         public async void CargarNotificaciones()
         {
             string url = "https://localhost:44353/api/notificaciones";
@@ -65,10 +61,7 @@ namespace MenuIndio
             ListView1.ItemsSource = Items;*/
         }
 
-        public async Task conectarClimaAsync() {
-            WeatherData weatherData = await _restService.GetWeatherDataAsync(GenerateRequestUri(Constants.OpenWeatherMapEndpoint));
-            BindingContext = weatherData;
-        }
+     
         string GenerateRequestUri(string endpoint)
         {
             string requestUri = endpoint;

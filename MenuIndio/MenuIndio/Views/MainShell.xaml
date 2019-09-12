@@ -7,10 +7,8 @@
              mc:Ignorable="d"
              x:Class="MenuIndio.MainShell"
              BackgroundColor="#8e8f66"
-
-             Title="Inicio"
-             x:Name="Shell"
-           >
+             x:Name="Shell">
+    
     <Shell.FlyoutHeaderTemplate>
         <DataTemplate>
             <Grid BackgroundColor="Black" HeightRequest="200">

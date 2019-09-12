@@ -14,8 +14,8 @@ namespace MenuIndio
             InitializeComponent();
             if (!Settings.IsLoggedIn)
             {
-                MainPage = new LoginPage();
-              //  MainPage = new NavigationPage( new MainShell());            
+                //MainPage = new LoginPage();
+                MainPage = new MainShell();            
             }
             else
             {
