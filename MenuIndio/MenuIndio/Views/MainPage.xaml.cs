@@ -10,6 +10,7 @@ using System.Net.Http;
 using Newtonsoft.Json;
 using System.Collections.ObjectModel;
 using MenuIndio.Models;
+using Xamarin.Essentials;
 
 namespace MenuIndio
 {
@@ -19,15 +20,41 @@ namespace MenuIndio
     [DesignTimeVisible(false)]
     public partial class MainPage : ContentPage
     {
-     
+        RestService _restService;
 
         public MainPage()
         {
+            _restService = new RestService();
+            conectarClimaAsync(_restService);
             InitializeComponent();
-            // _restService = new RestService();
-        
-        //  conectarClimaAsync();
+            CargarNovedades();
+
         }
+
+        async void conectarClimaAsync(object sender)
+        {
+            WeatherData weatherData = await _restService.GetWeatherDataAsync(GenerateRequestUri(Constants.OpenWeatherMapEndpoint));
+            BindingContext = weatherData;
+        }
+
+        public void CargarNovedades() {
+            lst.ItemsSource = new List<Novedad>() {
+                    new Novedad("Actividades y servicios en el hípico","Los servicios y actividades están abiertos al público (propietarios y no propietarios)","https://www.barriosansebastian.com.ar/wp-content/uploads/2019/05/Captura-de-pantalla-2019-09-08-a-las-11.39.14.png","https://www.barriosansebastian.com.ar/actividades-servicios-hipico/"),
+                    new Novedad("Actividades y servicios en el hípico","Los servicios y actividades están abiertos al público (propietarios y no propietarios)","https://www.barriosansebastian.com.ar/wp-content/uploads/2019/05/Captura-de-pantalla-2019-09-08-a-las-11.39.14.png","https://www.barriosansebastian.com.ar/actividades-servicios-hipico/"),
+                    new Novedad("Actividades y servicios en el hípico","Los servicios y actividades están abiertos al público (propietarios y no propietarios)","https://www.barriosansebastian.com.ar/wp-content/uploads/2019/05/Captura-de-pantalla-2019-09-08-a-las-11.39.14.png","https://www.barriosansebastian.com.ar/actividades-servicios-hipico/"),
+                    new Novedad("","","","")
+                };
+
+                lst.ItemSelected += clickItem;
+
+        }
+        public void clickItem(object sender, SelectedItemChangedEventArgs e)
+        {
+
+            Novedad novedad = (Novedad)e.SelectedItem;
+            Browser.OpenAsync(novedad.URL, BrowserLaunchMode.SystemPreferred);
+        }
+
         protected override void OnAppearing()
         {
             /*   string content = await client.GetStringAsync(Url);
@@ -65,8 +92,8 @@ namespace MenuIndio
         string GenerateRequestUri(string endpoint)
         {
             string requestUri = endpoint;
-            requestUri += $"?q={"Buenos Aires"}";
-            requestUri += "&units=imperial"; // or units=metric
+            requestUri += $"?q={"Pilar"}";
+            requestUri += "&units=metric"; // or units=metric
             requestUri += $"&APPID={Constants.OpenWeatherMapAPIKey}";
             return requestUri;
         }

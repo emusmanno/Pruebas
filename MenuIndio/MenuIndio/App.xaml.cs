@@ -15,7 +15,8 @@ namespace MenuIndio
             if (!Settings.IsLoggedIn)
             {
                 //MainPage = new LoginPage();
-                MainPage = new MainShell();            
+                MainPage = new MainShell();
+               
             }
             else
             {
