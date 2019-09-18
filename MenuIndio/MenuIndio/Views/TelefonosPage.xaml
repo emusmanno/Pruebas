@@ -8,21 +8,18 @@
              Title="Telefonos Utiles"
             >
     <ContentPage.Content>
-        <StackLayout>
-            <ImageButton Source="https://www.isletasnoticias.com.ar/wp-content/uploads/2019/03/telefonos-utiles.jpg"  HorizontalOptions="Center"
-                 
-              />
+        <StackLayout >            
             <ListView x:Name="lst" HasUnevenRows="True">
                 <ListView.ItemTemplate>
-                    <DataTemplate >
-                        
+                    <DataTemplate >                        
                         <ViewCell >
-                            <StackLayout Orientation="Horizontal">
-                                <StackLayout Orientation="Vertical">
-                                    <Label Text="{Binding Name}" Font="18" Margin="20, 0, 0, 0" ></Label>
-                                    <Label Text="{Binding Num}" TextColor="Gray" Margin="20, 0, 0,0" ></Label>
+                            <StackLayout Margin="10,10,10,10" HeightRequest="40" Orientation="Horizontal">
+                                <Image Grid.Column="0" Source="{Binding imgsource}" />
+                                <StackLayout Orientation="Vertical" Padding="10" Margin="20, 0, 0, 0">
+                                    <Label Grid.Column="1" Text="{Binding Name}" Font="18"/>
+                                    <Label Grid.Column="2" Text="{Binding Num}" TextColor="Gray" />
                                 </StackLayout>
-                                <Image Source="ic_call" HeightRequest="30" WidthRequest="50" HorizontalOptions="EndAndExpand"></Image>
+                                <Image Grid.Column="3" Source="ic_call" HorizontalOptions="EndAndExpand"/>
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>

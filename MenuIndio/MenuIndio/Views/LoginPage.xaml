@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              x:Class="MenuIndio.Views.LoginPage" 
+             BackgroundImageSource="Background.png"
              Title="Login">
 
     <Grid ColumnSpacing="10" RowSpacing="30" >
@@ -24,20 +25,14 @@
             <Label Text="Password"  FontSize="20" FontFamily="Arial" HorizontalTextAlignment="Center"/>
             <Entry Margin="50,0,50,0" x:Name="passwordEntry" Placeholder="Password" IsPassword="true" />
 
-            <Grid  Margin="0,30,0,0">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*" />
-                    <ColumnDefinition Width="*" />
-                </Grid.ColumnDefinitions>
-                <Button Grid.Column="0" CornerRadius="30" BackgroundColor="#799154" TextColor="White" Text="Login" Clicked="OnLoginButtonClicked" />
-                <Button Grid.Column="1" CornerRadius="30" BackgroundColor="#799154" TextColor="White" Text="Sign Up" Clicked="OnLoginButtonClicked" />
+            <Grid  Margin="50,30,50,0">                
+                <Button  CornerRadius="30" BackgroundColor="#799154" TextColor="White" Text="Login" Clicked="OnLoginButtonClicked" />
                 <Label x:Name="messageLabel" />
             </Grid>
 
         </StackLayout>
-
-        <Label VerticalOptions="End" HorizontalOptions="Start" Text="Powered by:" FontSize="20" FontFamily="Arial" HorizontalTextAlignment="Center" />
-        <Image VerticalOptions="End" Margin="100,0,100,0" Source="linksolution.png" />
+        
+        <Image VerticalOptions="End" Margin="120,0,120,0" Source="linksolution.png" />
     </Grid>
 
 </ContentPage>

@@ -40,13 +40,12 @@ namespace MenuIndio
         public void CargarNovedades() {
             lst.ItemsSource = new List<Novedad>() {
                     new Novedad("Actividades y servicios en el hípico","Los servicios y actividades están abiertos al público (propietarios y no propietarios)","https://www.barriosansebastian.com.ar/wp-content/uploads/2019/05/Captura-de-pantalla-2019-09-08-a-las-11.39.14.png","https://www.barriosansebastian.com.ar/actividades-servicios-hipico/"),
-                    new Novedad("Actividades y servicios en el hípico","Los servicios y actividades están abiertos al público (propietarios y no propietarios)","https://www.barriosansebastian.com.ar/wp-content/uploads/2019/05/Captura-de-pantalla-2019-09-08-a-las-11.39.14.png","https://www.barriosansebastian.com.ar/actividades-servicios-hipico/"),
-                    new Novedad("Actividades y servicios en el hípico","Los servicios y actividades están abiertos al público (propietarios y no propietarios)","https://www.barriosansebastian.com.ar/wp-content/uploads/2019/05/Captura-de-pantalla-2019-09-08-a-las-11.39.14.png","https://www.barriosansebastian.com.ar/actividades-servicios-hipico/"),
-                    new Novedad("","","","")
+                    new Novedad("Aireación Greens -Septiembre (2/9 al 6/9 y del 9/9 al 13/9)","Todos los años se lleva a cabo este proceso para mantener la calidad de los greens.","https://www.barriosansebastian.com.ar/wp-content/uploads/2019/03/Captura-de-pantalla-2019-03-18-a-las-15.23.43-845x321.png","https://www.barriosansebastian.com.ar/aireacion-greens/"),
+                    new Novedad("Información por fin de semana largo","DPTO DE ATENCIÓN AL PROPIETARIO","https://www.barriosansebastian.com.ar/wp-content/uploads/2019/08/Captura-de-pantalla-2019-08-09-a-las-16.08.37-1.png","https://www.barriosansebastian.com.ar/informacion-fin-semana-largo-2/")   
                 };
 
                 lst.ItemSelected += clickItem;
-
+                
         }
         public void clickItem(object sender, SelectedItemChangedEventArgs e)
         {
@@ -54,6 +53,8 @@ namespace MenuIndio
             Novedad novedad = (Novedad)e.SelectedItem;
             Browser.OpenAsync(novedad.URL, BrowserLaunchMode.SystemPreferred);
         }
+
+      
 
         protected override void OnAppearing()
         {

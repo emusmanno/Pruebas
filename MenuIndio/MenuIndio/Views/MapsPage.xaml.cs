@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MenuIndio.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,35 +17,24 @@ namespace MenuIndio.Views
     {
         public MapsPage()
         {
-            //InitializeComponent();
-
-            var map = new Map(
-     MapSpan.FromCenterAndRadius(
-             new Position(-34.349588f, -58.889960f), Distance.FromMiles(0.3)))
-            {
-                IsShowingUser = true,
-                HeightRequest = 100,
-                WidthRequest = 960,
-                VerticalOptions = LayoutOptions.FillAndExpand
+            InitializeComponent();
+            MyMap.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(-34.351299, -58.885261), Distance.FromMiles(0.3)));
+            lst.ItemsSource = new List<PuntoDeInteres>() {
+                    new PuntoDeInteres("club House","Tomate una birrita", "pingBar" ,new Position (-34.351299,-58.885261)),
+                    new PuntoDeInteres("Rotonda","una rotonda nomas", "pingBasket" ,new Position (-34.350789, -58.893686))
             };
-            map.MapType = MapType.Satellite;
-            map.HasZoomEnabled = true;
-  
-            var pin = new Pin
-                {
-                    Type = PinType.Place,
-                    Position = new Position(-34.351299f,
-                    -58.885261f),
-                    Label = "Canchas de tenis",
-                    Address = "SANSE"
-                };
-            map.Pins.Add(pin);
-            var stack = new StackLayout { Spacing = 0 };
-            stack.Children.Add(map);
-            Content = stack;
-           
+            lst.ItemSelected += OnMapClicked;
 
         }
 
+
+        private void OnMapClicked(object sender, SelectedItemChangedEventArgs e)
+        {
+            PuntoDeInteres punto = (PuntoDeInteres)e.SelectedItem;
+            MyMap.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(punto.Posicion.Latitude, punto.Posicion.Longitude), Distance.FromMiles(0.05)));
+            
+            
+        }
+       
     }
 }

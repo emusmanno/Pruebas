@@ -16,25 +16,15 @@ namespace MenuIndio.Views
         {
             InitializeComponent();
             //   lblClickFunc();
+
             lst.ItemsSource = new List<ContactoUtil>() {
-    new ContactoUtil() {
-            Name = "Umair", Num = "0456445450945", imgsource = "https://cdn2.iconfinder.com/data/icons/basics-1/100/Call-512.png",
-        },
-        new ContactoUtil() {
-            Name = "Cat", Num = "034456445905", imgsource = "https://cdn2.iconfinder.com/data/icons/basics-1/100/Call-512.png",
-        },
-        new ContactoUtil() {
-            Name = "Nature", Num = "56445905", imgsource = "https://cdn2.iconfinder.com/data/icons/basics-1/100/Call-512.png",
-        },
-        new ContactoUtil() {
-            Name = "Pato", Num = "1131187529", imgsource = "https://cdn2.iconfinder.com/data/icons/basics-1/100/Call-512.png",
-        },
-        };
-            
+                    new ContactoUtil("ADMINISTRACION","0456445450945","https://cdn0.iconfinder.com/data/icons/streamline-emoji-1/48/153-man-office-worker-1-512.png"),
+                    new ContactoUtil("DEFENSA CIVIL","103","https://cdn0.iconfinder.com/data/icons/streamline-emoji-1/48/195-construction-worker-512.png"),
+                    new ContactoUtil("POLICIA","101","https://cdn0.iconfinder.com/data/icons/streamline-emoji-1/48/188-man-police-officer-2-512.png"),
+                    new ContactoUtil("EMERGENCIAS MEDICAS","107","https://cdn0.iconfinder.com/data/icons/streamline-emoji-1/48/127-woman-health-worker-1-512.png"),
+                    new ContactoUtil("BOMBEROS","100","https://cdn0.iconfinder.com/data/icons/streamline-emoji-1/48/184-man-firefighter-2-512.png"),
+                };
             lst.ItemSelected += clickItem;
-         
-
-
         }
 
    
@@ -43,7 +33,7 @@ namespace MenuIndio.Views
         {
     
             ContactoUtil c =(ContactoUtil) e.SelectedItem;
-            PlacePhoneCall(c.Num);
+            PlacePhoneCall(c.Num);            
         }
 
         private void PlacePhoneCall(string numero)
@@ -67,21 +57,7 @@ namespace MenuIndio.Views
             }
         }
 
-      /*  void lblClickFunc(string num)
-        {
-            labelPop.GestureRecognizers.Add(item: new TapGestureRecognizer()
-            {
-                Command = new Command(() =>
-                {
-                    DisplayActionSheet("Llamar", "llamando", "Aceptar");
-
-                })
-
-
-            });
-
-        }*/
-
+     
     }
 
 }

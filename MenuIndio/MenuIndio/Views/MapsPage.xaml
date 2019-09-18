@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
              mc:Ignorable="d"
              x:Class="MenuIndio.Views.MapsPage"
              Title="Puntos de Interes">
@@ -10,9 +11,35 @@
 
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <maps:Map x:Name="MyMap"                      
+                  MapClicked="OnMapClicked"
+                  HeightRequest="300"                  
+                  IsShowingUser="true"                  
+                  MapType="Satellite" >
+                <maps:Map.ItemTemplate>
+                    <DataTemplate>
+                        <maps:Pin Position="{Binding Posicion}"
+                              Address="{Binding Nombre}"
+                              Label="{Binding Descripcion}" />
+                    </DataTemplate>
+                </maps:Map.ItemTemplate>
+            </maps:Map>
+            <ListView x:Name="lst" HasUnevenRows="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate >
+                        <ViewCell >
+                            <StackLayout Margin="10,10,10,10" HeightRequest="40" Orientation="Horizontal">
+                                <Image Grid.Column="0" Source="{Binding Icono}"/>
+                                <StackLayout Margin="10,0,10,0" Grid.Column="1">
+                                    <Label Grid.Row="0" Text="{Binding Nombre}" Font="18"/>
+                                    <Label Grid.Row="1" Text="{Binding Descripcion}" Font="13"/>
+                                </StackLayout>                               
+                                <Image Grid.Column="2" Source="pinMapa" HorizontalOptions="EndAndExpand"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

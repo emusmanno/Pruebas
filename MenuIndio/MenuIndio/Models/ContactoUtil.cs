@@ -2,8 +2,12 @@
 {
     internal class ContactoUtil
     {
-        public ContactoUtil()
+        public ContactoUtil(string pName, string pNum, string pImage)
         {
+            Name = pName;
+            Num = pNum;
+            imgsource = pImage;
+
         }
 
         public string Name { get; set; }
