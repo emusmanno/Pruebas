@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "826957428906",
+    "firebase_url": "https://menuindio-61773.firebaseio.com",
+    "project_id": "menuindio-61773",
+    "storage_bucket": "menuindio-61773.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:826957428906:android:8fa8788de0519ed00c78d3",
+        "android_client_info": {
+          "package_name": "com.companyname.menuindio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "826957428906-43bjc8fuovgtbebrcgh1ie14brv44klq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWdHELnFQrBeOVExNvKNkyTCuBt1q-5HU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "826957428906-43bjc8fuovgtbebrcgh1ie14brv44klq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,8 +1,9 @@
 ﻿using MenuIndio.Models;
-using MenuIndio.Views;
-using System;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
+using Microsoft.AppCenter.Push;
+using Microsoft.AppCenter;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace MenuIndio
 {
@@ -29,6 +30,10 @@ namespace MenuIndio
         protected override void OnStart()
         {
             // Handle when your app starts
+            AppCenter.Start("android=8565f244-d138-4f9e-ab23-706b4f5a186a;" +
+                   "uwp={Your UWP App secret here};" +
+                   "ios={Your iOS App secret here}",
+                   typeof(Analytics), typeof(Crashes));
         }
 
         protected override void OnSleep()
