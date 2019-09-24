@@ -8,9 +8,9 @@
                 BackgroundColor="#E9E9E9"
                 Title="Inicio">
     <ContentPage.Content>
-        <StackLayout HeightRequest="250"  Margin="10,10">
-            <Frame HeightRequest="-1" CornerRadius="10" Padding="0" BackgroundColor="#babb9c">
-                <StackLayout HeightRequest="-1" Margin="10,10,5,10">
+        <StackLayout HeightRequest="250"  Margin="10,10" >
+            <Frame HeightRequest="-1" CornerRadius="10" Padding="0" BackgroundColor="#babb9c">                
+                <StackLayout HeightRequest="-1" Margin="10,10,5,10">                   
                     <Grid >
                         <Grid.RowDefinitions>
                             <RowDefinition Height="AUTO"/>
@@ -33,7 +33,7 @@
                                         FontSize="25"/>
                         <Label        
                                         Grid.Column="2"
-                                        Text="Lluvia" 
+                                        Text="{Binding Text}" 
                                         HorizontalOptions="Center"
                                         TextColor="White" 
                                         FontFamily="Calibri"

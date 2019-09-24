@@ -12,11 +12,11 @@ namespace MenuIndio.Views
 {
 
     [DesignTimeVisible(false)]
-    public partial class VisitasPage : ContentPage
+    public partial class VisitasPage : CarouselPage
     {
 
         public VisitasPage() {
-            InitializeComponent();
+            InitializeComponent();           
         }
         protected override void OnAppearing()
         {
@@ -24,7 +24,7 @@ namespace MenuIndio.Views
             base.OnAppearing();
             NavigationPage.SetHasNavigationBar(this, false); // Oculta la barra de navegación
         }
-
+      
         private async void OpenWhatsApp(object sender, EventArgs e)
         {
             try

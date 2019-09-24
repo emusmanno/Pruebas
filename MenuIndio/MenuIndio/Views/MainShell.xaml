@@ -16,14 +16,26 @@
                     Aspect="AspectFill" 
                     Opacity="0.6" 
                     Source="https://imgar.zonapropcdn.com/avisos/1/00/42/11/40/76/1200x1200/1570800863.jpg"/>
+                <Frame 
+                       Padding="0" 
+                       CornerRadius="100" 
+                       IsClippedToBounds="True" 
+                       VerticalOptions="Center" 
+                       HorizontalOptions="Center" 
+                       HeightRequest="100" 
+                       WidthRequest="100">
+                    <Image 
+                        Source="profile" 
+                        VerticalOptions="Center" 
+                        HorizontalOptions="Center" />
+                </Frame> 
                 <Label 
-                    Text="Bienvenido" 
+                    Text="Bienvenido Omar!" 
                     TextColor="White" 
                     FontAttributes="Bold" 
-                    FontSize="52"
-                    Opacity="0.7"
+                    FontSize="30"
                     HorizontalOptions="Center" 
-                    VerticalOptions="Center"/>
+                    VerticalOptions="EndAndExpand"/>
             </Grid>
         </DataTemplate>
     </Shell.FlyoutHeaderTemplate>
@@ -36,12 +48,7 @@
         <Tab>
             <ShellContent ContentTemplate="{DataTemplate pages:Views.VisitasPage}"/>
         </Tab>
-    </FlyoutItem>
-    <FlyoutItem Title="Expensas" Icon="ic_tax.png">
-        <Tab>
-            <ShellContent ContentTemplate="{DataTemplate pages:MainPage}"/>
-        </Tab>
-    </FlyoutItem>
+    </FlyoutItem>   
     <FlyoutItem Title="Puntos de Interes" Icon="ic_maps.png" >
         <Tab>
             <ShellContent ContentTemplate="{DataTemplate pages:Views.MapsPage}"/>
@@ -51,12 +58,6 @@
         <Tab>
             <ShellContent ContentTemplate="{DataTemplate pages:Views.TelefonosPage}"/>
         </Tab>
-    </FlyoutItem>
-    <FlyoutItem IsEnabled="False" Title="Configuracion" Icon="ic_settings.png" >
-        <Tab>
-            <ShellContent ContentTemplate="{DataTemplate pages:MainPage}"/>
-        </Tab>
-        
     </FlyoutItem>
     <FlyoutItem IsEnabled="true" Title="Cerrar Sesion" Icon="ic_LogOut.png" x:Name="Cerrar">
         <Tab >

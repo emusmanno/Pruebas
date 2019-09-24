@@ -1,49 +1,93 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             mc:Ignorable="d"
-             x:Class="MenuIndio.Views.VisitasPage"         
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"                          
+             x:Class="MenuIndio.Views.VisitasPage"   
+             BackgroundColor ="#FFFFFF"
              Title="Enviar Invitacion">
 
-   
-    <ContentPage.Content>
-        <StackLayout>
-            <Grid BackgroundColor="Black" HeightRequest="200">
-                <Image 
-                    Aspect="AspectFill" 
-                    Opacity="0.6" 
-                    Source="https://imgar.zonapropcdn.com/avisos/1/00/42/11/40/76/1200x1200/1570800863.jpg"/>
-                <Label 
-                    Text="Enviar Invitacion !" 
-                    TextColor="White" 
-                    FontAttributes="Bold" 
-                    FontSize="52"                    
-                    HorizontalOptions="Center" 
-                    VerticalOptions="Center"/>
-            </Grid>                      
-          
-            <ImageButton 
-                    CornerRadius="30"
-                    Aspect="AspectFill"                     
-                    Source="https://imgar.zonapropcdn.com/avisos/1/00/42/11/40/76/1200x1200/1570800863.jpg"/>
+    <ContentPage Title ="Seleccionar Dia" BackgroundImageSource="BackgroundVisita.png">
+        
+        <Grid>
+            <Label 
+                Text="Seleccione la Fecha de Comienzo" 
+                Grid.Row="0" 
+                HorizontalOptions="Center"
+                Margin="0,50,0,0"
+                FontAttributes="Bold"
+                FontSize="30"
+                FontFamily="Bahnschrift SemiBold"
+                VerticalOptions="StartAndExpand" />
+            <DatePicker            
+                FontSize="30"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"/>
+            <Image Source="mountain_light.png" Aspect="AspectFill" VerticalOptions="EndAndExpand"/>
+        </Grid>
+        
+    </ContentPage>
+    <ContentPage Title ="Seleccionar Dia"  BackgroundImageSource="BackgroundVisitaDark.png">
+        <Grid>
+            <Label 
+                Text="Seleccione la Fecha de Fin" 
+                Grid.Row="0" 
+                HorizontalOptions="Center"
+                Margin="0,50,0,0"
+                FontAttributes="Bold"
+                FontSize="30"
+                FontFamily="Bahnschrift SemiBold"
+                VerticalOptions="StartAndExpand" />
+            <DatePicker            
+                FontSize="30"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"/>
+            <Image Source="mountain_dark.png" Aspect="AspectFill" VerticalOptions="EndAndExpand"/>
+        </Grid>
+    </ContentPage>
+    <ContentPage Title ="Seleccionar Dia" BackgroundImageSource="BackgroundVisitalote.png">
+        <Grid>
+            
+            <Label 
+                Text="Seleccione el Lote" 
+                Grid.Row="0" 
+                HorizontalOptions="Center"
+                Margin="0,50,0,0"
+                FontAttributes="Bold"
+                FontSize="30"
+                FontFamily="Bahnschrift SemiBold"
+                VerticalOptions="StartAndExpand" />
+            <Picker Title="Lote" HeightRequest="50" WidthRequest="100" FontSize="30" HorizontalOptions="Center" VerticalOptions="Center">
+                <Picker.Items>
+                    <x:String>Lote 5</x:String>
+                    <x:String>Lote 20</x:String>
+                </Picker.Items>
+            </Picker>
+            <Image Source="casa.png" Aspect="AspectFill" VerticalOptions="EndAndExpand"/>
+        </Grid>
+        
+    </ContentPage>
+    <ContentPage Title ="Seleccionar Dia" BackgroundImageSource="BackgroundVisitaWhats.png">
+        <Grid>
+
+            <Label 
+                Text="Ya podes enviar la invitacion!" 
+                HorizontalOptions="Center"
+                Margin="0,50,0,0"
+                FontAttributes="Bold"
+                FontSize="35"
+                FontFamily="Bahnschrift SemiBold"
+                VerticalOptions="StartAndExpand" />
+       
+
             <Button Text="Enviar por WhatsApp" 
-                    Font="20"
-                    Margin="50,10,50,10"                       
+                    Font="30"                    
                     BackgroundColor="#08EB7F" 
                     ContentLayout="Left,9" 
                     CornerRadius="60"
                     Image="ic_invitar.png" 
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"
                     Clicked="OpenWhatsApp"/>
-            <Image 
-                    Aspect="AspectFill"                     
-                    Source="https://imgar.zonapropcdn.com/avisos/1/00/42/11/40/76/1200x1200/1570800863.jpg"/>
-            <Image 
-                    Aspect="AspectFill" 
-                    Opacity="0.6" 
-                    Source="https://imgar.zonapropcdn.com/avisos/1/00/42/11/40/76/1200x1200/1570800863.jpg"/>            
-        </StackLayout>
+        </Grid>
 
-    </ContentPage.Content>
-</ContentPage>
+    </ContentPage>
+</CarouselPage>
