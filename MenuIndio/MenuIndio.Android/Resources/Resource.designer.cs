@@ -8916,9 +8916,6 @@ namespace MenuIndio.Droid
 			// aapt resource value: 0x7F070182
 			public const int tooltip_frame_light = 2131165570;
 			
-			// aapt resource value: 0x7F070183
-			public const int whats = 2131165571;
-			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

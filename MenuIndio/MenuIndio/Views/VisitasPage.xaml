@@ -3,59 +3,70 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"                          
              x:Class="MenuIndio.Views.VisitasPage"   
              BackgroundColor ="#FFFFFF"
-             Title="Enviar Invitacion">
+             Title="Visitas">
 
-    <ContentPage Title ="Seleccionar Dia" BackgroundImageSource="BackgroundVisita.png">
-        
+    <ContentPage BackgroundImageSource="BackgroundVisita.png">
+
         <Grid>
             <Label 
                 Text="Seleccione la Fecha de Comienzo" 
                 Grid.Row="0" 
                 HorizontalOptions="Center"
-                Margin="0,50,0,0"
                 FontAttributes="Bold"
-                FontSize="30"
+                Margin="0,20,0,0"
+                FontSize="27"
                 FontFamily="Bahnschrift SemiBold"
-                VerticalOptions="StartAndExpand" />
+                VerticalOptions="Start" />
             <DatePicker            
+                x:Name="Date1"
+                Margin="0,0,0,150"
                 FontSize="30"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"/>
-            <Image Source="mountain_light.png" Aspect="AspectFill" VerticalOptions="EndAndExpand"/>
+
+            <Image Source="mountain_light.png" Aspect="AspectFill" VerticalOptions="End"/>
         </Grid>
-        
     </ContentPage>
-    <ContentPage Title ="Seleccionar Dia"  BackgroundImageSource="BackgroundVisitaDark.png">
+    <ContentPage BackgroundImageSource="BackgroundVisitaDark.png">
         <Grid>
             <Label 
                 Text="Seleccione la Fecha de Fin" 
                 Grid.Row="0" 
+                Margin="0,20,0,0"
                 HorizontalOptions="Center"
-                Margin="0,50,0,0"
                 FontAttributes="Bold"
-                FontSize="30"
+                FontSize="27"
                 FontFamily="Bahnschrift SemiBold"
                 VerticalOptions="StartAndExpand" />
-            <DatePicker            
+            <DatePicker     
+                x:Name="Date2"
+                Margin="0,0,0,150"
                 FontSize="30"
                 HorizontalOptions="Center"
                 VerticalOptions="Center"/>
             <Image Source="mountain_dark.png" Aspect="AspectFill" VerticalOptions="EndAndExpand"/>
         </Grid>
     </ContentPage>
-    <ContentPage Title ="Seleccionar Dia" BackgroundImageSource="BackgroundVisitalote.png">
+    <ContentPage BackgroundImageSource="BackgroundVisitalote.png">
         <Grid>
             
             <Label 
                 Text="Seleccione el Lote" 
                 Grid.Row="0" 
+                Margin="0,20,0,0"
                 HorizontalOptions="Center"
-                Margin="0,50,0,0"
                 FontAttributes="Bold"
                 FontSize="30"
                 FontFamily="Bahnschrift SemiBold"
                 VerticalOptions="StartAndExpand" />
-            <Picker Title="Lote" HeightRequest="50" WidthRequest="100" FontSize="30" HorizontalOptions="Center" VerticalOptions="Center">
+            <Picker 
+                Title="Lote" 
+                HeightRequest="50" 
+                WidthRequest="100" 
+                Margin="0,0,0,150" 
+                FontSize="30" 
+                HorizontalOptions="Center" 
+                VerticalOptions="Center">
                 <Picker.Items>
                     <x:String>Lote 5</x:String>
                     <x:String>Lote 20</x:String>
@@ -71,9 +82,9 @@
             <Label 
                 Text="Ya podes enviar la invitacion!" 
                 HorizontalOptions="Center"
-                Margin="0,50,0,0"
                 FontAttributes="Bold"
-                FontSize="35"
+                Margin="0,20,0,0"
+                FontSize="30"
                 FontFamily="Bahnschrift SemiBold"
                 VerticalOptions="StartAndExpand" />
        
@@ -88,6 +99,5 @@
                     VerticalOptions="Center"
                     Clicked="OpenWhatsApp"/>
         </Grid>
-
     </ContentPage>
 </CarouselPage>

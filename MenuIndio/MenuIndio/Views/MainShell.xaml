@@ -25,12 +25,12 @@
                        HeightRequest="100" 
                        WidthRequest="100">
                     <Image 
-                        Source="profile" 
+                        Source="profile.png" 
                         VerticalOptions="Center" 
                         HorizontalOptions="Center" />
                 </Frame> 
                 <Label 
-                    Text="Bienvenido Omar!" 
+                    Text="Bienvenido !" 
                     TextColor="White" 
                     FontAttributes="Bold" 
                     FontSize="30"

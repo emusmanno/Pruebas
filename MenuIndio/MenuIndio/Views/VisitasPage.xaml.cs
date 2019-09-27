@@ -16,7 +16,9 @@ namespace MenuIndio.Views
     {
 
         public VisitasPage() {
-            InitializeComponent();           
+            InitializeComponent();
+            Date1.Format = "dd/M/yyyy";
+            Date2.Format = "dd/M/yyyy";
         }
         protected override void OnAppearing()
         {
@@ -36,6 +38,11 @@ namespace MenuIndio.Views
             {
                 await DisplayAlert("Not Installed", "Whatsapp Not Installed", "ok");
             }
+        }
+
+        void NextButton_Clicked(object sender, System.EventArgs e)
+        {
+            
         }
     }
 }
